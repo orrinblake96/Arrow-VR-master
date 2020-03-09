@@ -1,7 +1,7 @@
-﻿using System;
+﻿using _BowAndArrow.Scripts.Crate;
 using UnityEngine;
 
-namespace _BowAndArrow.Scripts.Crate
+namespace Crate
 {
     public class Crate : MonoBehaviour, IDamageable
     {
