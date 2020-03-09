@@ -1,105 +1,108 @@
 ﻿using System;
+using _BowAndArrow.Scripts;
 using _BowAndArrow.Scripts.Crate;
 using UnityEngine;
 
-namespace _BowAndArrow.Scripts
+public class Arrow : MonoBehaviour
 {
-    public class Arrow : MonoBehaviour
+    public float m_Speed = 2000.0f;
+    public Transform m_Tip = null;
+    private TrailRenderer _trailRenderer;
+
+    private Rigidbody _mRigidbody = null;
+    private bool _mIsStopped = true;
+    private Vector3 _mLastPosition = Vector3.zero;
+
+    private void Awake()
     {
-        public float m_Speed = 2000.0f;
-        public Transform m_Tip = null;
+        _mRigidbody = GetComponent<Rigidbody>();
+    }
 
-        private Rigidbody m_Rigidbody = null;
-        private bool m_IsStopped = true;
-        private Vector3 m_LastPosition = Vector3.zero;
+    private void Start()
+    {
+        _mLastPosition = transform.position;
+        _trailRenderer = GetComponent<TrailRenderer>();
+    }
 
-        private void Awake()
+    private void FixedUpdate()
+    {
+        if (_mIsStopped) return;
+            
+        //Rotate to direction of velocity
+        _mRigidbody.MoveRotation(Quaternion.LookRotation(_mRigidbody.velocity, transform.up));
+            
+        //collision check if hit
+        //linecast prevents objs passing through eachother
+        RaycastHit hit;
+        if (Physics.Linecast(_mLastPosition, m_Tip.position, out hit))
         {
-            m_Rigidbody = GetComponent<Rigidbody>();
+            Stop(hit.collider.gameObject);
         }
 
-        private void Start()
-        {
-            m_LastPosition = transform.position;
-        }
+        //store current position
+        _mLastPosition = m_Tip.position;
+    }
 
-        private void FixedUpdate()
+    private void Stop(GameObject hitObject)
+    {
+        //stops arrow
+        _mIsStopped = true;
+            
+        //parent to hitObect
+        transform.parent = hitObject.transform;
+            
+        //Disable Physics
+        //can collide/be affected by other objects
+        _mRigidbody.isKinematic = true;
+        //Doesnt react to gravity, wont fall
+        _mRigidbody.useGravity = false;
+            
+        //check if damageable
+        CheckForDamage(hitObject);
+    }
+
+    //called by bow script when released 
+    public void Fire(float pullValue)
+    {
+        FindObjectOfType<AudioManager>().Play("BowRelease");
+        _mLastPosition = transform.position;
+            
+        //arrow now in air
+        _mIsStopped = false;
+
+        //detach arrow from bow (parent)
+        transform.parent = null;
+            
+        //reset kinematic affect
+        _mRigidbody.isKinematic = false;
+            
+        //add gravity (flying behaviour)
+        _mRigidbody.useGravity = true;
+            
+        //add a force relative to the pull value from Bow script
+        _mRigidbody.AddForce(transform.forward * (pullValue * m_Speed));
+            
+        //Add Trail to see better
+        _trailRenderer.enabled = true;
+            
+        //after 5 seconds, remove arrow (scene management, overloading scenes)
+        Destroy(gameObject, 10.0f);
+    }
+
+    private void CheckForDamage(GameObject hitObject)
+    {
+        MonoBehaviour[] behaviours = new[] {hitObject.GetComponent<MonoBehaviour>()};
+
+        Debug.Log("Damaged");
+
+        foreach (MonoBehaviour behaviour in behaviours)
         {
-            if (m_IsStopped) return;
-            
-            //Rotate to direction of velocity
-            m_Rigidbody.MoveRotation(Quaternion.LookRotation(m_Rigidbody.velocity, transform.up));
-            
-            //collision check if hit
-            //linecast prevents objs passing through eachother
-            RaycastHit hit;
-            if (Physics.Linecast(m_LastPosition, m_Tip.position, out hit))
+            if (behaviour is IDamageable)
             {
-                Stop(hit.collider.gameObject);
-            }
+                IDamageable damageable = (IDamageable)behaviour;
+                damageable.Damage(5);
 
-            //store current position
-            m_LastPosition = m_Tip.position;
-        }
-
-        private void Stop(GameObject hitObject)
-        {
-            //stops arrow
-            m_IsStopped = true;
-            
-            //parent to hitObect
-            transform.parent = hitObject.transform;
-            
-            //Disable Physics
-            //can collide/be affected by other objects
-            m_Rigidbody.isKinematic = true;
-            //Doesnt react to gravity, wont fall
-            m_Rigidbody.useGravity = false;
-            
-            //check if damageable
-            CheckForDamage(hitObject);
-        }
-
-        //called by bow script when released 
-        public void Fire(float pullValue)
-        {
-            FindObjectOfType<AudioManager>().Play("BowRelease");
-            m_LastPosition = transform.position;
-            
-            //arrow now in air
-            m_IsStopped = false;
-
-            //detach arrow from bow (parent)
-            transform.parent = null;
-            
-            //reset kinematic affect
-            m_Rigidbody.isKinematic = false;
-            
-            //add gravity (flying behaviour)
-            m_Rigidbody.useGravity = true;
-            
-            //add a force relative to the pull value from Bow script
-            m_Rigidbody.AddForce(transform.forward * (pullValue * m_Speed));
-            
-            //after 5 seconds, remove arrow (scene management, overloading scenes)
-            Destroy(gameObject, 5.0f);
-        }
-
-        private void CheckForDamage(GameObject hitObject)
-        {
-            MonoBehaviour[] behaviours = new[] {hitObject.GetComponent<MonoBehaviour>()};
-
-            Debug.Log("Damaged");
-
-            foreach (MonoBehaviour behaviour in behaviours)
-            {
-                if (behaviour is IDamageable)
-                {
-                    IDamageable damageable = (IDamageable)behaviour;
-                    damageable.Damage(5);
-
-                    break;
-                }
+                break;
             }
         }
     }
