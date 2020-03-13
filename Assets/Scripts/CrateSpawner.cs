@@ -4,8 +4,8 @@ using UnityEngine.AI;
 
 public class CrateSpawner : MonoBehaviour
 {
-    public float spawnDelay = 5.0f;
-    public float spawnTime = 3.0f;
+    public float spawnDelay = 2.0f;
+    public float spawnTime = 8.0f;
     public GameObject enemy;
 
     // Start is called before the first frame update
