@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1078bd20-3414-4aa5-ad74-33770f043de4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-BowAndArrow-master copy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-BowAndArrow-master copy/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-BowAndArrow-master copy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-BowAndArrow-master copy/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-BowAndArrow-master copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-BowAndArrow-master copy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01a.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01a.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01a.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01a.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01a.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01a.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01a.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01a.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Test.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Test.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a/libAudioPluginOculusSpatializer.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a/libAudioPluginOculusSpatializer.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a/libAudioPluginOculusSpatializer.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a/libAudioPluginOculusSpatializer.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a/libAudioPluginOculusSpatializer.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a/libAudioPluginOculusSpatializer.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a/libAudioPluginOculusSpatializer.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a/libAudioPluginOculusSpatializer.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdater.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdater.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdaterStub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdaterStub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdaterStub.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdaterStub.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioSourceEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioSourceEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioSourceEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioSourceEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationGeometryEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationGeometryEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationGeometryEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationGeometryEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationMaterialEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationMaterialEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationMaterialEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationMaterialEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationSerializationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationSerializationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationSerializationManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationSerializationManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPReflectionCustomGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPReflectionCustomGUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPReflectionCustomGUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPReflectionCustomGUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/RedBallGreenBall.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/RedBallGreenBall.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/RedBallGreenBall.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/RedBallGreenBall.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/YellowBall.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/YellowBall.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/YellowBall.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/YellowBall.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/Ground.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/Ground.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/car.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/car.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/car.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/car.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/hammer.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/hammer.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/hammer.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/hammer.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/horse.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/horse.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/horse.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/horse.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/loop.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/loop.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/loop.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/loop.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/noise.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/noise.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/noise.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/noise.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/scraping.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/scraping.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/scraping.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/scraping.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/sine.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/sine.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/sine.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/sine.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/speech.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/speech.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/speech.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/speech.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/vocal1.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/vocal1.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/vocal1.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/vocal1.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/water.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/water.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/water.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/water.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPVersion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPVersion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPVersion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_BowAndArrow/Scenes/Destroy Crate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_BowAndArrow/Scenes/Destroy Crate.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/OculusInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Crate/Crate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Crate/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Bow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/CrateSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/OculusInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/SteamInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Crate/IDamageable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Crate/Destructible.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Bow/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Bow.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Arrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/Crate/Crate.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/CrateSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/_BowAndArrow/Scripts/BottleSmash.cs" />
+        <option value="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XXq6az5tdfDi81lttr4wlOnr8H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CodeInspectionSettingsId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1078bd20-3414-4aa5-ad74-33770f043de4" name="Default Changelist" comment="" />
+      <created>1581202612939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581202612939</updated>
+      <workItem from="1581202617861" duration="647000" />
+      <workItem from="1581260742741" duration="2205000" />
+      <workItem from="1581703284535" duration="438000" />
+      <workItem from="1582112190331" duration="202000" />
+      <workItem from="1582196065808" duration="31000" />
+      <workItem from="1582246906742" duration="890000" />
+      <workItem from="1582389534813" duration="6365000" />
+      <workItem from="1582410447935" duration="2376000" />
+      <workItem from="1583439552929" duration="665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

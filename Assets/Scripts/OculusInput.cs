@@ -1,21 +1,18 @@
-﻿using UnityEngine;
+﻿using _BowAndArrow.Scripts;
+using UnityEngine;
 
-namespace _BowAndArrow.Scripts
+public class OculusInput : MonoBehaviour
 {
-    public class OculusInput : MonoBehaviour
+    public Bow m_Bow = null;
+    public GameObject m_OppositeController = null;
+    public OVRInput.Controller m_Controller = OVRInput.Controller.None;
+
+    private void Update()
     {
-        public Bow m_Bow = null;
-        public GameObject m_OppositeController = null;
-        public OVRInput.Controller m_Controller = OVRInput.Controller.None;
+        if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, m_Controller))
+            m_Bow.Pull(m_OppositeController.transform);
 
-        private void Update()
-        {
-            if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, m_Controller))
-                m_Bow.Pull(m_OppositeController.transform);
-
-            if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, m_Controller))
-                m_Bow.Release();
-        }
+        if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, m_Controller))
+            m_Bow.Release();
     }
 }
-  
