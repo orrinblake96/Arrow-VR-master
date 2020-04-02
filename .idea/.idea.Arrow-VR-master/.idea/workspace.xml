@@ -2,9 +2,274 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVREngineConfigurationUpdater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVREngineConfigurationUpdater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVREngineConfigurationUpdater.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVREngineConfigurationUpdater.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRLayerAttributeEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRLayerAttributeEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRLayerAttributeEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRLayerAttributeEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRManifestPreprocessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRManifestPreprocessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRManifestPreprocessor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRManifestPreprocessor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRPluginUpdater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRPluginUpdater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRPluginUpdater.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRPluginUpdater.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRPluginUpdaterStub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRPluginUpdaterStub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRPluginUpdaterStub.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRPluginUpdaterStub.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRScreenshotWizard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRScreenshotWizard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRScreenshotWizard.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRScreenshotWizard.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/Arrow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/Arrow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/Arrow.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/Arrow.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/CubeMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/CubeMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/CubeMaterial.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/CubeMaterial.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GazePointer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GazePointer.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GazePointer.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GazePointer.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GearVrController.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GearVrController.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_1024.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_1024.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_1024.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_1024.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_128.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_128.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_128.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_128.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/cursor_timer_material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/cursor_timer_material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/cursor_timer_material.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/cursor_timer_material.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/gaze_cursor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/gaze_cursor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/gaze_cursor.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/gaze_cursor.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/Cone.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/Cone.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/Cone.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/Cone.obj.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController/GearVrController.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController/GearVrController.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController/GearVrController.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController/GearVrController.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController/Materials/malibuController_color_1024.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController/Materials/malibuController_color_1024.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController/Materials/malibuController_color_1024.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/GearVrController/Materials/malibuController_color_1024.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController/Materials/OculusGoControllerMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController/Materials/OculusGoControllerMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController/Materials/OculusGoControllerMat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController/Materials/OculusGoControllerMat.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController/OculusGoController.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController/OculusGoController.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController/OculusGoController.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Meshes/OculusGoController/OculusGoController.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.28.0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.28.0/Android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.28.0/Android/OVRPlugin.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.28.0/Android/OVRPlugin.aar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.28.0/Win.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.28.0/Win/OVRPlugin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.28.0/Win/OVRPlugin.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.28.0/Win64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.28.0/Win64/OVRPlugin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.28.0/Win64/OVRPlugin.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/Info.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/Info.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS/OVRGamepad" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS/OVRGamepad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS/OVRGamepad.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS/OVRGamepad.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/placeholder.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/placeholder.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/placeholder.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/placeholder.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/Cursor_Timer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/Cursor_Timer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/Cursor_Timer.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/Cursor_Timer.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCubemapCaptureProbe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCubemapCaptureProbe.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCubemapCaptureProbe.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCubemapCaptureProbe.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/TrackedRemote.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/TrackedRemote.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Cubemap Blit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Cubemap Blit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Cubemap Blit.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Cubemap Blit.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRChromaKey.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRChromaKey.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRChromaKey.cginc.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRChromaKey.cginc.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRClipPlane.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRClipPlane.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRUnlit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRUnlit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRUnlit.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRUnlit.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Texture2D Blit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Texture2D Blit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Texture2D Blit.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Texture2D Blit.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Underlay Impostor.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Underlay Impostor.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Underlay Impostor.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Underlay Impostor.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Unlit Transparent Color.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Unlit Transparent Color.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Unlit Transparent Color.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Resources/Unlit Transparent Color.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Cubes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Cubes.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Cubes.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Cubes.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/GearVrControllerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/GearVrControllerTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/GearVrControllerTest.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/GearVrControllerTest.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Room.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Room.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Room.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Trivial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Trivial.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Trivial.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/Trivial.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/UI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/UI.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/UI.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scenes/UI.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRCameraComposition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRCameraComposition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRCameraComposition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRCameraComposition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRComposition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRComposition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRComposition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRComposition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRCompositionUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRCompositionUtil.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRCompositionUtil.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRCompositionUtil.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRDirectComposition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRDirectComposition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRDirectComposition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRDirectComposition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRExternalComposition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRExternalComposition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRExternalComposition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRExternalComposition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRSandwichComposition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRSandwichComposition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRSandwichComposition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Composition/OVRSandwichComposition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Editor/OVRManagerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Editor/OVRManagerEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Editor/OVRManagerEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Editor/OVRManagerEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRBoundary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRBoundary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRBoundary.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRBoundary.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCommon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCommon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCommon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCommon.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDebugHeadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDebugHeadController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDebugHeadController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDebugHeadController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHaptics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHaptics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHaptics.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHaptics.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRInput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRLayerAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRLayerAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRLayerAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRLayerAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRLint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRLint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRMixedReality.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRMixedReality.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRMixedReality.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRMixedReality.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVROnCompleteListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVROnCompleteListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVROnCompleteListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVROnCompleteListener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVROverlay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVROverlay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVROverlay.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVROverlay.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRPlatformMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRPlatformMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRPlatformMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRPlatformMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRPlugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRPlugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRPlugin.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRPlugin.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRProfile.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRProfile.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRTracker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRTracker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRChromaticAberration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRChromaticAberration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRChromaticAberration.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRChromaticAberration.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRCubemapCapture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRCubemapCapture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRCubemapCapture.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRCubemapCapture.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRDebugInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRDebugInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRDebugInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRDebugInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGazePointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGazePointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGazePointer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGazePointer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGearVrControllerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGearVrControllerTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGearVrControllerTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGearVrControllerTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGridCube.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGridCube.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGridCube.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGridCube.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRInputModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRInputModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRInputModule.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRInputModule.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRMixedRealityCaptureSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRMixedRealityCaptureSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRMixedRealityCaptureSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRMixedRealityCaptureSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRModeParms.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRModeParms.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRModeParms.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRModeParms.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRMonoscopic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRMonoscopic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRMonoscopic.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRMonoscopic.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPhysicsRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPhysicsRaycaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPhysicsRaycaster.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPhysicsRaycaster.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPointerEventData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPointerEventData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPointerEventData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRPointerEventData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRProfiler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRProfiler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRProfiler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRProfiler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRProgressIndicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRProgressIndicator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRProgressIndicator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRProgressIndicator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRRaycaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRRaycaster.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRRaycaster.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRRecord.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRRecord.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRRecord.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRResetOrientation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRResetOrientation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRResetOrientation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRResetOrientation.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRScreenFade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRScreenFade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRScreenFade.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRScreenFade.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRTrackedRemote.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRTrackedRemote.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRWaitCursor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRWaitCursor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRWaitCursor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRWaitCursor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Shaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Shaders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Shaders/OVRColorRampAlpha.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Shaders/OVRColorRampAlpha.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Shaders/OVRColorRampAlpha.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Shaders/OVRColorRampAlpha.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Shaders/Unlit Crosshair.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Shaders/Unlit Crosshair.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Shaders/Unlit Crosshair.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Shaders/Unlit Crosshair.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Black.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Black.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Black.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GazeRing.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GazeRing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GazeRing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GazeRing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_ao_1024.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_ao_1024.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_ao_1024.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_ao_1024.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_ao_128.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_ao_128.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_ao_128.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_ao_128.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_color_1024.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_color_1024.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_color_1024.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_color_1024.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_color_128.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_color_128.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_color_128.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_color_128.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_normal_1024.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_normal_1024.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_normal_1024.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_normal_1024.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_normal_128.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_normal_128.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_normal_128.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_normal_128.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_roughness_1024.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_roughness_1024.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_roughness_1024.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_roughness_1024.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_roughness_128.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_roughness_128.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_roughness_128.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/GearVrController/GearVrController_roughness_128.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Icons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Icons.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Icons/OculusIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Icons/OculusIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Icons/OculusIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Icons/OculusIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Logos.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Logos.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Logos/OculusLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Logos/OculusLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Logos/OculusLogo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Logos/OculusLogo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Logos/OculusLogoSplash.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Logos/OculusLogoSplash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Logos/OculusLogoSplash.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/Logos/OculusLogoSplash.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/OculusGoController.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/OculusGoController.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/OculusGoController/OculusGoController_albedo.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/OculusGoController/OculusGoController_albedo.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/OculusGoController/OculusGoController_albedo.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/OculusGoController/OculusGoController_albedo.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/color_ramp_timer.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/color_ramp_timer.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/color_ramp_timer.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/color_ramp_timer.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/cube_texture.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/cube_texture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/cube_texture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/cube_texture.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/gaze_cursor.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/gaze_cursor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/gaze_cursor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/gaze_cursor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/gaze_cursor_timer.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/gaze_cursor_timer.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/gaze_cursor_timer.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/gaze_cursor_timer.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/handle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/windowgui.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/windowgui.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Destroy Crate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Destroy Crate.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +320,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -98,7 +364,7 @@
       <workItem from="1583961475712" duration="1044000" />
       <workItem from="1584028346401" duration="2719000" />
       <workItem from="1585770275022" duration="491000" />
-      <workItem from="1585771849364" duration="205000" />
+      <workItem from="1585771849364" duration="835000" />
     </task>
     <servers />
   </component>
