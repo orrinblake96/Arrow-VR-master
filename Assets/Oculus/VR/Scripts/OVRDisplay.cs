@@ -21,6 +21,7 @@ using UnityEngine;
 using System.Collections.Generic;
 
 #if UNITY_2017_2_OR_NEWER
+using UnityEngine.XR;
 using InputTracking = UnityEngine.XR.InputTracking;
 using Node = UnityEngine.XR.XRNode;
 using NodeState = UnityEngine.XR.XRNodeState;

@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Destroy Crate.unity
-    guid: bb979e1d8970a4b01b22f3d144f55e8e
+    path: Assets/Scenes/Main.unity
+    guid: 0bdc2251efd355d45add28195d99d336
   m_configObjects: {}

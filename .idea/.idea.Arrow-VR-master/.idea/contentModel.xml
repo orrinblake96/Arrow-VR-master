@@ -768,14 +768,6 @@
           <e p="OculusInput.cs" t="Include" />
           <e p="Sound.cs" t="Include" />
         </e>
-        <e p="Toon Zombie S" t="Include">
-          <e p="TSF" t="Include">
-            <e p="Shaders" t="Include">
-              <e p="TSF.shader" t="Include" />
-              <e p="TSFOutline.shader" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="western-props-pack" t="Include">
           <e p="README.txt" t="Include" />
         </e>
