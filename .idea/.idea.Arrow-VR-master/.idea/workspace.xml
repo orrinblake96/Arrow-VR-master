@@ -3,53 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Whisky_Bottle_Cracked.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Whisky_Bottle_Cracked.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WoodenCrateCracked.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WoodenCrateCracked.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Materials/eye.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Materials/eye.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Materials/zombe green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Materials/zombe green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Materials/zombe green2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Materials/zombe green2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Model.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Model/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Model/Materials/Material_001__zombe_green2_png_003.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Model/Materials/Material_001__zombe_green2_png_003.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Model/Materials/eye.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Model/Materials/eye.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Model/Materials/zombe green2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Model/Materials/zombe green2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Model/zombie anime.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Model/zombie anime.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Prefab/Zombie.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Prefab/Zombie.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/TSF.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/TSF.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/TSFOutline.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/TSFOutline.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/Textures/MatCap_Toon3R.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/Textures/MatCap_Toon3R.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/Textures/MatCap_Toon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/Textures/MatCap_Toon4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/Textures/MatCap_Toon4R.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/Textures/MatCap_Toon4R.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/Textures/MatCap_Toon5R.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/TSF/Shaders/Textures/MatCap_Toon5R.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Textures/eye a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Textures/eye a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Textures/zombe green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Textures/zombe green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Textures/zombe green2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon Zombie S/Textures/zombe green2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,10 +19,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CleanSceneBrokenModels.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Destroy Crate.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,6 +44,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs" />
+        <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CleanSceneBrokenModels.cs" />
       </list>
     </option>
   </component>
@@ -146,6 +108,7 @@
       <workItem from="1585770275022" duration="491000" />
       <workItem from="1585771849364" duration="835000" />
       <workItem from="1585825687963" duration="478000" />
+      <workItem from="1585832820891" duration="1522000" />
     </task>
     <servers />
   </component>

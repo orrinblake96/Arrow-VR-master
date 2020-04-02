@@ -759,6 +759,7 @@
           <e p="Arrow.cs" t="Include" />
           <e p="AudioManager.cs" t="Include" />
           <e p="Bow.cs" t="Include" />
+          <e p="CleanSceneBrokenModels.cs" t="Include" />
           <e p="Crate" t="Include">
             <e p="Crate.cs" t="Include" />
             <e p="IDamageable.cs" t="Include" />
