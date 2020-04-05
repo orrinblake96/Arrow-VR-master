@@ -170,7 +170,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b5640cc60e26a0b42ae17b318b139e06, type: 2}
+  - {fileID: 2100000, guid: 55d475df9cd2044749dcb0b8196b261c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -254,6 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Speed: 2000
   m_Tip: {fileID: 8386148805111352677}
+  m_TipColor: {fileID: 1842085240381982, guid: 4d567a62afb480c49a270e0e4ea252d0, type: 3}
 --- !u!54 &3544760493190169588
 Rigidbody:
   m_ObjectHideFlags: 0
