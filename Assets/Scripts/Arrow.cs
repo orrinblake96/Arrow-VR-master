@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine.UI;
 using _BowAndArrow.Scripts;
 using _BowAndArrow.Scripts.Crate;
 using UnityEngine;
@@ -7,8 +8,9 @@ public class Arrow : MonoBehaviour
 {
     public float m_Speed = 2000.0f;
     public Transform m_Tip = null;
+    public CapsuleCollider TipCollider;
+    
     private TrailRenderer _trailRenderer;
-
     private Rigidbody _mRigidbody = null;
     private bool _mIsStopped = true;
     private Vector3 _mLastPosition = Vector3.zero;
@@ -16,7 +18,7 @@ public class Arrow : MonoBehaviour
     private void Awake()
     {
         _mRigidbody = GetComponent<Rigidbody>();
-        
+        TipCollider = m_Tip.GetComponent<CapsuleCollider>();
     }
 
     private void Start()
@@ -57,6 +59,9 @@ public class Arrow : MonoBehaviour
         _mRigidbody.isKinematic = true;
         //Doesnt react to gravity, wont fall
         _mRigidbody.useGravity = false;
+        
+        //Turn collider on for color matching
+        TipCollider.enabled = true;
             
         //check if damageable
         CheckForDamage(hitObject);
