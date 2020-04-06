@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 0bdc2251efd355d45add28195d99d336
+    path: Assets/Scenes/Color Mechanic.unity
+    guid: 7cc71d4f7ba51406da2f7318f5fac255
   m_configObjects: {}

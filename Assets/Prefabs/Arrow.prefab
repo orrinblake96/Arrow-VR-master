@@ -172,7 +172,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 55d475df9cd2044749dcb0b8196b261c, type: 2}
+  - {fileID: 2100000, guid: a6f1778430eac934d8d2b1514f4b023f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -219,6 +219,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19d015e17c03b49c28cb499c113d15a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeColors:
+  - {fileID: 2100000, guid: 55d475df9cd2044749dcb0b8196b261c, type: 2}
+  - {fileID: 2100000, guid: 46763a8cc485b4f5d9d8680f21049db9, type: 2}
+  - {fileID: 2100000, guid: 7b80f0a9144d44fb29940cb6667595d0, type: 2}
+  newCube: {fileID: 6469133885885979559, guid: fd90517c87ecc4056bbc84cf5cab9894, type: 3}
 --- !u!135 &1209837964093216041
 SphereCollider:
   m_ObjectHideFlags: 0
