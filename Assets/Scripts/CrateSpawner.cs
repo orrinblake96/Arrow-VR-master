@@ -16,6 +16,6 @@ public class CrateSpawner : MonoBehaviour
 
     private void Spawn()
     {
-        Instantiate(enemy, transform.position, Quaternion.identity);
+        Instantiate(enemy, transform.position, transform.rotation);
     }
 }

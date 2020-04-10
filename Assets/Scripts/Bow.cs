@@ -36,6 +36,7 @@ namespace _BowAndArrow.Scripts
             m_PullValue = Mathf.Clamp(m_PullValue, 0.0f, 1.0f);
      
             m_Animator.SetFloat("Blend", m_PullValue);
+            OVRInput.SetControllerVibration(m_PullValue, m_PullValue, OVRInput.Controller.RTouch);
         }
 
         private float CalculatePull(Transform pullHand)

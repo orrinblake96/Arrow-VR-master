@@ -52,10 +52,8 @@ public class ArrowTipColorChecker : MonoBehaviour
             (_cubeColor.material.color.g == _tipColor.material.color.g) && 
             (_cubeColor.material.color.b == _tipColor.material.color.b))
         {
-//            Transform cubePosition = other.gameObject.transform;
             _colorMatchText.text = "Color Matched: true";
             Destroy(other.gameObject);
-//            Instantiate(newCube, cubePosition.transform.position, cubePosition.transform.rotation);
         }
         else
         {
