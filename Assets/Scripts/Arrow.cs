@@ -65,6 +65,9 @@ public class Arrow : MonoBehaviour
             
         //check if damageable
         CheckForDamage(hitObject);
+        
+        //Destroy Arrow
+        Destroy(gameObject, 1f);
     }
 
     //called by bow script when released 
@@ -92,7 +95,7 @@ public class Arrow : MonoBehaviour
         _trailRenderer.enabled = true;
             
         //after 5 seconds, remove arrow (scene management, overloading scenes)
-        Destroy(gameObject, 10.0f);
+        Destroy(gameObject, 12.0f);
     }
 
     private void CheckForDamage(GameObject hitObject)

@@ -761,6 +761,7 @@
           <e p="AudioManager.cs" t="Include" />
           <e p="Bow.cs" t="Include" />
           <e p="CleanSceneBrokenModels.cs" t="Include" />
+          <e p="ColoredCubeInfo.cs" t="Include" />
           <e p="Crate" t="Include">
             <e p="Crate.cs" t="Include" />
             <e p="IDamageable.cs" t="Include" />
@@ -797,9 +798,6 @@
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
-        </e>
-        <e p="western-props-pack" t="Include">
-          <e p="README.txt" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

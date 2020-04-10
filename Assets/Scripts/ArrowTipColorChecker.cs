@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
+﻿using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,12 +6,14 @@ public class ArrowTipColorChecker : MonoBehaviour
 {
     public Material[] cubeColors;
     public GameObject newCube;
+    public MeshRenderer shaftColor;
     
     private MeshRenderer _tipColor;
     private MeshRenderer _cubeColor;
     private Text _arrowInfoText;
     private Text _colorMatchText;
-    private int _currentMaterial = 0;
+    private int _currentMaterial;
+    private Material _currentMaterialColor;
 
     private void Awake()
     {
@@ -33,7 +33,9 @@ public class ArrowTipColorChecker : MonoBehaviour
     {
         if (OVRInput.GetDown(OVRInput.Button.One))
         {
-            _tipColor.material = cubeColors[(_currentMaterial++) % 3];
+            _currentMaterialColor = cubeColors[(_currentMaterial++) % 3];
+            _tipColor.material = _currentMaterialColor;
+            shaftColor.material = _currentMaterialColor;
             _arrowInfoText.text = "Arrow Color: " + _tipColor.material.color.ToString();
         }
         

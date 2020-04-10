@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
+using UnityEngine;
+using UnityEngine.PlayerLoop;
+
+public class ColoredCubeInfo : MonoBehaviour
+{
+    public int currentMaterialPosition;
+    private Text _posText;
+
+    private void Start()
+    {
+        _posText.text = "Pos: " + currentMaterialPosition;
+    }
+
+    public void SetCurrentColor(int materialPosition)
+    {
+        currentMaterialPosition = materialPosition;
+        GameObject.Find("Canvas/Pos").GetComponent<Text>().text = "Pos: " + currentMaterialPosition;
+    }
+}

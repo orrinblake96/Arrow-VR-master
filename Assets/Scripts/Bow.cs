@@ -59,7 +59,7 @@ namespace _BowAndArrow.Scripts
             GameObject arrowObject = Instantiate(m_ArrowPrefab, m_Socket);
 
             //orient
-            arrowObject.transform.localPosition = new Vector3(0, 0, 0.425f);
+            arrowObject.transform.localPosition = new Vector3(0, 0, 0.864f);
             arrowObject.transform.localEulerAngles = Vector3.zero;
 
             //set
