@@ -17,12 +17,12 @@ public class ColoredCubeInfo : MonoBehaviour
 
     private void Start()
     {
-        _posText.text = "Pos: " + currentMaterialPosition;
+        _posText.text = "Arrow Color Array Pos: " + currentMaterialPosition;
     }
 
     public void SetCurrentColor(int materialPosition)
     {
         currentMaterialPosition = materialPosition;
-        GameObject.Find("Canvas/Pos").GetComponent<Text>().text = "Pos: " + currentMaterialPosition;
+        GameObject.Find("Canvas/Pos").GetComponent<Text>().text = "Arrow Color Array Pos: " + currentMaterialPosition;
     }
 }

@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Arrow.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Color Attack.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Color Attack.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,9 +50,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" />
       </list>
     </option>
   </component>
@@ -122,7 +119,7 @@
       <workItem from="1586107740436" duration="734000" />
       <workItem from="1586164914506" duration="13699000" />
       <workItem from="1586531613883" duration="8085000" />
-      <workItem from="1586854934642" duration="2263000" />
+      <workItem from="1586854934642" duration="2607000" />
     </task>
     <servers />
   </component>
