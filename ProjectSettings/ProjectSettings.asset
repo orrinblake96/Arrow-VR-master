@@ -162,7 +162,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.oculus.UnitySample
+    Android: com.ArrowVR.app
     Standalone: com.oculus.UnitySample
     iPhone: com.DefaultCompany.BowAndArrowUnity
   buildNumber: {}
