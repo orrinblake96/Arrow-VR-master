@@ -10,6 +10,11 @@ public class ColoredCubeInfo : MonoBehaviour
     public int currentMaterialPosition;
     private Text _posText;
 
+    private void Awake()
+    {
+        _posText = GameObject.Find("Canvas/Pos").GetComponent<Text>();
+    }
+
     private void Start()
     {
         _posText.text = "Pos: " + currentMaterialPosition;

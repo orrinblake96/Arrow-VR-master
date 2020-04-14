@@ -223,9 +223,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 55d475df9cd2044749dcb0b8196b261c, type: 2}
   - {fileID: 2100000, guid: 46763a8cc485b4f5d9d8680f21049db9, type: 2}
   - {fileID: 2100000, guid: 7b80f0a9144d44fb29940cb6667595d0, type: 2}
-  newCube: {fileID: 6469133885885979559, guid: fd90517c87ecc4056bbc84cf5cab9894, type: 3}
-  cubeColorInfo: {fileID: 8647049581654187230, guid: d3cc7b1a024ad4ddca7ce8bd3b8ea687,
-    type: 3}
+  colorInfoNum: {fileID: 0}
   shaftColor: {fileID: 384999108649450282}
 --- !u!135 &1209837964093216041
 SphereCollider:
@@ -238,8 +236,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.01
-  m_Center: {x: 0, y: -0.035, z: 0}
+  m_Radius: 0.006742376
+  m_Center: {x: 0, y: -0.04, z: -1.1068079e-16}
 --- !u!1 &8542102953145869890
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,7 +267,7 @@ Transform:
   m_GameObject: {fileID: 8542102953145869890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0088875, y: -0.037726, z: -0.0014147}
-  m_LocalScale: {x: 3, y: 3, z: 2.06826}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 8623957444106179151}
   m_Father: {fileID: 0}

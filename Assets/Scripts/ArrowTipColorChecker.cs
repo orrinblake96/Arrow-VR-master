@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 public class ArrowTipColorChecker : MonoBehaviour
 {
     public Material[] cubeColors;
-    public GameObject newCube;
+    public ColoredCubeInfo colorInfoNum;
     public MeshRenderer shaftColor;
-    
+
     private MeshRenderer _tipColor;
     private MeshRenderer _cubeColor;
     private Text _arrowInfoText;
@@ -20,27 +20,36 @@ public class ArrowTipColorChecker : MonoBehaviour
         _tipColor = GetComponent<MeshRenderer>();
         _arrowInfoText = GameObject.Find("Canvas/ArrowInfoText").GetComponent<Text>();
         _colorMatchText = GameObject.Find("Canvas/ColorMatch").GetComponent<Text>();
+
+        colorInfoNum = GameObject.Find("EnemyManager").GetComponent<ColoredCubeInfo>();
     }
 
     // Start is called before the first frame update
     private void Start()
     {
         _arrowInfoText.text = "Arrow Color: " + _tipColor.material.color.ToString();
+
+        _currentMaterial = colorInfoNum.currentMaterialPosition;
+        _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
+        _tipColor.material = _currentMaterialColor;
+        shaftColor.material = _currentMaterialColor;
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.One))
+        if (OVRInput.GetDown(OVRInput.Button.One) || Input.GetKeyDown(KeyCode.A))
         {
-            _currentMaterialColor = cubeColors[(_currentMaterial++) % 3];
+            colorInfoNum.SetCurrentColor((_currentMaterial += 1) % 3);
+//            _currentMaterialColor = cubeColors[(_currentMaterial++) % 3];
+            _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
             _tipColor.material = _currentMaterialColor;
             shaftColor.material = _currentMaterialColor;
             _arrowInfoText.text = "Arrow Color: " + _tipColor.material.color.ToString();
         }
         
         //Reset scene for quick testing
-        if (OVRInput.GetDown(OVRInput.Button.Three))
+        if (OVRInput.GetDown(OVRInput.Button.Three) || Input.GetKeyDown(KeyCode.Space))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
