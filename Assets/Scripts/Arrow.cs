@@ -73,7 +73,9 @@ public class Arrow : MonoBehaviour
     //called by bow script when released 
     public void Fire(float pullValue)
     {
+        //Play arrow sound
         FindObjectOfType<AudioManager>().Play("BowRelease");
+        
         _mLastPosition = transform.position;
             
         //arrow now in air

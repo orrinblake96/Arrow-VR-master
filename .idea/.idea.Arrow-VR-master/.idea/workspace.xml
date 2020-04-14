@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Arrow.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Color Attack.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Color Attack.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +28,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CleanSceneBrokenModels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Destroy Crate.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main.unity" root0="FORCE_HIGHLIGHTING" />
@@ -33,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -40,19 +53,22 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/48 Particle Effect Pack/Script/csShowAllEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ZombieBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CleanSceneBrokenModels.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +135,7 @@
       <workItem from="1586107740436" duration="734000" />
       <workItem from="1586164914506" duration="13699000" />
       <workItem from="1586531613883" duration="8085000" />
-      <workItem from="1586854934642" duration="2607000" />
+      <workItem from="1586854934642" duration="7238000" />
     </task>
     <servers />
   </component>

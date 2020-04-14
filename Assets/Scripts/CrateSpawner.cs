@@ -1,6 +1,6 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.AI;
+using UnityEngine.PlayerLoop;
 
 public class CrateSpawner : MonoBehaviour
 {
@@ -11,11 +11,19 @@ public class CrateSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating(nameof(Spawn), spawnDelay, spawnTime);
+//        InvokeRepeating(nameof(Spawn), spawnDelay, spawnTime);
     }
 
     private void Spawn()
     {
-        Instantiate(enemy, transform.position, transform.rotation);
+//        Instantiate(enemy, transform.position, transform.rotation);
+    }
+
+    private void Update()
+    {
+        if (OVRInput.GetDown(OVRInput.Button.Three) || Input.GetKeyDown(KeyCode.D))
+        {
+            Instantiate(enemy, transform.position, transform.rotation);
+        }
     }
 }

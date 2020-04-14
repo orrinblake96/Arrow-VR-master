@@ -18,8 +18,8 @@ public class ArrowTipColorChecker : MonoBehaviour
     private void Awake()
     {
         _tipColor = GetComponent<MeshRenderer>();
-        _arrowInfoText = GameObject.Find("Canvas/ArrowInfoText").GetComponent<Text>();
-        _colorMatchText = GameObject.Find("Canvas/ColorMatch").GetComponent<Text>();
+//        _arrowInfoText = GameObject.Find("Canvas/ArrowInfoText").GetComponent<Text>();
+//        _colorMatchText = GameObject.Find("Canvas/ColorMatch").GetComponent<Text>();
 
         colorInfoNum = GameObject.Find("EnemyManager").GetComponent<ColoredCubeInfo>();
     }
@@ -27,7 +27,7 @@ public class ArrowTipColorChecker : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        _arrowInfoText.text = "Arrow Color: " + _tipColor.material.color.ToString();
+//        _arrowInfoText.text = "Arrow Color: " + _tipColor.material.color.ToString();
 
         _currentMaterial = colorInfoNum.currentMaterialPosition;
         _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
@@ -45,13 +45,7 @@ public class ArrowTipColorChecker : MonoBehaviour
             _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
             _tipColor.material = _currentMaterialColor;
             shaftColor.material = _currentMaterialColor;
-            _arrowInfoText.text = "Arrow Color: " + _tipColor.material.color.ToString();
-        }
-        
-        //Reset scene for quick testing
-        if (OVRInput.GetDown(OVRInput.Button.Three) || Input.GetKeyDown(KeyCode.Space))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+//            _arrowInfoText.text = "Arrow Color: " + _tipColor.material.color.ToString();
         }
     }
 
@@ -63,12 +57,12 @@ public class ArrowTipColorChecker : MonoBehaviour
             (_cubeColor.material.color.g == _tipColor.material.color.g) && 
             (_cubeColor.material.color.b == _tipColor.material.color.b))
         {
-            _colorMatchText.text = "Color Matched: true";
+//            _colorMatchText.text = "Color Matched: true";
             Destroy(other.gameObject);
         }
         else
         {
-            _colorMatchText.text = "Color Matched: false";
+//            _colorMatchText.text = "Color Matched: false";
         }
     }
 }

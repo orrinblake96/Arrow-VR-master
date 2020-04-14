@@ -768,6 +768,7 @@
           </e>
           <e p="CrateSpawner.cs" t="Include" />
           <e p="EnemyBehaviour.cs" t="Include" />
+          <e p="LevelManager.cs" t="Include" />
           <e p="OculusInput.cs" t="Include" />
           <e p="Sound.cs" t="Include" />
         </e>

@@ -16,6 +16,8 @@ namespace _BowAndArrow.Scripts
         [Range(.1f, 3f)]
         public float pitch;
 
+        public bool loop;
+
         [HideInInspector]
         public AudioSource source;
     }
