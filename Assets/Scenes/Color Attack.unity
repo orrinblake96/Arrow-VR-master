@@ -1856,7 +1856,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Arrow Color: Press "A" to chnage arrow color'
+  m_text: 'Arrow Color: Press "A" to change arrow color'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -2011,7 +2011,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Spawn Cubes: Press "Y" to spawn enemies '
+  m_text: 'Spawn Cubes: Press "X" to spawn enemies '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -2874,7 +2874,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263792676}
   m_LocalRotation: {x: -0, y: -0.54854274, z: -0, w: 0.8361225}
-  m_LocalPosition: {x: 0, y: 0, z: -1.36}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 0.005, y: 0.005, z: 0.1}
   m_Children:
   - {fileID: 1728864165}
@@ -2886,7 +2886,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -66.534004, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -8.43, y: -1.32}
+  m_AnchoredPosition: {x: -8.49, y: -1.32}
   m_SizeDelta: {x: 1601.131, y: 513}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1263792678
@@ -6353,7 +6353,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Reset Scene: Press "X" to reset scene'
+  m_text: 'Reset Scene: Press "Y" to reset scene'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}

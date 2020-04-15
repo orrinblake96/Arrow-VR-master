@@ -61,14 +61,14 @@
         <option value="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" />
       </list>
     </option>
   </component>
@@ -135,7 +135,7 @@
       <workItem from="1586107740436" duration="734000" />
       <workItem from="1586164914506" duration="13699000" />
       <workItem from="1586531613883" duration="8085000" />
-      <workItem from="1586854934642" duration="7238000" />
+      <workItem from="1586854934642" duration="7547000" />
     </task>
     <servers />
   </component>
