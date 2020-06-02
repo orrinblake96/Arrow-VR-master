@@ -12,7 +12,7 @@ public class EnemyBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _target = GameObject.FindGameObjectWithTag("Player").transform;
+        _target = GameObject.Find("PillarOfLightTarget").transform;
         _agent = GetComponent<NavMeshAgent>();
     }
 
