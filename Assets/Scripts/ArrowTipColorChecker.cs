@@ -7,13 +7,15 @@ public class ArrowTipColorChecker : MonoBehaviour
     public Material[] cubeColors;
     public ColoredCubeInfo colorInfoNum;
     public MeshRenderer shaftColor;
+    public GameObject fracturedEnemyRed, fracturedEnemyGreen, fracturedEnemyBlue;
 
     private MeshRenderer _tipColor;
-    private MeshRenderer _cubeColor;
+    private SkinnedMeshRenderer _cubeColor;
     private Text _arrowInfoText;
     private Text _colorMatchText;
     private int _currentMaterial;
     private Material _currentMaterialColor;
+    private Transform _enemyHitTransform;
 
     private void Awake()
     {
@@ -52,17 +54,27 @@ public class ArrowTipColorChecker : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //Check if cubes color matches tip of arrow
-        _cubeColor = other.gameObject.GetComponent<MeshRenderer>();
+        _cubeColor = other.gameObject.GetComponent<SkinnedMeshRenderer>();
         if ((_cubeColor.material.color.r == _tipColor.material.color.r) && 
             (_cubeColor.material.color.g == _tipColor.material.color.g) && 
             (_cubeColor.material.color.b == _tipColor.material.color.b))
         {
-//            _colorMatchText.text = "Color Matched: true";
-            Destroy(other.gameObject);
-        }
-        else
-        {
-//            _colorMatchText.text = "Color Matched: false";
+            _enemyHitTransform = other.gameObject.transform;
+            
+            if (_cubeColor.material.color.r == 1)
+            {
+                Instantiate(fracturedEnemyRed, transform.position + Vector3.up, transform.rotation);   
+            }
+            if (_cubeColor.material.color.g == 1)
+            {
+                Instantiate(fracturedEnemyGreen, transform.position + Vector3.up, transform.rotation);   
+            }
+            if (_cubeColor.material.color.b == 1)
+            {
+                Instantiate(fracturedEnemyBlue, transform.position + Vector3.up, transform.rotation);   
+            }
+            
+            Destroy(_enemyHitTransform.parent.gameObject);
         }
     }
 }

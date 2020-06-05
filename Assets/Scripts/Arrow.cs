@@ -67,7 +67,7 @@ public class Arrow : MonoBehaviour
         CheckForDamage(hitObject);
         
         //Destroy Arrow
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 2f);
     }
 
     //called by bow script when released 
@@ -103,8 +103,6 @@ public class Arrow : MonoBehaviour
     private void CheckForDamage(GameObject hitObject)
     {
         MonoBehaviour[] behaviours = new[] {hitObject.GetComponent<MonoBehaviour>()};
-
-        Debug.Log("Damaged");
 
         foreach (MonoBehaviour behaviour in behaviours)
         {

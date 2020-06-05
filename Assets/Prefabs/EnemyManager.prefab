@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992838060049327150}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.33, y: 0, z: 6.98}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -11.92, y: -0.98, z: 5.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 992838061842471534}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &992838060049327152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnDelay: 2
   spawnTime: 10
-  enemy: {fileID: 6469133885885979559, guid: fd90517c87ecc4056bbc84cf5cab9894, type: 3}
+  enemy: {fileID: 2374691550736286090, guid: ac3e3bf0afe3e41f7942cbf6feec79f2, type: 3}
 --- !u!1 &992838060859735740
 GameObject:
   m_ObjectHideFlags: 0
@@ -70,13 +70,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992838060859735740}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 4.3}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 17.46, y: -0.09, z: -4.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 992838061842471534}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &992838060859735742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnDelay: 6
   spawnTime: 10
-  enemy: {fileID: 8780103587990593149, guid: 8a2ac4eebaae940d2ae27385a26da916, type: 3}
+  enemy: {fileID: 2374691550736286090, guid: 5062ce6af23e84adf8461dac8d26cff0, type: 3}
 --- !u!1 &992838061842471533
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,13 +163,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992838061850241438}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.93, y: 0, z: 4.5}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 2.12, y: -0.87, z: 17.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 992838061842471534}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &992838061850241440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,4 +184,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnDelay: 4
   spawnTime: 10
-  enemy: {fileID: 6241450394505314716, guid: e3f17aef6093543bd8835eda49df5b56, type: 3}
+  enemy: {fileID: 2374691550736286090, guid: 578a15cafad114b858001d316988411e, type: 3}
