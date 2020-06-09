@@ -769,6 +769,8 @@
           <e p="CrateSpawner.cs" t="Include" />
           <e p="Enemy" t="Include">
             <e p="CleanFracturedPieces.cs" t="Include" />
+            <e p="Waves.cs" t="Include" />
+            <e p="WaveSpawner.cs" t="Include" />
           </e>
           <e p="EnemyBehaviour.cs" t="Include" />
           <e p="LevelManager.cs" t="Include" />

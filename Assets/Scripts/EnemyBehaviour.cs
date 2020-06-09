@@ -12,6 +12,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Awake()
     {
+        // *********************** Refinable in future ***********************
         switch (gameObject.name)
         {
             case "BasicPaintMonsterRed(Clone)":
@@ -36,6 +37,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Update()
     {
+        // When enemies reach navmesh location they should attack
         if (!_readyToAttack)
         {
             if (!_agent.pathPending)

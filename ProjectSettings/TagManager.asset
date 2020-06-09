@@ -7,6 +7,7 @@ TagManager:
   - Hand
   - Arrow
   - RedEnemy
+  - Enemy
   layers:
   - Default
   - TransparentFX
