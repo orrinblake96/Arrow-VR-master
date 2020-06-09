@@ -1,4 +1,5 @@
 ﻿using System;
+using PillarOfLight;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -7,11 +8,16 @@ public class EnemyBehaviour : MonoBehaviour
     private Transform _target;
     private NavMeshAgent _agent;
     private Animator _attackAnimation;
+
+    private PillarHealth _pillarHealth;
     private bool _readyToAttack;
     private static readonly int IsAttacking = Animator.StringToHash("IsAttacking");
 
     private void Awake()
     {
+        // Reference pillar ************ Refine Later ******************
+        _pillarHealth = GameObject.FindGameObjectWithTag("Pillar").GetComponent<PillarHealth>();
+        
         // *********************** Refinable in future ***********************
         switch (gameObject.name)
         {
@@ -53,5 +59,11 @@ public class EnemyBehaviour : MonoBehaviour
                 }
             }
         }
+    }
+    
+    // Called as an animation event on swinging animation
+    public void AttackPillar()
+    {
+        if (_pillarHealth.currentHealth > 0) _pillarHealth.DamageTaken();
     }
 }
