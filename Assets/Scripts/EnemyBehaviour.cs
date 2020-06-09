@@ -12,6 +12,7 @@ public class EnemyBehaviour : MonoBehaviour
     private PillarHealth _pillarHealth;
     private bool _readyToAttack;
     private static readonly int IsAttacking = Animator.StringToHash("IsAttacking");
+    private static readonly int IsCelebrating = Animator.StringToHash("IsCelebrating");
 
     private void Awake()
     {
@@ -64,6 +65,15 @@ public class EnemyBehaviour : MonoBehaviour
     // Called as an animation event on swinging animation
     public void AttackPillar()
     {
-        if (_pillarHealth.currentHealth > 0) _pillarHealth.DamageTaken();
+        // Attack Pillar while it has health
+        if (_pillarHealth.currentHealth > 0)
+        {
+            _pillarHealth.DamageTaken();
+        }
+        else
+        {
+            // Celebrate a glorious victory
+            _attackAnimation.SetBool(IsCelebrating, true);
+        }
     }
 }

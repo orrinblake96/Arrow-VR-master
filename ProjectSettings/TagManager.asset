@@ -8,6 +8,7 @@ TagManager:
   - Arrow
   - RedEnemy
   - Enemy
+  - Pillar
   layers:
   - Default
   - TransparentFX

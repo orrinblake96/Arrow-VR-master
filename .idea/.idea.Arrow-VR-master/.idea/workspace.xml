@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonster@MutantSwiping.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonster@MutantSwiping.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,8 +71,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pillar Of Light/PillarHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -145,7 +143,7 @@
       <workItem from="1591110696652" duration="515000" />
       <workItem from="1591203327685" duration="678000" />
       <workItem from="1591281410535" duration="7139000" />
-      <workItem from="1591636921521" duration="9877000" />
+      <workItem from="1591636921521" duration="10320000" />
     </task>
     <servers />
   </component>
