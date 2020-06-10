@@ -412,6 +412,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53d45e687783345408eff40e4dffa3d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 10
+  attackPositions:
+  - {fileID: 6877040464541195357, guid: acd292036b672418686dbafb0af68298, type: 3}
+  - {fileID: 73083454978934522, guid: 52216c671ca4043daa2c14ad3ce29a93, type: 3}
+  - {fileID: 7227259890559058154, guid: ab7f94485fb31480facf6874be94406b, type: 3}
 --- !u!195 &1689029500
 NavMeshAgent:
   m_ObjectHideFlags: 0

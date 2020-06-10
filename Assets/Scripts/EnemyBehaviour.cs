@@ -1,11 +1,15 @@
-﻿using System;
-using PillarOfLight;
+﻿using PillarOfLight;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyBehaviour : MonoBehaviour
 {
+    public float rotationSpeed = 10f;
+
+    private GameObject _pillar;
     private Transform _target;
+    private Transform[] _attackPositions;
+    private Transform _pillarTransform;
     private NavMeshAgent _agent;
     private Animator _attackAnimation;
 
@@ -16,22 +20,14 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Awake()
     {
-        // Reference pillar ************ Refine Later ******************
-        _pillarHealth = GameObject.FindGameObjectWithTag("Pillar").GetComponent<PillarHealth>();
+        _pillar = GameObject.FindGameObjectWithTag("Pillar");
+        _pillarTransform = _pillar.transform;
+        _pillarHealth = _pillar.GetComponent<PillarHealth>();
         
-        // *********************** Refinable in future ***********************
-        switch (gameObject.name)
-        {
-            case "BasicPaintMonsterRed(Clone)":
-                _target = GameObject.Find("RedAttackPos").transform;
-                break;
-            case "BasicPaintMonsterGreen(Clone)":
-                _target = GameObject.Find("GreenAttackPos").transform;
-                break;
-            default:
-                _target = GameObject.Find("BlueAttackPos").transform;
-                break;
-        }
+        // Pass all attack positions and returns closest 
+        _attackPositions = new Transform[3] {GameObject.Find("RedAttackPos").transform, GameObject.Find("GreenAttackPos").transform, GameObject.Find("BlueAttackPos").transform};
+        _target = GetClosestAttackPosition(_attackPositions);
+
     }
 
     private void Start()
@@ -47,19 +43,54 @@ public class EnemyBehaviour : MonoBehaviour
         // When enemies reach navmesh location they should attack
         if (!_readyToAttack)
         {
-            if (!_agent.pathPending)
+            MovingTowardsTarget();
+            return;
+        }
+        else
+        {
+            RotateTowardsTargetWhileAttacking();   
+        }
+    }
+    
+    private Transform GetClosestAttackPosition(Transform[] attackPositions)
+    {
+        Transform closestAttackPosition = null;
+        float minDist = Mathf.Infinity;
+        Vector3 currentPos = transform.position;
+        foreach (Transform attackPosition in attackPositions)
+        {
+            float dist = Vector3.Distance(attackPosition.position, currentPos);
+            if (dist < minDist)
             {
-                if (_agent.remainingDistance <= _agent.stoppingDistance)
+                closestAttackPosition = attackPosition;
+                minDist = dist;
+            }
+        }
+        return closestAttackPosition;
+    }
+
+    private void MovingTowardsTarget()
+    {
+        if (!_agent.pathPending)
+        {
+            if (_agent.remainingDistance <= _agent.stoppingDistance)
+            {
+                if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
                 {
-                    if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
-                    {
-                        _readyToAttack = true;
-                        _attackAnimation.SetBool(IsAttacking, true);
-                        Debug.Log("Arrived");
-                    }
+                    _readyToAttack = true;
+                    _attackAnimation.SetBool(IsAttacking, true);
+                    Debug.Log("Arrived");
                 }
             }
         }
+    }
+
+    private void RotateTowardsTargetWhileAttacking()
+    {
+        if (_pillar == null) return;
+        Vector3 direction = (_pillarTransform.position - transform.position).normalized;
+        Quaternion lookRotation = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
     }
     
     // Called as an animation event on swinging animation
