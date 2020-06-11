@@ -7,6 +7,9 @@ TagManager:
   - Hand
   - Arrow
   - RedEnemy
+  - Enemy
+  - Pillar
+  - WaveScoreBoard
   layers:
   - Default
   - TransparentFX
