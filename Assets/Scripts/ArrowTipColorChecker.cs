@@ -1,6 +1,7 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using WaveBasedLevel;
 
 public class ArrowTipColorChecker : MonoBehaviour
 {
@@ -16,17 +17,19 @@ public class ArrowTipColorChecker : MonoBehaviour
     private int _currentMaterial;
     private Material _currentMaterialColor;
     private Transform _enemyHitTransform;
+    private WaveScore _waveScoreBoard;
 
     private void Awake()
     {
         _tipColor = GetComponent<MeshRenderer>();
+        _waveScoreBoard = GameObject.FindGameObjectWithTag("WaveScoreBoard").GetComponent<WaveScore>();
+        
 //        _arrowInfoText = GameObject.Find("Canvas/ArrowInfoText").GetComponent<Text>();
 //        _colorMatchText = GameObject.Find("Canvas/ColorMatch").GetComponent<Text>();
 
         colorInfoNum = GameObject.Find("EnemyManager").GetComponent<ColoredCubeInfo>();
     }
-
-    // Start is called before the first frame update
+    
     private void Start()
     {
 //        _arrowInfoText.text = "Arrow Color: " + _tipColor.material.color.ToString();
@@ -36,8 +39,7 @@ public class ArrowTipColorChecker : MonoBehaviour
         _tipColor.material = _currentMaterialColor;
         shaftColor.material = _currentMaterialColor;
     }
-
-    // Update is called once per frame
+    
     private void Update()
     {
         if (OVRInput.GetDown(OVRInput.Button.One) || Input.GetKeyDown(KeyCode.A))
@@ -55,6 +57,8 @@ public class ArrowTipColorChecker : MonoBehaviour
     {
         //Check if cubes color matches tip of arrow
         _cubeColor = other.gameObject.GetComponent<SkinnedMeshRenderer>();
+        
+        //*************************** Refine **********************************
         if ((_cubeColor.material.color.r == _tipColor.material.color.r) && 
             (_cubeColor.material.color.g == _tipColor.material.color.g) && 
             (_cubeColor.material.color.b == _tipColor.material.color.b))
@@ -74,6 +78,7 @@ public class ArrowTipColorChecker : MonoBehaviour
                 Instantiate(fracturedEnemyBlue, transform.position + Vector3.up, transform.rotation);   
             }
             
+            _waveScoreBoard.IncreaseCurrentScore();
             Destroy(_enemyHitTransform.parent.gameObject);
         }
     }

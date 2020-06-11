@@ -9,6 +9,7 @@ TagManager:
   - RedEnemy
   - Enemy
   - Pillar
+  - WaveScoreBoard
   layers:
   - Default
   - TransparentFX

@@ -413,10 +413,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 10
-  attackPositions:
-  - {fileID: 6877040464541195357, guid: acd292036b672418686dbafb0af68298, type: 3}
-  - {fileID: 73083454978934522, guid: 52216c671ca4043daa2c14ad3ce29a93, type: 3}
-  - {fileID: 7227259890559058154, guid: ab7f94485fb31480facf6874be94406b, type: 3}
 --- !u!195 &1689029500
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -738,7 +734,6 @@ GameObject:
   - component: {fileID: 286645343270318943}
   - component: {fileID: 8973872375237728092}
   - component: {fileID: 2414137446470457920}
-  - component: {fileID: 3530622047991678262}
   - component: {fileID: 7638596747635828769}
   m_Layer: 0
   m_Name: Monster
@@ -850,24 +845,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 4.9
-  m_Height: 1
+  m_Radius: 2.8007474
+  m_Height: 7.5209737
   m_Direction: 1
-  m_Center: {x: 0, y: 3.72, z: 0}
---- !u!136 &3530622047991678262
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4487500502250512175}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  m_Radius: 4.8
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 3.72, z: 0}
+  m_Center: {x: -0.1540117, y: 3.8005095, z: 1.9343949e-10}
 --- !u!54 &7638596747635828769
 Rigidbody:
   m_ObjectHideFlags: 0
