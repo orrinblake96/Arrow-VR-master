@@ -9,6 +9,7 @@ public class Arrow : MonoBehaviour
     public float m_Speed = 2000.0f;
     public Transform m_Tip = null;
     public CapsuleCollider TipCollider;
+    public LayerMask layerToIgnore;
     
     private TrailRenderer _trailRenderer;
     private Rigidbody _mRigidbody = null;
@@ -37,7 +38,7 @@ public class Arrow : MonoBehaviour
         //collision check if hit
         //linecast prevents objs passing through eachother
         RaycastHit hit;
-        if (Physics.Linecast(_mLastPosition, m_Tip.position, out hit))
+        if (Physics.Linecast(_mLastPosition, m_Tip.position, out hit, layerToIgnore))
         {
             Stop(hit.collider.gameObject);
         }

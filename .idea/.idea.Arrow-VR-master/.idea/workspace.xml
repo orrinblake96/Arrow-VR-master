@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/PillarOfLightMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/PillarOfLightMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonsterBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonsterBlue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonsterGreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonsterGreen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonsterRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonsterRed.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyManager.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyManager.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedArena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedArena.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Arrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,14 +63,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CleanSceneBrokenModels.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Waves.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveState.cs" />
@@ -85,6 +78,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/WaveScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" />
       </list>
     </option>
   </component>
@@ -156,7 +151,7 @@
       <workItem from="1591203327685" duration="678000" />
       <workItem from="1591281410535" duration="7139000" />
       <workItem from="1591636921521" duration="10698000" />
-      <workItem from="1591783355437" duration="6836000" />
+      <workItem from="1591783355437" duration="8518000" />
     </task>
     <servers />
   </component>
