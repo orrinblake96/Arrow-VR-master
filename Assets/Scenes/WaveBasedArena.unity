@@ -9462,43 +9462,49 @@ MonoBehaviour:
   - name: Wave 1
     enemyTransform: {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2,
       type: 3}
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2, type: 3}
     spawnCount: 2
     spawnRate: 1
   - name: Wave 2
-    enemyTransform: {fileID: 1634737098400789401, guid: 578a15cafad114b858001d316988411e,
+    enemyTransform: {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2,
       type: 3}
-    spawnCount: 3
-    spawnRate: 1.5
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: 578a15cafad114b858001d316988411e, type: 3}
+    spawnCount: 2
+    spawnRate: 1
   - name: Wave 3
-    enemyTransform: {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0,
+    enemyTransform: {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2,
       type: 3}
-    spawnCount: 4
-    spawnRate: 2
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0, type: 3}
+    spawnCount: 3
+    spawnRate: 1
   - name: Wave 4
-    enemyTransform: {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0,
+    enemyTransform: {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2,
       type: 3}
-    spawnCount: 5
-    spawnRate: 2
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2, type: 3}
+    - {fileID: 1634737098400789401, guid: 578a15cafad114b858001d316988411e, type: 3}
+    spawnCount: 4
+    spawnRate: 1
   - name: Wave 5
-    enemyTransform: {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0,
+    enemyTransform: {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2,
       type: 3}
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2, type: 3}
+    - {fileID: 1634737098400789401, guid: 578a15cafad114b858001d316988411e, type: 3}
     spawnCount: 5
-    spawnRate: 2
+    spawnRate: 1
   - name: Wave 6
-    enemyTransform: {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0,
+    enemyTransform: {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2,
       type: 3}
-    spawnCount: 6
-    spawnRate: 2
-  - name: Wave 7
-    enemyTransform: {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0,
-      type: 3}
-    spawnCount: 6
-    spawnRate: 2
-  - name: Wave 8
-    enemyTransform: {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0,
-      type: 3}
-    spawnCount: 7
-    spawnRate: 2
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2, type: 3}
+    - {fileID: 1634737098400789401, guid: 578a15cafad114b858001d316988411e, type: 3}
+    - {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0, type: 3}
+    spawnCount: 5
+    spawnRate: 1
   timeBetweenWaves: 5
   spawnPoints:
   - {fileID: 1960453898}
