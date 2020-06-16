@@ -6,7 +6,7 @@ namespace Enemy
     public class Waves
     {
         public string name;
-        public Transform enemyTransform;
+        public Transform[] enemyTransforms;
         public int spawnCount;
         public float spawnRate;
     }

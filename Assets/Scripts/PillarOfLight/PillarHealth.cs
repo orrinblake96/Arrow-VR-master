@@ -4,6 +4,13 @@ namespace PillarOfLight
 {
     public class PillarHealth : MonoBehaviour
     {
+        public enum PillarState
+        {
+            TakingDamage,
+            Attacking,
+            Destroyed
+        }
+        
         public float startingHealth = 100;
         public float currentHealth;
         public Material pillarOfLightMaterial;

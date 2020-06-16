@@ -8251,6 +8251,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7884011767406153237, guid: d49e026fd363143ad9f521a4d663540a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a36066eeb11bb4a8b8e90b52c5b4ab30, type: 2}
     - target: {fileID: -4216859302048453862, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8330,12 +8335,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 25f622bc82d214b7f975166a9fe6c589, type: 2}
+      objectReference: {fileID: 2100000, guid: 25857d48adc5c45c5ac68729dd1048ae, type: 2}
     - target: {fileID: 3385852205361903154, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 25f622bc82d214b7f975166a9fe6c589, type: 2}
+      objectReference: {fileID: 2100000, guid: 39eb5e7868f044183a6ff9839a018150, type: 2}
+    - target: {fileID: 7694883201195231549, guid: d49e026fd363143ad9f521a4d663540a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a36066eeb11bb4a8b8e90b52c5b4ab30, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d49e026fd363143ad9f521a4d663540a, type: 3}
 --- !u!1 &315853633 stripped
@@ -9450,20 +9460,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - name: Wave 1
-    enemyTransform: {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2,
-      type: 3}
-    spawnCount: 2
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2, type: 3}
+    spawnCount: 3
     spawnRate: 1
   - name: Wave 2
-    enemyTransform: {fileID: 1634737098400789401, guid: 578a15cafad114b858001d316988411e,
-      type: 3}
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: 578a15cafad114b858001d316988411e, type: 3}
     spawnCount: 3
-    spawnRate: 1.5
+    spawnRate: 1
   - name: Wave 3
-    enemyTransform: {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0,
-      type: 3}
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0, type: 3}
+    spawnCount: 3
+    spawnRate: 1
+  - name: Wave 4
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2, type: 3}
+    - {fileID: 1634737098400789401, guid: 578a15cafad114b858001d316988411e, type: 3}
     spawnCount: 5
-    spawnRate: 2
+    spawnRate: 1
+  - name: Wave 5
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2, type: 3}
+    - {fileID: 1634737098400789401, guid: 578a15cafad114b858001d316988411e, type: 3}
+    spawnCount: 5
+    spawnRate: 1
+  - name: Wave 6
+    enemyTransforms:
+    - {fileID: 1634737098400789401, guid: ac3e3bf0afe3e41f7942cbf6feec79f2, type: 3}
+    - {fileID: 1634737098400789401, guid: 578a15cafad114b858001d316988411e, type: 3}
+    - {fileID: 1634737098400789401, guid: 5062ce6af23e84adf8461dac8d26cff0, type: 3}
+    spawnCount: 8
+    spawnRate: 1
   timeBetweenWaves: 5
   spawnPoints:
   - {fileID: 1960453898}

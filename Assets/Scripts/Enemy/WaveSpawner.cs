@@ -14,6 +14,7 @@ namespace Enemy
 
         private int _nextWave = 0;
         private float _waveCountdown = 0f;
+        private float _nextWaveSpawnCountIncrease = 0f;
         private float _searchEnemyAliveCountdown = 1f;
         private SpawnState _state = SpawnState.Counting;
 
@@ -65,6 +66,7 @@ namespace Enemy
             if (_nextWave + 1 > waves.Length - 1)
             {
                 _nextWave = 0;
+                _nextWaveSpawnCountIncrease += 20;
             }
             else
             {
@@ -95,9 +97,9 @@ namespace Enemy
             _state = SpawnState.Spawning;
             
             // Spawn enemies at defined spawn-rate intervals
-            for (int i = 0; i < wave.spawnCount; i++)
+            for (int i = 0; i < (wave.spawnCount + _nextWaveSpawnCountIncrease); i++)
             {
-                SpawnEnemy(wave.enemyTransform);
+                SpawnEnemy(wave.enemyTransforms[Random.Range(0, wave.enemyTransforms.Length)]);
                 yield return new WaitForSeconds(1f/wave.spawnRate);
             }
 

@@ -17,6 +17,7 @@ namespace _BowAndArrow.Scripts
         private Animator m_Animator = null;
 
         private float m_PullValue = 0.0f;
+        private float _vibrateAmount = 0.0f;
         private static readonly int Blend = Animator.StringToHash("Blend");
 
         private void Awake() 
@@ -34,10 +35,13 @@ namespace _BowAndArrow.Scripts
             if (!m_PullingHand || !m_CurrentArrow) return;
 
             m_PullValue = CalculatePull(m_PullingHand);
+            _vibrateAmount = m_PullValue;
+            
             m_PullValue = Mathf.Clamp(m_PullValue, 0.0f, 1.0f);
-     
+            _vibrateAmount = Mathf.Clamp(_vibrateAmount, 0.2f, 0.8f);
+            
             m_Animator.SetFloat(Blend, m_PullValue);
-            OVRInput.SetControllerVibration(m_PullValue, m_PullValue, OVRInput.Controller.RTouch);
+            OVRInput.SetControllerVibration(_vibrateAmount, _vibrateAmount, OVRInput.Controller.RTouch);
         }
 
         private float CalculatePull(Transform pullHand)

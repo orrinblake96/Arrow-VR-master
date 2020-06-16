@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
+﻿using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
 public class ColoredCubeInfo : MonoBehaviour
 {
