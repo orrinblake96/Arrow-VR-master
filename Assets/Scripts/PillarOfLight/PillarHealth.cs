@@ -10,6 +10,7 @@ namespace PillarOfLight
             Attacking,
             Destroyed
         }
+        
         public float startingHealth = 100;
         public float currentHealth;
         public Material pillarOfLightMaterial;

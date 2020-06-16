@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/WaveBasedArena.unity
-    guid: e52435d4473754096902688c7e8e2511
+    path: Assets/Scenes/WaveBasedAltLayout.unity
+    guid: 67033b40b982b48bf9d588a795c8ccd4
   m_configObjects: {}
