@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using PillarOfLight;
 using UnityEngine;
 
 namespace Enemy
@@ -9,23 +10,29 @@ namespace Enemy
         private enum SpawnState { Spawning, Waiting, Counting }
         
         public Waves[] waves;
-        public float timeBetweenWaves = 5f;
+        public float timeBetweenWaves = 4f;
         public Transform[] spawnPoints;
+        public float currentRoundNumber = 0f;
 
         private int _nextWave = 0;
         private float _waveCountdown = 0f;
         private float _nextWaveSpawnCountIncrease = 0f;
         private float _searchEnemyAliveCountdown = 1f;
         private SpawnState _state = SpawnState.Counting;
+        private GameObject _pillarOfLight;
 
         private void Start()
         {
             // begin countdown for spawning
             _waveCountdown = timeBetweenWaves;
+            
+            _pillarOfLight = GameObject.Find("PillarOfLightTarget");
         }
 
         private void Update()
         {
+            if (!_pillarOfLight.activeSelf) return;
+            
             // if spawn system is waiting for enemies to be killed
             if (_state == SpawnState.Waiting)
             {
@@ -66,7 +73,11 @@ namespace Enemy
             if (_nextWave + 1 > waves.Length - 1)
             {
                 _nextWave = 0;
-                _nextWaveSpawnCountIncrease += 20;
+                
+                // Increase number of enemies spawned, speed each agent moves & time waited before next wave 
+                currentRoundNumber++;
+                _nextWaveSpawnCountIncrease += 2;
+                if (timeBetweenWaves > 0) timeBetweenWaves -= 1;
             }
             else
             {
@@ -97,10 +108,11 @@ namespace Enemy
             _state = SpawnState.Spawning;
             
             // Spawn enemies at defined spawn-rate intervals
+            // Increase spawn rate with each round won by the player
             for (int i = 0; i < (wave.spawnCount + _nextWaveSpawnCountIncrease); i++)
             {
                 SpawnEnemy(wave.enemyTransforms[Random.Range(0, wave.enemyTransforms.Length)]);
-                yield return new WaitForSeconds(1f/wave.spawnRate);
+                yield return new WaitForSeconds(1f/(wave.spawnRate + currentRoundNumber));
             }
 
             // After all enemies spawned set spawn system state to waiting

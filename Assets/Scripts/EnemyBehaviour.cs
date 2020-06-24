@@ -1,4 +1,5 @@
-﻿using PillarOfLight;
+﻿using Enemy;
+using PillarOfLight;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -12,6 +13,7 @@ public class EnemyBehaviour : MonoBehaviour
     private Transform _pillarTransform;
     private NavMeshAgent _agent;
     private Animator _attackAnimation;
+    private WaveSpawner _waveSpawnedInformation;
 
     private PillarHealth _pillarHealth;
     private bool _readyToAttack;
@@ -32,10 +34,14 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Start()
     {
+        _waveSpawnedInformation = GameObject.Find("GM").GetComponent<WaveSpawner>();
+
         _agent = GetComponent<NavMeshAgent>();
         _attackAnimation = GetComponent<Animator>();
         
+        // Set destination to target and calculate speed of gent to increase as they beat more rounds
         _agent.SetDestination(_target.position);
+        _agent.speed += (_waveSpawnedInformation.currentRoundNumber * .2f);
     }
 
     private void Update()
