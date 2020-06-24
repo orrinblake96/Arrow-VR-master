@@ -12,6 +12,7 @@ namespace Enemy
         public Waves[] waves;
         public float timeBetweenWaves = 5f;
         public Transform[] spawnPoints;
+        public float currentRoundNumber = 1f;
 
         private int _nextWave = 0;
         private float _waveCountdown = 0f;
@@ -24,6 +25,7 @@ namespace Enemy
         {
             // begin countdown for spawning
             _waveCountdown = timeBetweenWaves;
+            
             _pillarOfLight = GameObject.Find("PillarOfLightTarget");
         }
 
@@ -71,6 +73,9 @@ namespace Enemy
             if (_nextWave + 1 > waves.Length - 1)
             {
                 _nextWave = 0;
+                
+                // Increase number of enemies spawned and the speed each agent moves
+                currentRoundNumber++;
                 _nextWaveSpawnCountIncrease += 2;
             }
             else
