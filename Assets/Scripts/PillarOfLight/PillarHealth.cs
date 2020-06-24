@@ -6,6 +6,7 @@ namespace PillarOfLight
     {
         public enum PillarState
         {
+            Idle,
             TakingDamage,
             Attacking,
             Destroyed
@@ -14,10 +15,11 @@ namespace PillarOfLight
         public float startingHealth = 100;
         public float currentHealth;
         public Material pillarOfLightMaterial;
+        public PillarState pillarState = PillarState.Idle;
 
         private float _pillarColor = 255f;
         private Material _pillarOfLightMaterialInstance;
-        
+
         private void Start()
         {
             // Make an instance of the material so its color changes back to white on Quitting
@@ -35,7 +37,9 @@ namespace PillarOfLight
             _pillarColor -= 25.5f;
             _pillarOfLightMaterialInstance.color = new Color(255f/255f, _pillarColor/255f, _pillarColor/255f, 1f);
 
-            if(currentHealth <= 0) Destroy(gameObject);
+            if (!(currentHealth <= 0)) return;
+            gameObject.SetActive(false);
+            print(pillarState);
         }
     }
 }

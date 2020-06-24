@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using PillarOfLight;
 using UnityEngine;
 
 namespace Enemy
@@ -17,15 +18,19 @@ namespace Enemy
         private float _nextWaveSpawnCountIncrease = 0f;
         private float _searchEnemyAliveCountdown = 1f;
         private SpawnState _state = SpawnState.Counting;
+        private GameObject _pillarOfLight;
 
         private void Start()
         {
             // begin countdown for spawning
             _waveCountdown = timeBetweenWaves;
+            _pillarOfLight = GameObject.Find("PillarOfLightTarget");
         }
 
         private void Update()
         {
+            if (!_pillarOfLight.activeSelf) return;
+            
             // if spawn system is waiting for enemies to be killed
             if (_state == SpawnState.Waiting)
             {
@@ -66,7 +71,7 @@ namespace Enemy
             if (_nextWave + 1 > waves.Length - 1)
             {
                 _nextWave = 0;
-                _nextWaveSpawnCountIncrease += 20;
+                _nextWaveSpawnCountIncrease += 2;
             }
             else
             {
