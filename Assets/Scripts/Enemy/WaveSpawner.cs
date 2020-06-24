@@ -12,7 +12,7 @@ namespace Enemy
         public Waves[] waves;
         public float timeBetweenWaves = 5f;
         public Transform[] spawnPoints;
-        public float currentRoundNumber = 1f;
+        public float currentRoundNumber = 0f;
 
         private int _nextWave = 0;
         private float _waveCountdown = 0f;
@@ -107,10 +107,11 @@ namespace Enemy
             _state = SpawnState.Spawning;
             
             // Spawn enemies at defined spawn-rate intervals
+            // Increase spawn rate with each round won by the player
             for (int i = 0; i < (wave.spawnCount + _nextWaveSpawnCountIncrease); i++)
             {
                 SpawnEnemy(wave.enemyTransforms[Random.Range(0, wave.enemyTransforms.Length)]);
-                yield return new WaitForSeconds(1f/wave.spawnRate);
+                yield return new WaitForSeconds(1f/(wave.spawnRate + currentRoundNumber));
             }
 
             // After all enemies spawned set spawn system state to waiting

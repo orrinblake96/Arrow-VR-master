@@ -4324,6 +4324,7 @@ MonoBehaviour:
   - {fileID: 1960453898}
   - {fileID: 2030289636}
   - {fileID: 14852768}
+  currentRoundNumber: 1
 --- !u!1001 &584344470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6482,7 +6483,7 @@ PrefabInstance:
     - target: {fileID: 8802840059554096955, guid: 089fd96df7df94b94a105e1573a2ffc9,
         type: 3}
       propertyPath: sounds.Array.data[3].volume
-      value: 0.125
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802840059554096955, guid: 089fd96df7df94b94a105e1573a2ffc9,
         type: 3}
