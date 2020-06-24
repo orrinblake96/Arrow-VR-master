@@ -69,7 +69,6 @@ namespace Enemy
             // Loop back to beginning if all waves completed
             _state = SpawnState.Counting;
             _waveCountdown = timeBetweenWaves;
-            print(_waveCountdown);
 
             if (_nextWave + 1 > waves.Length - 1)
             {
