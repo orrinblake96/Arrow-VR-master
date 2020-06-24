@@ -4324,7 +4324,7 @@ MonoBehaviour:
   - {fileID: 1960453898}
   - {fileID: 2030289636}
   - {fileID: 14852768}
-  currentRoundNumber: 1
+  currentRoundNumber: 0
 --- !u!1001 &584344470
 PrefabInstance:
   m_ObjectHideFlags: 0

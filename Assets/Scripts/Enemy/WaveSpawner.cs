@@ -10,7 +10,7 @@ namespace Enemy
         private enum SpawnState { Spawning, Waiting, Counting }
         
         public Waves[] waves;
-        public float timeBetweenWaves = 5f;
+        public float timeBetweenWaves = 4f;
         public Transform[] spawnPoints;
         public float currentRoundNumber = 0f;
 
@@ -69,14 +69,16 @@ namespace Enemy
             // Loop back to beginning if all waves completed
             _state = SpawnState.Counting;
             _waveCountdown = timeBetweenWaves;
+            print(_waveCountdown);
 
             if (_nextWave + 1 > waves.Length - 1)
             {
                 _nextWave = 0;
                 
-                // Increase number of enemies spawned and the speed each agent moves
+                // Increase number of enemies spawned, speed each agent moves & time waited before next wave 
                 currentRoundNumber++;
                 _nextWaveSpawnCountIncrease += 2;
+                if (timeBetweenWaves > 0) timeBetweenWaves -= 1;
             }
             else
             {
