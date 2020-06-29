@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 2152512817766891245}
   m_Layer: 10
   m_Name: Tip
-  m_TagString: Untagged
+  m_TagString: ArrowTip
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -257,6 +257,7 @@ GameObject:
   - component: {fileID: 3544760493190169588}
   - component: {fileID: 5138812402976862692}
   - component: {fileID: -3449734511533026241}
+  - component: {fileID: 202898120480862817}
   m_Layer: 10
   m_Name: Arrow
   m_TagString: Arrow
@@ -461,3 +462,17 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.004637705, y: 0.018935025, z: -0.00022897124}
     m_Extent: {x: 0.014995223, y: 0.4067287, z: 0.016995668}
   m_DirtyAABB: 0
+--- !u!64 &202898120480862817
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8542102953145869890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}

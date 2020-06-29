@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenuArea.unity
+    guid: ee93dfe42f46744b2a9af88ba8dbcb87
+  - enabled: 1
     path: Assets/Scenes/WaveBasedAltLayout.unity
     guid: 67033b40b982b48bf9d588a795c8ccd4
   m_configObjects: {}

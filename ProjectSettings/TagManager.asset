@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Pillar
   - WaveScoreBoard
+  - ArrowTip
   layers:
   - Default
   - TransparentFX

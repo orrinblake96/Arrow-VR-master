@@ -1,16 +1,25 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    public Animator fadeToNextLevelAnimator;
+    private static readonly int FadeToBlack = Animator.StringToHash("FadeToBlack");
 
-    // Update is called once per frame
-    private void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        //Reset scene for quick testing
-        if (OVRInput.GetDown(OVRInput.Button.Four) || Input.GetKeyDown(KeyCode.Space))
+        if (other.gameObject.CompareTag("ArrowTip"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            StartCoroutine(StartSelectedGameMode());
         }
+    }
+
+    private IEnumerator StartSelectedGameMode()
+    {
+        print("Fading");
+        fadeToNextLevelAnimator.SetBool(FadeToBlack, true);
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene( (SceneManager.GetActiveScene().buildIndex + 1 ) % 2);
     }
 }
