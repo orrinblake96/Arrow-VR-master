@@ -7,6 +7,7 @@ namespace Crate
     public class Crate : MonoBehaviour, IDamageable
     {
         public GameObject destroyedCrate;
+        public LevelManager levelManager;
 
         public void Damage(int amount)
         {
@@ -15,9 +16,11 @@ namespace Crate
 
         private void DestroyCrate()
         {
-            if (gameObject.name == "Wooden_Crate")
+            if (gameObject.name == "Crate")
             {
                 FindObjectOfType<AudioManager>().Play("WoodenBoxBreak");
+                print("Starting Wave Game----------------------------");
+                levelManager.StartSelectedGameMode("WaveBasedAltLayout");
             }
             else if((gameObject.name == "Whisky_Bottle"))
             {

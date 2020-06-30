@@ -1,6 +1,5 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using WaveBasedLevel;
 
 public class ArrowTipColorChecker : MonoBehaviour
