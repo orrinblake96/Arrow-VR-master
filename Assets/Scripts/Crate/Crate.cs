@@ -16,16 +16,18 @@ namespace Crate
 
         private void DestroyCrate()
         {
-            if (gameObject.name == "Crate")
+            switch (gameObject.name)
             {
-                FindObjectOfType<AudioManager>().Play("WoodenBoxBreak");
-                print("Starting Wave Game----------------------------");
-                levelManager.StartSelectedGameMode("WaveBasedAltLayout");
+                case "Crate":
+                    print("---------------------------- Wave Game ----------------------------");
+                    levelManager.StartSelectedGameMode("WaveBasedAltLayout");
+                    break;
+                case "MainMenuSign":
+                    print("---------------------------- Main Menu Area ----------------------------");
+                    levelManager.StartSelectedGameMode("MainMenuArea");
+                    break;
             }
-            else if((gameObject.name == "Whisky_Bottle"))
-            {
-                FindObjectOfType<AudioManager>().Play("GlassSmash");
-            }
+            FindObjectOfType<AudioManager>().Play("WoodenBoxBreak");
             Instantiate(destroyedCrate, transform.position, transform.rotation);
             Destroy(gameObject);
         }

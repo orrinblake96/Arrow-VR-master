@@ -774,9 +774,6 @@
             <e p="WaveSpawner.cs" t="Include" />
           </e>
           <e p="LevelManager.cs" t="Include" />
-          <e p="MainMenu" t="Include">
-            <e p="StartWaveMiniGame.cs" t="Include" />
-          </e>
           <e p="OculusInput.cs" t="Include" />
           <e p="PillarOfLight" t="Include">
             <e p="PillarHealth.cs" t="Include" />

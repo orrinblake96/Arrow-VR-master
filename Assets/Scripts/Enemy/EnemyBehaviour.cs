@@ -1,116 +1,127 @@
-﻿using Enemy;
+﻿using System.Collections;
 using PillarOfLight;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyBehaviour : MonoBehaviour
+namespace Enemy
 {
-    public float rotationSpeed = 10f;
-
-    private GameObject _pillar;
-    private Transform _target;
-    private Transform[] _attackPositions;
-    private Transform _pillarTransform;
-    private NavMeshAgent _agent;
-    private Animator _attackAnimation;
-    private WaveSpawner _waveSpawnedInformation;
-
-    private PillarHealth _pillarHealth;
-    private bool _readyToAttack;
-    private static readonly int IsAttacking = Animator.StringToHash("IsAttacking");
-    private static readonly int IsCelebrating = Animator.StringToHash("IsCelebrating");
-
-    private void Awake()
+    public class EnemyBehaviour : MonoBehaviour
     {
-        _pillar = GameObject.FindGameObjectWithTag("Pillar");
-        _pillarTransform = _pillar.transform;
-        _pillarHealth = _pillar.GetComponent<PillarHealth>();
+        public float rotationSpeed = 10f;
+        public GameObject fracturedSelf;
+
+        private GameObject _pillar;
+        private Transform _target;
+        private Transform[] _attackPositions;
+        private Transform _pillarTransform;
+        private NavMeshAgent _agent;
+        private Animator _attackAnimation;
+        private WaveSpawner _waveSpawnedInformation;
+
+        private PillarHealth _pillarHealth;
+        private bool _readyToAttack;
+        private static readonly int IsAttacking = Animator.StringToHash("IsAttacking");
+        private static readonly int IsCelebrating = Animator.StringToHash("IsCelebrating");
+
+        private void Awake()
+        {
+            _pillar = GameObject.FindGameObjectWithTag("Pillar");
+            _pillarTransform = _pillar.transform;
+            _pillarHealth = _pillar.GetComponent<PillarHealth>();
         
-        // Pass all attack positions and returns closest 
-        _attackPositions = new Transform[3] {GameObject.Find("RedAttackPos").transform, GameObject.Find("GreenAttackPos").transform, GameObject.Find("BlueAttackPos").transform};
-        _target = GetClosestAttackPosition(_attackPositions);
+            // Pass all attack positions and returns closest 
+            _attackPositions = new Transform[3] {GameObject.Find("RedAttackPos").transform, GameObject.Find("GreenAttackPos").transform, GameObject.Find("BlueAttackPos").transform};
+            _target = GetClosestAttackPosition(_attackPositions);
 
-    }
+        }
 
-    private void Start()
-    {
-        _waveSpawnedInformation = GameObject.Find("GM").GetComponent<WaveSpawner>();
+        private void Start()
+        {
+            _waveSpawnedInformation = GameObject.Find("GM").GetComponent<WaveSpawner>();
 
-        _agent = GetComponent<NavMeshAgent>();
-        _attackAnimation = GetComponent<Animator>();
+            _agent = GetComponent<NavMeshAgent>();
+            _attackAnimation = GetComponent<Animator>();
         
-        // Set destination to target and calculate speed of gent to increase as they beat more rounds
-        _agent.SetDestination(_target.position);
-        _agent.speed += (_waveSpawnedInformation.currentRoundNumber * .2f);
-    }
+            // Set destination to target and calculate speed of gent to increase as they beat more rounds
+            _agent.SetDestination(_target.position);
+            _agent.speed += (_waveSpawnedInformation.currentRoundNumber * .2f);
+        }
 
-    private void Update()
-    {
-        // When enemies reach navmesh location they should attack
-        if (!_readyToAttack)
+        private void Update()
         {
-            MovingTowardsTarget();
-            return;
-        }
-        else
-        {
-            RotateTowardsTargetWhileAttacking();   
-        }
-    }
-    
-    private Transform GetClosestAttackPosition(Transform[] attackPositions)
-    {
-        Transform closestAttackPosition = null;
-        float minDist = Mathf.Infinity;
-        Vector3 currentPos = transform.position;
-        foreach (Transform attackPosition in attackPositions)
-        {
-            float dist = Vector3.Distance(attackPosition.position, currentPos);
-            if (dist < minDist)
+            if (!_pillar.activeSelf)
             {
-                closestAttackPosition = attackPosition;
-                minDist = dist;
+                _attackAnimation.SetBool(IsCelebrating, true);
+                StartCoroutine(SelfDestroy());
+            }
+            else
+            {
+                // When enemies reach navmesh location they should attack
+                if (!_readyToAttack)
+                {
+                    MovingTowardsTarget();
+                    return;
+                }
+
+                RotateTowardsTargetWhileAttacking();   
             }
         }
-        return closestAttackPosition;
-    }
-
-    private void MovingTowardsTarget()
-    {
-        if (!_agent.pathPending)
+    
+        private Transform GetClosestAttackPosition(Transform[] attackPositions)
         {
-            if (_agent.remainingDistance <= _agent.stoppingDistance)
+            Transform closestAttackPosition = null;
+            float minDist = Mathf.Infinity;
+            Vector3 currentPos = transform.position;
+            foreach (Transform attackPosition in attackPositions)
             {
-                if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
+                float dist = Vector3.Distance(attackPosition.position, currentPos);
+                if (dist < minDist)
                 {
-                    _readyToAttack = true;
-                    _attackAnimation.SetBool(IsAttacking, true);
-                    Debug.Log("Arrived");
+                    closestAttackPosition = attackPosition;
+                    minDist = dist;
+                }
+            }
+            return closestAttackPosition;
+        }
+
+        private void MovingTowardsTarget()
+        {
+            if (!_agent.pathPending)
+            {
+                if (_agent.remainingDistance <= _agent.stoppingDistance)
+                {
+                    if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
+                    {
+                        _readyToAttack = true;
+                        _attackAnimation.SetBool(IsAttacking, true);
+                    }
                 }
             }
         }
-    }
 
-    private void RotateTowardsTargetWhileAttacking()
-    {
-        if (_pillar == null) return;
-        Vector3 direction = (_pillarTransform.position - transform.position).normalized;
-        Quaternion lookRotation = Quaternion.LookRotation(direction);
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
-    }
-    
-    // Called as an animation event on swinging animation
-    public void AttackPillar()
-    {
-        // Attack Pillar while it has health
-        if (_pillarHealth.currentHealth > 0)
+        private void RotateTowardsTargetWhileAttacking()
         {
-            _pillarHealth.DamageTaken();
+            if (_pillar == null) return;
+            Vector3 direction = (_pillarTransform.position - transform.position).normalized;
+            Quaternion lookRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
         }
-        else
+
+        private IEnumerator SelfDestroy()
         {
-            // Celebrate a glorious victory
-            _attackAnimation.SetBool(IsCelebrating, true);
+            yield return  new WaitForSeconds(1.5f);
+            Instantiate(fracturedSelf, transform.position, transform.rotation);
+            Destroy(gameObject);
+        } 
+    
+        // Called as an animation event on swinging animation
+        public void AttackPillar()
+        {
+            // Attack Pillar while it has health
+            if (_pillarHealth.currentHealth > 0)
+            {
+                _pillarHealth.DamageTaken();
+            }
         }
     }
 }

@@ -10,6 +10,7 @@ public class Arrow : MonoBehaviour
     public Transform m_Tip = null;
     public CapsuleCollider TipCollider;
     public LayerMask layerToIgnore;
+    public bool enableTrailRenderer;
     
     private TrailRenderer _trailRenderer;
     private Rigidbody _mRigidbody = null;
@@ -95,9 +96,9 @@ public class Arrow : MonoBehaviour
         _mRigidbody.AddForce(transform.forward * (pullValue * m_Speed));
             
         //Add Trail to see better
-        _trailRenderer.enabled = true;
+        if(enableTrailRenderer) _trailRenderer.enabled = true;
             
-        //after 5 seconds, remove arrow (scene management, overloading scenes)
+        //after 12 seconds, remove arrow (scene management, overloading scenes)
         Destroy(gameObject, 12.0f);
     }
 

@@ -298,6 +298,7 @@ MonoBehaviour:
   layerToIgnore:
     serializedVersion: 2
     m_Bits: 823
+  enableTrailRenderer: 1
 --- !u!54 &3544760493190169588
 Rigidbody:
   m_ObjectHideFlags: 0
