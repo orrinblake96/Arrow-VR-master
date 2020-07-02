@@ -15420,7 +15420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &7803493371100128603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15436,6 +15436,7 @@ MonoBehaviour:
   destroyedCrate: {fileID: 623735479542890676, guid: 50dbdf3251a1f4722b11e914c51e48a5,
     type: 3}
   levelManager: {fileID: 892963392}
+  levelChosen: MainMenuArea
 --- !u!54 &7803493371100128604
 Rigidbody:
   m_ObjectHideFlags: 0

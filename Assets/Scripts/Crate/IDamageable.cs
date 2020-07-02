@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-
-namespace _BowAndArrow.Scripts.Crate
+﻿namespace Crate
 {
    public interface IDamageable
    {

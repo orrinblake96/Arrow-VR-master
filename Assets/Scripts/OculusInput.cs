@@ -1,4 +1,4 @@
-﻿using _BowAndArrow.Scripts;
+﻿using BowArrow;
 using UnityEngine;
 
 public class OculusInput : MonoBehaviour

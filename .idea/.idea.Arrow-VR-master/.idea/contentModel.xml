@@ -756,17 +756,20 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Arrow.cs" t="Include" />
-          <e p="ArrowTipColorChecker.cs" t="Include" />
-          <e p="AudioManager.cs" t="Include" />
-          <e p="Bow.cs" t="Include" />
-          <e p="CleanSceneBrokenModels.cs" t="Include" />
-          <e p="ColoredCubeInfo.cs" t="Include" />
+          <e p="Audio" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+            <e p="Sound.cs" t="Include" />
+          </e>
+          <e p="BowArrow" t="Include">
+            <e p="Arrow.cs" t="Include" />
+            <e p="Bow.cs" t="Include" />
+          </e>
           <e p="Crate" t="Include">
+            <e p="CleanSceneBrokenModels.cs" t="Include" />
             <e p="Crate.cs" t="Include" />
+            <e p="CrateSpawner.cs" t="Include" />
             <e p="IDamageable.cs" t="Include" />
           </e>
-          <e p="CrateSpawner.cs" t="Include" />
           <e p="Enemy" t="Include">
             <e p="CleanFracturedPieces.cs" t="Include" />
             <e p="EnemyBehaviour.cs" t="Include" />
@@ -778,11 +781,16 @@
           <e p="PillarOfLight" t="Include">
             <e p="PillarHealth.cs" t="Include" />
           </e>
-          <e p="Sound.cs" t="Include" />
+          <e p="TargetShooterMiniGame" t="Include">
+            <e p="SpawnTargets.cs" t="Include" />
+            <e p="TargetHealth.cs" t="Include" />
+          </e>
           <e p="ToonShader" t="Include">
             <e p="Toon.shader" t="Include" />
           </e>
           <e p="WaveBasedLevel" t="Include">
+            <e p="ArrowTipColorChecker.cs" t="Include" />
+            <e p="ColoredCubeInfo.cs" t="Include" />
             <e p="WaveScore.cs" t="Include" />
           </e>
         </e>

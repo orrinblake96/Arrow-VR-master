@@ -1,5 +1,4 @@
-﻿using _BowAndArrow.Scripts;
-using _BowAndArrow.Scripts.Crate;
+﻿using Audio;
 using UnityEngine;
 
 namespace Crate
@@ -8,6 +7,7 @@ namespace Crate
     {
         public GameObject destroyedCrate;
         public LevelManager levelManager;
+        public string levelChosen;
 
         public void Damage(int amount)
         {
@@ -16,17 +16,7 @@ namespace Crate
 
         private void DestroyCrate()
         {
-            switch (gameObject.name)
-            {
-                case "Crate":
-                    print("---------------------------- Wave Game ----------------------------");
-                    levelManager.StartSelectedGameMode("WaveBasedAltLayout");
-                    break;
-                case "MainMenuSign":
-                    print("---------------------------- Main Menu Area ----------------------------");
-                    levelManager.StartSelectedGameMode("MainMenuArea");
-                    break;
-            }
+            levelManager.StartSelectedGameMode(levelChosen);
             FindObjectOfType<AudioManager>().Play("WoodenBoxBreak");
             Instantiate(destroyedCrate, transform.position, transform.rotation);
             Destroy(gameObject);
