@@ -5,7 +5,8 @@ namespace TargetShooterMiniGame
     public class GameOver : MonoBehaviour
     {
         public  TargetDestructionTimer timer;
-        public GameObject menu;
+        public GameObject exitSign;
+        public GameObject replaySign;
         
         private bool _timerStopped;
 
@@ -15,7 +16,8 @@ namespace TargetShooterMiniGame
             if (gameObject.transform.childCount > 0 || _timerStopped) return;
             _timerStopped = true;
             timer.StopTimer();
-            menu.SetActive(true);
+            exitSign.SetActive(true);
+            replaySign.SetActive(true);
         }
     }
 }
