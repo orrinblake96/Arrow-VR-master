@@ -16,6 +16,7 @@ namespace PillarOfLight
         public float currentHealth;
         public Material pillarOfLightMaterial;
         public PillarState pillarState = PillarState.Idle;
+        public GameObject mainMenuSign;
 
         private float _pillarColor = 255f;
         private Material _pillarOfLightMaterialInstance;
@@ -38,8 +39,9 @@ namespace PillarOfLight
             _pillarOfLightMaterialInstance.color = new Color(255f/255f, _pillarColor/255f, _pillarColor/255f, 1f);
 
             if (!(currentHealth <= 0)) return;
+            if(mainMenuSign) mainMenuSign.SetActive(true);
+            print("*********>>>>>>>> Main Menu Active <<<<<<<<<<************");
             gameObject.SetActive(false);
-            print(pillarState);
         }
     }
 }

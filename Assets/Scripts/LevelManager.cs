@@ -1,16 +1,23 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    public Animator fadeToNextLevelAnimator;
+    private static readonly int FadeToBlack = Animator.StringToHash("FadeToBlack");
 
-    // Update is called once per frame
-    private void Update()
+    public void StartSelectedGameMode(string levelName)
     {
-        //Reset scene for quick testing
-        if (OVRInput.GetDown(OVRInput.Button.Four) || Input.GetKeyDown(KeyCode.Space))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+        print("******************************** SCENE CHNAGE ********************************");
+        if(fadeToNextLevelAnimator) fadeToNextLevelAnimator.SetBool(FadeToBlack, true);
+        StartCoroutine(LoadNextLevel(levelName));
+    }
+
+    private IEnumerator LoadNextLevel(string levelName)
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadSceneAsync(levelName);
     }
 }

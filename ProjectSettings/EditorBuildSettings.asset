@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenuArea.unity
+    guid: ee93dfe42f46744b2a9af88ba8dbcb87
+  - enabled: 1
+    path: Assets/Scenes/TargetMiniGame.unity
+    guid: 6bfb144b47ead44b69e415bd85fe9ba0
+  - enabled: 1
     path: Assets/Scenes/WaveBasedAltLayout.unity
     guid: 67033b40b982b48bf9d588a795c8ccd4
+  - enabled: 1
+    path: Assets/Scenes/AccuracyMiniGame.unity
+    guid: cddcfdbff7bfa4b63b9c9797f9e168a0
   m_configObjects: {}

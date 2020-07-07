@@ -414,6 +414,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 10
+  fracturedSelf: {fileID: 9222215353654509073, guid: daad6f1c4839543c0935dcd40030396b,
+    type: 3}
 --- !u!195 &1689029500
 NavMeshAgent:
   m_ObjectHideFlags: 0

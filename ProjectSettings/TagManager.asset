@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Pillar
   - WaveScoreBoard
+  - ArrowTip
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - NavMeshWalkable
   - Arrow
   - Enemy
-  - 
+  - MenuSigns
   - 
   - 
   - 

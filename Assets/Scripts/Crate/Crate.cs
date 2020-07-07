@@ -1,5 +1,4 @@
-﻿using _BowAndArrow.Scripts;
-using _BowAndArrow.Scripts.Crate;
+﻿using Audio;
 using UnityEngine;
 
 namespace Crate
@@ -7,6 +6,8 @@ namespace Crate
     public class Crate : MonoBehaviour, IDamageable
     {
         public GameObject destroyedCrate;
+        public LevelManager levelManager;
+        public string levelChosen;
 
         public void Damage(int amount)
         {
@@ -15,14 +16,8 @@ namespace Crate
 
         private void DestroyCrate()
         {
-            if (gameObject.name == "Wooden_Crate")
-            {
-                FindObjectOfType<AudioManager>().Play("WoodenBoxBreak");
-            }
-            else if((gameObject.name == "Whisky_Bottle"))
-            {
-                FindObjectOfType<AudioManager>().Play("GlassSmash");
-            }
+            levelManager.StartSelectedGameMode(levelChosen);
+            FindObjectOfType<AudioManager>().Play("WoodenBoxBreak");
             Instantiate(destroyedCrate, transform.position, transform.rotation);
             Destroy(gameObject);
         }
