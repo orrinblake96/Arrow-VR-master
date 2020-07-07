@@ -784,6 +784,7 @@
           <e p="TargetShooterMiniGame" t="Include">
             <e p="SpawnTargets.cs" t="Include" />
             <e p="TargetHealth.cs" t="Include" />
+            <e p="TargetScore.cs" t="Include" />
           </e>
           <e p="ToonShader" t="Include">
             <e p="Toon.shader" t="Include" />

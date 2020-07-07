@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 367645684}
-  m_IndirectSpecularColor: {r: 0.8272455, g: 0.62599355, b: 0.7292444, a: 1}
+  m_IndirectSpecularColor: {r: 0.82916087, g: 0.6255657, b: 0.74774295, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -138,6 +138,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ae5d840bd2bc8be4aa3a8d5ccd18fc2e, type: 3}
       propertyPath: m_Name
       value: model_polytope_logs (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ae5d840bd2bc8be4aa3a8d5ccd18fc2e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ae5d840bd2bc8be4aa3a8d5ccd18fc2e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -327,6 +331,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8f065bb833a5166439a1e8c4fd6b2dfd, type: 3}
       propertyPath: m_Name
       value: model_polytope_rock_large01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f065bb833a5166439a1e8c4fd6b2dfd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f065bb833a5166439a1e8c4fd6b2dfd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -520,6 +528,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b56fea26085a13546a6eb0823c78a97c, type: 3}
       propertyPath: m_Name
       value: model_polytope_wood_bridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b56fea26085a13546a6eb0823c78a97c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b56fea26085a13546a6eb0823c78a97c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -781,6 +793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: model_polytope_tree07
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2320a8f100ec79841b061f3adb96e741, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2320a8f100ec79841b061f3adb96e741, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.79
@@ -855,6 +871,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ae5d840bd2bc8be4aa3a8d5ccd18fc2e, type: 3}
       propertyPath: m_Name
       value: model_polytope_logs (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ae5d840bd2bc8be4aa3a8d5ccd18fc2e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ae5d840bd2bc8be4aa3a8d5ccd18fc2e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1004,6 +1024,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ae5d840bd2bc8be4aa3a8d5ccd18fc2e, type: 3}
       propertyPath: m_Name
       value: model_polytope_logs
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ae5d840bd2bc8be4aa3a8d5ccd18fc2e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ae5d840bd2bc8be4aa3a8d5ccd18fc2e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1156,6 +1180,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a36066eeb11bb4a8b8e90b52c5b4ab30, type: 2}
+    - target: {fileID: -6438598864353525902, guid: d49e026fd363143ad9f521a4d663540a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -4468058623072152678, guid: d49e026fd363143ad9f521a4d663540a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1174,22 +1208,22 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.01559252
+      value: 0.025500786
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9989128
+      value: 0.95893526
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.03979908
+      value: -0.03430463
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.018605888
+      value: 0.28038564
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
@@ -1204,7 +1238,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 177.934
+      value: 147.47101
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
@@ -1226,6 +1260,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83269066
       objectReference: {fileID: 0}
+    - target: {fileID: -2841995488811331724, guid: d49e026fd363143ad9f521a4d663540a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_Name
@@ -1236,11 +1275,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d49e026fd363143ad9f521a4d663540a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1370317455370269502, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 25857d48adc5c45c5ac68729dd1048ae, type: 2}
+    - target: {fileID: 2092831448347260655, guid: d49e026fd363143ad9f521a4d663540a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3385852205361903154, guid: d49e026fd363143ad9f521a4d663540a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1444,6 +1493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: model_polytope_rock_tall02
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33d5f5fadf64cc541949d4534b848171, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33d5f5fadf64cc541949d4534b848171, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.06744
@@ -1514,6 +1567,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3e156a4d0bbdbe844a8f4c897c305a6b, type: 3}
       propertyPath: m_Name
       value: model_polytope_mushroom03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3e156a4d0bbdbe844a8f4c897c305a6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3e156a4d0bbdbe844a8f4c897c305a6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1758,13 +1815,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367645682}
-  m_LocalRotation: {x: -0.13372909, y: -0.9171661, z: 0.29972216, w: 0.22602996}
+  m_LocalRotation: {x: 0.041952156, y: -0.7970259, z: 0.35586962, w: 0.48615485}
   m_LocalPosition: {x: 9.014877, y: 5.9, z: -14.830841}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 29.297, y: -865.435, z: 25.890001}
+  m_LocalEulerAnglesHint: {x: 37.45, y: -830.192, z: 20.586}
 --- !u!4 &383540278 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 422740, guid: ba1fa4a8c66106b4988c88fe4b8e8502,
@@ -1788,7 +1845,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &385408245
 RectTransform:
@@ -1994,6 +2051,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e2686d321983e2f4d8313c111b1af0fd, type: 3}
       propertyPath: m_Name
       value: model_polytope_tree08
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e2686d321983e2f4d8313c111b1af0fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e2686d321983e2f4d8313c111b1af0fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2466,6 +2527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: model_polytope_mushroom01
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8bc5ac77780ca2a498ef33b7255c683b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8bc5ac77780ca2a498ef33b7255c683b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.19
@@ -2775,6 +2840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: model_polytope_rock_flat02
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e2c4ae29b57b8444685fe2363b1c1b35, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e2c4ae29b57b8444685fe2363b1c1b35, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47.600002
@@ -2950,6 +3019,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 7517e58c2db3c514497c24fffb2f99a5, type: 3}
       propertyPath: m_Name
       value: model_polytope_fence_gate
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7517e58c2db3c514497c24fffb2f99a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7517e58c2db3c514497c24fffb2f99a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3858,7 +3931,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &979449194
 RectTransform:
@@ -4007,6 +4080,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 71d3811e4bd03b649a0bae64e519241e, type: 3}
       propertyPath: m_Name
       value: model_polytope_rock_large02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 71d3811e4bd03b649a0bae64e519241e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 71d3811e4bd03b649a0bae64e519241e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4295,6 +4372,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c6217e02b727c4a4dbef75a66ea23513, type: 3}
       propertyPath: m_Name
       value: model_stairs_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c6217e02b727c4a4dbef75a66ea23513, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6217e02b727c4a4dbef75a66ea23513, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5054,6 +5135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: model_polytope_tree02
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b662209aa6a377f48b03c6d201ce7866, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b662209aa6a377f48b03c6d201ce7866, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.176754
@@ -5159,7 +5244,7 @@ GameObject:
   m_TagString: WaveScoreBoard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &1442191276
 RectTransform:
@@ -5189,7 +5274,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1442191275}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e195913da71942879aaf2e3ee7aa85d, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e5bebfb447e1429ba3533543adc5c28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1442191278
@@ -5600,6 +5685,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 601c2c203ada3bf4b830a92d2fbf35b6, type: 3}
       propertyPath: m_Name
       value: model_polytope_rock_tall01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 601c2c203ada3bf4b830a92d2fbf35b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 601c2c203ada3bf4b830a92d2fbf35b6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6833,6 +6922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: model_polytope_tree03
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 67220651034e5d64787336d0c40bc11e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 67220651034e5d64787336d0c40bc11e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.526756
@@ -7007,7 +7100,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1290102890421742
 GameObject:
@@ -7025,7 +7118,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1422187840254410
 GameObject:
@@ -7044,7 +7137,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1453549754716590
 GameObject:
@@ -7063,7 +7156,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4210672212676636
 Transform:
@@ -7441,7 +7534,7 @@ PrefabInstance:
     - target: {fileID: 992838060049327151, guid: d57a732c7edf342db9d830770cc5877b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.77
+      value: -0.17
       objectReference: {fileID: 0}
     - target: {fileID: 992838060859735741, guid: d57a732c7edf342db9d830770cc5877b,
         type: 3}
@@ -7632,7 +7725,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3424888638207758801
 Transform:
