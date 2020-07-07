@@ -1,17 +1,11 @@
-﻿using System;
-using Crate;
+﻿using Crate;
 using UnityEngine;
 
 namespace TargetShooterMiniGame
 {
     public class TargetHealth : MonoBehaviour, IDamageable
     {
-        private TargetScore _targetScore;
-
-        private void Start()
-        {
-            _targetScore = GameObject.Find("ScorenumberTMP").GetComponent<TargetScore>();
-        }
+        public GameObject explosionParticles;
 
         public void Damage(int amount)
         {
@@ -20,9 +14,8 @@ namespace TargetShooterMiniGame
 
         private void DestroyCrate()
         {
-            _targetScore.IncreaseCurrentScore();
-            print("Score");
-            Destroy(gameObject);
+            Instantiate(explosionParticles, transform.position, transform.rotation);
+            Destroy(gameObject.transform.parent.gameObject);
         }
     }
 }
