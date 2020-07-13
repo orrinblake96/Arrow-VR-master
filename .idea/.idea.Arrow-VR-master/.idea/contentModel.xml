@@ -831,7 +831,11 @@
             <e p="PillarHealth.cs" t="Include" />
           </e>
           <e p="TargetShooterMiniGame" t="Include">
+            <e p="DestroyParticles.cs" t="Include" />
+            <e p="GameOver.cs" t="Include" />
             <e p="SpawnTargets.cs" t="Include" />
+            <e p="StartGame.cs" t="Include" />
+            <e p="TargetDestructionTimer.cs" t="Include" />
             <e p="TargetHealth.cs" t="Include" />
             <e p="TargetMovement.cs" t="Include" />
             <e p="TargetScore.cs" t="Include" />

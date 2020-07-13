@@ -4,9 +4,10 @@
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Target.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Target.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,10 +26,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRSceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/CleanSceneBrokenModels.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Arrow.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/CrateSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/DestroyParticles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" root0="FORCE_HIGHLIGHTING" />
@@ -42,9 +45,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonsterBlue.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonsterRed.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Sound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/WaveBasedArena.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,8 +60,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Blue.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/ArrowTipColorChecker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -98,9 +104,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/CrateSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/IDamageable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/DestroyParticles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" />
       </list>
@@ -182,7 +194,9 @@
       <workItem from="1593432780418" duration="6263000" />
       <workItem from="1593508311814" duration="13812000" />
       <workItem from="1593613247398" duration="7622000" />
-      <workItem from="1594112700969" duration="5168000" />
+      <workItem from="1594112700969" duration="11258000" />
+      <workItem from="1594402163496" duration="1779000" />
+      <workItem from="1594635555352" duration="3516000" />
     </task>
     <servers />
   </component>
