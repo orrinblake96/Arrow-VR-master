@@ -2,72 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BNG Framework/Prefabs/Breakable.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BNG Framework/Prefabs/Breakable.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BNG Framework/Sounds.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BNG Framework/Sounds/shatter.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BNG Framework/Sounds/shatter.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BNG Framework/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BNG Framework/Textures/emissive.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BNG Framework/Textures/emissive.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/BoardHeightMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/BoardHeightMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/BoardMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/BoardMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/BoardNormalMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/BoardNormalMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/BoardTexture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/BoardTexture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/RopeHeightMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/RopeHeightMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/RopeMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/RopeMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/RopeNormalMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/RopeNormalMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/RopeTexture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/RopeTexture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/SignStandHeightMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/SignStandHeightMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/SignStandMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/SignStandMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/SignStandNormalMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/SignStandNormalMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/SignStandtexture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/Textures/SignStandtexture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/WoodenScoreSign.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/PlayerScoreWoodenSign/WoodenScoreSign.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Arrow.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Arrow.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AudioManager.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AudioManager.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Blue.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Blue.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bow.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bow.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CubeInfo.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CubeInfo.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Green.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Green.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainMenuArrow.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainMenuArrow.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NonColorArrow.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NonColorArrow.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Red.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Red.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shootable Test Objects.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shootable Test Objects.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Whisky_Bottle_Cracked.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Whisky_Bottle_Cracked.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WoodenCrateCracked.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WoodenCrateCracked.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Wooden_Crate.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Wooden_Crate.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/CrateSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/DestroyParticles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" root0="FORCE_HIGHLIGHTING" />
@@ -166,13 +107,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/DestroyParticles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" />
       </list>
     </option>
   </component>
@@ -254,6 +196,7 @@
       <workItem from="1593613247398" duration="7622000" />
       <workItem from="1594112700969" duration="11258000" />
       <workItem from="1594402163496" duration="1779000" />
+      <workItem from="1594635555352" duration="3516000" />
     </task>
     <servers />
   </component>
