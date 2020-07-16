@@ -11,6 +11,7 @@ namespace BowArrow
         public Transform m_Start = null;
         public Transform m_End = null;
         public Transform m_Socket = null;
+        public OculusInput oculusInput;
 
         private Transform m_PullingHand = null;
         private Arrow m_CurrentArrow = null;
@@ -41,7 +42,7 @@ namespace BowArrow
             _vibrateAmount = Mathf.Clamp(_vibrateAmount, 0.2f, 0.8f);
             
             m_Animator.SetFloat(Blend, m_PullValue);
-            OVRInput.SetControllerVibration(_vibrateAmount, _vibrateAmount, OVRInput.Controller.RTouch);
+            OVRInput.SetControllerVibration(_vibrateAmount, _vibrateAmount, oculusInput.m_Controller[oculusInput.dominantHandIndex]);
         }
 
         private float CalculatePull(Transform pullHand)

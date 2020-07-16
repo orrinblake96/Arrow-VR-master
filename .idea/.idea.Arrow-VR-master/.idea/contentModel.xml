@@ -812,6 +812,7 @@
           <e p="BowArrow" t="Include">
             <e p="Arrow.cs" t="Include" />
             <e p="Bow.cs" t="Include" />
+            <e p="DontDestoryBow.cs" t="Include" />
           </e>
           <e p="Crate" t="Include">
             <e p="CleanSceneBrokenModels.cs" t="Include" />
