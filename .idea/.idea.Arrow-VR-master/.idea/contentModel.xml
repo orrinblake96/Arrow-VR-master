@@ -846,6 +846,7 @@
           <e p="WaveBasedLevel" t="Include">
             <e p="ArrowTipColorChecker.cs" t="Include" />
             <e p="ColoredCubeInfo.cs" t="Include" />
+            <e p="StartGame.cs" t="Include" />
             <e p="WaveScore.cs" t="Include" />
           </e>
         </e>
