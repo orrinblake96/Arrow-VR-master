@@ -244,6 +244,10 @@ MonoBehaviour:
     type: 3}
   fracturedEnemyBlue: {fileID: 9222215353654509073, guid: 0bc1873bd358a42bc8737380ea47bad4,
     type: 3}
+  explosionParticles:
+  - {fileID: 3007342358901346101, guid: 9b8a59bf08e434987a4e23e73bf8d8b0, type: 3}
+  - {fileID: 3007342358901346101, guid: f3e07bb18c8ce4c3d8ca0e0bba60348d, type: 3}
+  - {fileID: 3007342358901346101, guid: a8a129f7493b445539f011bf6f75fb8c, type: 3}
 --- !u!1 &8542102953145869890
 GameObject:
   m_ObjectHideFlags: 0

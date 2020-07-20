@@ -8,6 +8,7 @@ public class ArrowTipColorChecker : MonoBehaviour
     public ColoredCubeInfo colorInfoNum;
     public MeshRenderer shaftColor;
     public GameObject fracturedEnemyRed, fracturedEnemyGreen, fracturedEnemyBlue;
+    public GameObject[] explosionParticles;
 
     private MeshRenderer _tipColor;
     private SkinnedMeshRenderer _cubeColor;
@@ -22,7 +23,7 @@ public class ArrowTipColorChecker : MonoBehaviour
     {
         _tipColor = GetComponent<MeshRenderer>();
         _waveScoreBoard = GameObject.FindGameObjectWithTag("WaveScoreBoard").GetComponent<WaveScore>();
-        
+
 //        _arrowInfoText = GameObject.Find("Canvas/ArrowInfoText").GetComponent<Text>();
 //        _colorMatchText = GameObject.Find("Canvas/ColorMatch").GetComponent<Text>();
 
@@ -32,7 +33,6 @@ public class ArrowTipColorChecker : MonoBehaviour
     private void Start()
     {
 //        _arrowInfoText.text = "Arrow Color: " + _tipColor.material.color.ToString();
-
         _currentMaterial = colorInfoNum.currentMaterialPosition;
         _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
         _tipColor.material = _currentMaterialColor;
@@ -66,15 +66,15 @@ public class ArrowTipColorChecker : MonoBehaviour
             
             if (_cubeColor.material.color.r == 1)
             {
-                Instantiate(fracturedEnemyRed, transform.position + Vector3.up, transform.rotation);   
+                Instantiate(explosionParticles[0], transform.position + Vector3.up, transform.rotation);
             }
             if (_cubeColor.material.color.g == 1)
             {
-                Instantiate(fracturedEnemyGreen, transform.position + Vector3.up, transform.rotation);   
+                Instantiate(explosionParticles[1], transform.position + Vector3.up, transform.rotation);
             }
             if (_cubeColor.material.color.b == 1)
             {
-                Instantiate(fracturedEnemyBlue, transform.position + Vector3.up, transform.rotation);   
+                Instantiate(explosionParticles[2], transform.position + Vector3.up, transform.rotation);
             }
             
             _waveScoreBoard.IncreaseCurrentScore();
