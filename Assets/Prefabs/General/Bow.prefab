@@ -339,7 +339,7 @@ Transform:
   m_GameObject: {fileID: 2589571369817754473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children:
   - {fileID: 3516702919244251197}
   - {fileID: 188689376331940377}
@@ -387,6 +387,7 @@ MonoBehaviour:
   m_Start: {fileID: 320107371}
   m_End: {fileID: 463045334}
   m_Socket: {fileID: 1872672291559342736}
+  oculusInput: {fileID: 0}
 --- !u!1 &2938454372705689396
 GameObject:
   m_ObjectHideFlags: 0

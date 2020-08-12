@@ -826,6 +826,9 @@
             <e p="WaveSpawner.cs" t="Include" />
           </e>
           <e p="LevelManager.cs" t="Include" />
+          <e p="MainMenu" t="Include">
+            <e p="RespawnTargets.cs" t="Include" />
+          </e>
           <e p="OculusInput.cs" t="Include" />
           <e p="PillarOfLight" t="Include">
             <e p="PillarHealth.cs" t="Include" />
@@ -847,6 +850,7 @@
             <e p="ArrowTipColorChecker.cs" t="Include" />
             <e p="ColoredCubeInfo.cs" t="Include" />
             <e p="StartGame.cs" t="Include" />
+            <e p="TimeController.cs" t="Include" />
             <e p="WaveScore.cs" t="Include" />
           </e>
         </e>

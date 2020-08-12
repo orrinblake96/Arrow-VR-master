@@ -65,7 +65,7 @@ namespace BowArrow
             GameObject arrowObject = Instantiate(m_ArrowPrefab, m_Socket);
 
             //orient
-            arrowObject.transform.localPosition = new Vector3(0, 0, 0.6274f);
+            arrowObject.transform.localPosition = new Vector3(0, 0, 0.4235f);
             arrowObject.transform.localEulerAngles = Vector3.zero;
 
             //set

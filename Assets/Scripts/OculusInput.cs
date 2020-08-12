@@ -13,6 +13,8 @@ public class OculusInput : MonoBehaviour
     [HideInInspector]
     public int dominantHandIndex = 0;
 
+    private bool _paused;
+
     private void Start()
     {
         if (PlayerPrefs.HasKey("dominantHandIndex"))
@@ -34,14 +36,10 @@ public class OculusInput : MonoBehaviour
             m_Bow[dominantHandIndex].Release();
             OVRInput.SetControllerVibration(0, 0, m_Controller[dominantHandIndex]);
         }
-
-        if (OVRInput.GetDown(OVRInput.Button.Four) || Input.GetKeyDown(KeyCode.A))
-        {
-            UpdateDominantBowHand();
-        }
+        
     }
 
-    private void UpdateDominantBowHand()
+    public void UpdateDominantBowHand()
     {
         if (PlayerPrefs.GetInt("dominantHandIndex") == 0)
         {

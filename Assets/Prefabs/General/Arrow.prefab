@@ -244,6 +244,10 @@ MonoBehaviour:
     type: 3}
   fracturedEnemyBlue: {fileID: 9222215353654509073, guid: 0bc1873bd358a42bc8737380ea47bad4,
     type: 3}
+  explosionParticles:
+  - {fileID: 3007342358901346101, guid: 9b8a59bf08e434987a4e23e73bf8d8b0, type: 3}
+  - {fileID: 3007342358901346101, guid: f3e07bb18c8ce4c3d8ca0e0bba60348d, type: 3}
+  - {fileID: 3007342358901346101, guid: a8a129f7493b445539f011bf6f75fb8c, type: 3}
 --- !u!1 &8542102953145869890
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,7 +278,7 @@ Transform:
   m_GameObject: {fileID: 8542102953145869890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0088875, y: -0.037726, z: -0.0014147}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.008863}
   m_Children:
   - {fileID: 8623957444106179151}
   m_Father: {fileID: 0}

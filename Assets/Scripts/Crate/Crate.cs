@@ -5,6 +5,7 @@ namespace Crate
 {
     public class Crate : MonoBehaviour, IDamageable
     {
+        public OculusInput oculusInput;
         public GameObject destroyedCrate;
         public LevelManager levelManager;
         public string levelChosen;
@@ -16,10 +17,17 @@ namespace Crate
 
         private void DestroyCrate()
         {
-            levelManager.StartSelectedGameMode(levelChosen);
-            FindObjectOfType<AudioManager>().Play("WoodenBoxBreak");
-            Instantiate(destroyedCrate, transform.position, transform.rotation);
-            Destroy(gameObject);
+            if (levelChosen == "ChangeBowHand")
+            {
+                oculusInput.UpdateDominantBowHand();
+            }
+            else
+            {
+                levelManager.StartSelectedGameMode(levelChosen);
+                FindObjectOfType<AudioManager>().Play("WoodenBoxBreak");
+                Instantiate(destroyedCrate, transform.position, transform.rotation);
+                Destroy(gameObject);   
+            }
         }
     }
 }
