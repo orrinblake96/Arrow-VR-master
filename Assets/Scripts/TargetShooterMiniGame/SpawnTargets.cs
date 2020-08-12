@@ -22,7 +22,6 @@ namespace TargetShooterMiniGame
         private bool IsDestroyed()
         {
             return gameObject.transform.childCount <= 0;
-            print("yes");
         }
 
         private IEnumerator SpawnNewTarget()

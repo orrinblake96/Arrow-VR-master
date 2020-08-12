@@ -42,7 +42,6 @@ namespace PillarOfLight
             if (!(currentHealth <= 0)) return;
             if(exitSign) exitSign.SetActive(true);
             if(replaySign) replaySign.SetActive(true);
-            print("*********>>>>>>>> Signs Active <<<<<<<<<<************");
             gameObject.SetActive(false);
         }
     }

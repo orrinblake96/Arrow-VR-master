@@ -36,20 +36,7 @@ public class OculusInput : MonoBehaviour
             m_Bow[dominantHandIndex].Release();
             OVRInput.SetControllerVibration(0, 0, m_Controller[dominantHandIndex]);
         }
-
-        if (OVRInput.GetDown(OVRInput.Button.Start))
-        {
-            if (_paused)
-            {
-                Time.timeScale = 1;
-                _paused = false;
-            }
-            else
-            {
-                Time.timeScale = 0;
-                _paused = true;
-            }
-        }
+        
     }
 
     public void UpdateDominantBowHand()
