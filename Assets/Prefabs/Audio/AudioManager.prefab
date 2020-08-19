@@ -47,5 +47,36 @@ MonoBehaviour:
   - name: BowRelease
     clip: {fileID: 8300000, guid: 01c4043e23c3a47ac97b3b37a8c5b7fd, type: 3}
     volume: 0.5
-    pitch: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WoodenBoxBreak
+    clip: {fileID: 8300000, guid: d8083f4d998cf4f079e9ca679f25bddc, type: 3}
+    volume: 0.2
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: GlassSmash
+    clip: {fileID: 8300000, guid: 32f2243c42ac744889078e58e8a86b44, type: 3}
+    volume: 0.2
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: ElevenForestMusicBG
+    clip: {fileID: 8300000, guid: 883a60a5e887743e4a2e56f5ddfe3617, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SlowTime
+    clip: {fileID: 8300000, guid: 7f9f7b466a382466fb36a7ce11d4a49c, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ResumeTime
+    clip: {fileID: 8300000, guid: 14d704c6e51e049f2bda9569a854f00f, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
