@@ -83,8 +83,11 @@ public class ArrowTipColorChecker : MonoBehaviour
             }
             
             // Increase score, power and destroy enemy
-            if(_scoreBoardExists) _waveScoreBoard.IncreaseCurrentScore();
-            _specialAbilitiesBar.IncrementPower(.05f);
+            if (_scoreBoardExists)
+            {
+                _waveScoreBoard.IncreaseCurrentScore();
+                _specialAbilitiesBar.IncrementPower(.05f);
+            }
             Destroy(_enemyHitTransform.parent.gameObject);
         }
     }

@@ -10,8 +10,10 @@ namespace WaveBasedLevel
      {
 
           private bool _slowingTime = false;
+          private bool _timeSlowed = false;
           private AudioSource _audioSource;
           private SpecialAbilitiesBar _specialAbilitiesBar;
+          private float _powerValue;
 
           public float slowTimeFactor = 0.25f;
           public AudioClip slowTimeClip;
@@ -25,7 +27,7 @@ namespace WaveBasedLevel
 
           private void Update()
           {
-               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime && _specialAbilitiesBar.IsPowerCharged())
+               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime && _specialAbilitiesBar.IsPowerCharged() && Time.timeScale >= 1.0f)
                {
                     SlowTime();
                }
@@ -37,11 +39,13 @@ namespace WaveBasedLevel
 
           private void SlowTime()
           {
+               // safe power value to be used later
+               // reset so bar is empty
+               _powerValue = _specialAbilitiesBar.CurrentPower();
                _specialAbilitiesBar.ResetPower();
-               _slowingTime = true;
                
-               _audioSource.clip = slowTimeClip;
-               _audioSource.Play();
+               _slowingTime = true;
+               FindObjectOfType<AudioManager>().Play("SlowTime");
                
                Time.timeScale = slowTimeFactor;
           }
@@ -50,23 +54,22 @@ namespace WaveBasedLevel
           {
                if (_slowingTime)
                {
+                    _slowingTime = false;
+                    
                     StartCoroutine(ResumeTimeRoutine());
                }
           }
 
           IEnumerator ResumeTimeRoutine()
           {
-               yield return new WaitForSeconds(_specialAbilitiesBar.CurrentPower() * 10f);
+               print("Slowdown Time length: " + _powerValue + "<-------------"); // Debug
                
-               _audioSource.Stop();
-               _audioSource.clip = speedUpTimeClip;
-               _audioSource.Play();
+               // Wait for time (power value: 0.5 - 10)
+               yield return new WaitForSeconds(_powerValue * 10f);
                
-               yield return new WaitForSeconds(1f);
+               FindObjectOfType<AudioManager>().Play("ResumeTime");
 
                Time.timeScale = 1f;
-
-               _slowingTime = false;
           }
      }
 }
