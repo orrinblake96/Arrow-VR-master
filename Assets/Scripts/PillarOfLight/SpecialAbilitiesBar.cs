@@ -6,13 +6,14 @@ namespace PillarOfLight
 {
     public class SpecialAbilitiesBar : MonoBehaviour
     {
+        public Image sliderImage;
+        public  ParticleSystem[] powerParticles;
+        
         private Slider _powerValue;
-        private ParticleSystem _powerParticles;
 
         private void Awake()
         {
             _powerValue = gameObject.GetComponent<Slider>();
-            _powerParticles = GameObject.Find("Power filling particles").GetComponent<ParticleSystem>();
         }
         
         private void Update()
@@ -22,18 +23,41 @@ namespace PillarOfLight
                 IncrementPower(.1f);
             }
             
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                ResetPower();
+            }
+            
         }
 
         public void IncrementPower(float powerGained)
         {
             _powerValue.value += powerGained;
-            
-             _powerParticles.Emit(50);
+
+            if (_powerValue.value < 0.3f)
+            {
+                powerParticles[0].Emit(50);
+                return;
+            }
+
+            if (_powerValue.value >= 0.3f && _powerValue.value <= 0.5f)
+            {
+                sliderImage.color = Color.yellow;
+                powerParticles[1].Emit(50);
+                return;
+            }
+
+            if (_powerValue.value > 0.5f)
+            {
+                sliderImage.color = Color.green;
+                powerParticles[2].Emit(50);
+            }
         }
 
         public void ResetPower()
         {
             _powerValue.value = 0f;
+            sliderImage.color = Color.red;
         }
 
         public bool IsPowerCharged()
