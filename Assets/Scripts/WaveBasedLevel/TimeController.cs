@@ -10,8 +10,7 @@ namespace WaveBasedLevel
      {
 
           private bool _slowingTime = false;
-          private bool _timeSlowed = false;
-          private AudioSource _audioSource;
+          private bool _resumeTime = false;
           private SpecialAbilitiesBar _specialAbilitiesBar;
           private float _powerValue;
 
@@ -21,7 +20,6 @@ namespace WaveBasedLevel
 
           private void Start()
           {
-               _audioSource = GetComponent<AudioSource>();
                _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>();
           }
 
@@ -31,9 +29,14 @@ namespace WaveBasedLevel
                {
                     SlowTime();
                }
-               else
+
+               if (_resumeTime)
                {
-                    ResumeTime();
+                    // Bring timescale back to normal (1)
+                    Time.timeScale += (1f / 2f) * Time.unscaledDeltaTime;
+                    Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
+
+                    if (Time.timeScale == 1f) _resumeTime = false;
                }
           }
 
@@ -48,6 +51,8 @@ namespace WaveBasedLevel
                FindObjectOfType<AudioManager>().Play("SlowTime");
                
                Time.timeScale = slowTimeFactor;
+               
+               ResumeTime();
           }
 
           private void ResumeTime()
@@ -55,21 +60,20 @@ namespace WaveBasedLevel
                if (_slowingTime)
                {
                     _slowingTime = false;
-                    
                     StartCoroutine(ResumeTimeRoutine());
                }
           }
 
-          IEnumerator ResumeTimeRoutine()
+          private IEnumerator ResumeTimeRoutine()
           {
-               print("Slowdown Time length: " + _powerValue + "<-------------"); // Debug
                
                // Wait for time (power value: 0.5 - 10)
-               yield return new WaitForSeconds(_powerValue * 10f);
+               // Use RealTime as normal was causing increased wait times
+               yield return new WaitForSecondsRealtime(_powerValue);
                
                FindObjectOfType<AudioManager>().Play("ResumeTime");
 
-               Time.timeScale = 1f;
+               _resumeTime = true;
           }
      }
 }

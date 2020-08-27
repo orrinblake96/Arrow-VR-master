@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e0b0994194f34c538daea836af2d449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowTimeFactor: 0.5
+  slowTimeFactor: 0.25
   slowTimeClip: {fileID: 8300000, guid: 7f9f7b466a382466fb36a7ce11d4a49c, type: 3}
   speedUpTimeClip: {fileID: 8300000, guid: 14d704c6e51e049f2bda9569a854f00f, type: 3}
 --- !u!1001 &97213731
@@ -22148,7 +22148,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: ba69ee581047b47019799a7dd7e4bc6a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba69ee581047b47019799a7dd7e4bc6a, type: 3}

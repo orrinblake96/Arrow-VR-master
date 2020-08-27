@@ -43,7 +43,7 @@ namespace PillarOfLight
 
         public float CurrentPower()
         {
-            return _powerValue.value;
+            return _powerValue.value * 10f;
         }
     }
 }
