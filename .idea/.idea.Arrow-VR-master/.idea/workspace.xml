@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low_Poly_Environment_World/Content/Models/Materials/material_polytope_foliage.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low_Poly_Environment_World/Content/Models/Materials/material_polytope_foliage.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/General/Arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/General/Arrow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/General/Bow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/General/Bow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainMenu/MainMenuArrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MainMenu/MainMenuArrow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/NonColorArrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/NonColorArrow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-3_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/ArrowTipColorChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/ArrowTipColorChecker.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpecialAbilitiesBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ZombieBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CleanSceneBrokenModels.cs" />
@@ -132,13 +110,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/StartGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/RespawnTargets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/ArrowTipColorChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/TimeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpecialAbilitiesBar.cs" />
       </list>
     </option>
   </component>
@@ -227,6 +206,10 @@
       <workItem from="1596455875464" duration="4831000" />
       <workItem from="1597052320839" duration="2059000" />
       <workItem from="1597139565581" duration="2490000" />
+      <workItem from="1597764033742" duration="8049000" />
+      <workItem from="1598458694167" duration="2384000" />
+      <workItem from="1598536299808" duration="5769000" />
+      <workItem from="1598870572726" duration="278000" />
     </task>
     <servers />
   </component>

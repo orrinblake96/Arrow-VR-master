@@ -1,4 +1,5 @@
-﻿using UnityEngine.UI;
+﻿using PillarOfLight;
+using UnityEngine.UI;
 using UnityEngine;
 using WaveBasedLevel;
 
@@ -19,6 +20,7 @@ public class ArrowTipColorChecker : MonoBehaviour
     private Transform _enemyHitTransform;
     private WaveScore _waveScoreBoard;
     private bool _scoreBoardExists = false;
+    private SpecialAbilitiesBar _specialAbilitiesBar;
 
     private void Awake()
     {
@@ -28,6 +30,7 @@ public class ArrowTipColorChecker : MonoBehaviour
         if (GameObject.FindGameObjectWithTag("WaveScoreBoard") != null)
         {
             _waveScoreBoard = GameObject.FindGameObjectWithTag("WaveScoreBoard").GetComponent<WaveScore>();
+            _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>();
             _scoreBoardExists = true;
         }
 
@@ -65,6 +68,7 @@ public class ArrowTipColorChecker : MonoBehaviour
         {
             _enemyHitTransform = other.gameObject.transform;
             
+            // Instantiate correct particle colours
             if (_cubeColor.material.color.r == 1)
             {
                 Instantiate(explosionParticles[0], transform.position + Vector3.up, transform.rotation);
@@ -78,7 +82,12 @@ public class ArrowTipColorChecker : MonoBehaviour
                 Instantiate(explosionParticles[2], transform.position + Vector3.up, transform.rotation);
             }
             
-            if(_scoreBoardExists) _waveScoreBoard.IncreaseCurrentScore();
+            // Increase score, power and destroy enemy
+            if (_scoreBoardExists)
+            {
+                _waveScoreBoard.IncreaseCurrentScore();
+                _specialAbilitiesBar.IncrementPower(.05f);
+            }
             Destroy(_enemyHitTransform.parent.gameObject);
         }
     }

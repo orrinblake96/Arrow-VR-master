@@ -1,5 +1,7 @@
 ﻿using System;
+using Audio;
 using System.Collections;
+using PillarOfLight;
 using UnityEngine;
 
 namespace WaveBasedLevel
@@ -8,58 +10,70 @@ namespace WaveBasedLevel
      {
 
           private bool _slowingTime = false;
-          private AudioSource _audioSource;
+          private bool _resumeTime = false;
+          private SpecialAbilitiesBar _specialAbilitiesBar;
+          private float _powerValue;
 
-          public float slowTimeFactor = 0.5f;
+          public float slowTimeFactor = 0.25f;
           public AudioClip slowTimeClip;
           public AudioClip speedUpTimeClip;
 
           private void Start()
           {
-               _audioSource = GetComponent<AudioSource>();
+               _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>();
           }
 
           private void Update()
           {
-               if (OVRInput.GetDown(OVRInput.Button.Four))
+               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime && _specialAbilitiesBar.IsPowerCharged() && Time.timeScale >= 1.0f)
                {
                     SlowTime();
                }
-               else
+
+               if (_resumeTime)
                {
-                    ResumeTime();
+                    // Bring timescale back to normal (1)
+                    Time.timeScale += (1f / 2f) * Time.unscaledDeltaTime;
+                    Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
+
+                    if (Time.timeScale == 1f) _resumeTime = false;
                }
           }
 
           private void SlowTime()
           {
-               _audioSource.clip = slowTimeClip;
-               _audioSource.Play();
+               // safe power value to be used later
+               // reset so bar is empty
+               _powerValue = _specialAbilitiesBar.CurrentPower();
+               _specialAbilitiesBar.ResetPower();
+               
+               _slowingTime = true;
+               FindObjectOfType<AudioManager>().Play("SlowTime");
                
                Time.timeScale = slowTimeFactor;
-
-               _slowingTime = true;
+               
+               ResumeTime();
           }
 
           private void ResumeTime()
           {
                if (_slowingTime)
                {
-                    _audioSource.Stop();
+                    _slowingTime = false;
                     StartCoroutine(ResumeTimeRoutine());
                }
           }
 
-          IEnumerator ResumeTimeRoutine()
+          private IEnumerator ResumeTimeRoutine()
           {
-               _audioSource.clip = speedUpTimeClip;
-               _audioSource.Play();
                
-               yield return new WaitForSeconds(1f);
+               // Wait for time (power value: 0.5 - 10)
+               // Use RealTime as normal was causing increased wait times
+               yield return new WaitForSecondsRealtime(_powerValue);
+               
+               FindObjectOfType<AudioManager>().Play("ResumeTime");
 
-               Time.timeScale = 1f;
-
-               _slowingTime = false;
+               _resumeTime = true;
           }
      }
 }
