@@ -8,6 +8,26 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="EffectExamples" t="Include">
+          <e p="Magic Effects" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Ice.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Misc Effects" t="Include">
+            <e p="Prefabs" t="Include">
+              <e p="Readme_Dissolve_Respawn_.txt" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="SpawnEffect.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="Dissolve.shader" t="Include" />
+              <e p="FireFly.shader" t="Include" />
+              <e p="Respawn.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="LeanTween" t="Include">
           <e p="Editor" t="Include">
             <e p="LeanTweenDocumentationEditor.cs" t="Include" />
@@ -831,9 +851,15 @@
           </e>
           <e p="OculusInput.cs" t="Include" />
           <e p="PillarOfLight" t="Include">
+            <e p="ArrowTipColorChecker.cs" t="Include" />
+            <e p="ColoredCubeInfo.cs" t="Include" />
+            <e p="PaintBomb.cs" t="Include" />
             <e p="PillarHealth.cs" t="Include" />
             <e p="SpecialAbilitiesBar.cs" t="Include" />
+            <e p="TimeController.cs" t="Include" />
+            <e p="WaveScore.cs" t="Include" />
           </e>
+          <e p="StartGame.cs" t="Include" />
           <e p="TargetShooterMiniGame" t="Include">
             <e p="DestroyParticles.cs" t="Include" />
             <e p="GameOver.cs" t="Include" />
@@ -847,12 +873,21 @@
           <e p="ToonShader" t="Include">
             <e p="Toon.shader" t="Include" />
           </e>
-          <e p="WaveBasedLevel" t="Include">
-            <e p="ArrowTipColorChecker.cs" t="Include" />
-            <e p="ColoredCubeInfo.cs" t="Include" />
-            <e p="StartGame.cs" t="Include" />
-            <e p="TimeController.cs" t="Include" />
-            <e p="WaveScore.cs" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="Ramps" t="Include">
+            <e p="Editor" t="Include">
+              <e p="RampAssetEditor.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="RampAsset.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="AdjustTimeScale.cs" t="Include" />
+            <e p="ProximityActivate.cs" t="Include" />
+            <e p="SimpleCameraController.cs" t="Include" />
+            <e p="SimpleCharacterMotor.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

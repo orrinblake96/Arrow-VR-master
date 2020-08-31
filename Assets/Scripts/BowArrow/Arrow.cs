@@ -1,6 +1,8 @@
 ﻿using Audio;
 using Crate;
+using PillarOfLight;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace BowArrow
 {
@@ -11,6 +13,7 @@ namespace BowArrow
         public CapsuleCollider TipCollider;
         public LayerMask layerToIgnore;
         public bool enableTrailRenderer;
+        public PaintBomb paintBomb;
     
         private TrailRenderer _trailRenderer;
         private Rigidbody _mRigidbody = null;
@@ -67,6 +70,8 @@ namespace BowArrow
             
             //check if damageable
             CheckForDamage(hitObject);
+
+            if (SceneManager.GetActiveScene().name == "WaveBasedAltLayout") paintBomb.Explode();
         
             //Destroy Arrow
             Destroy(gameObject, 2f);

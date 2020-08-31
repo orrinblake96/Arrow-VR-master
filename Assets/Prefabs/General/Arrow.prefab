@@ -262,6 +262,7 @@ GameObject:
   - component: {fileID: 5138812402976862692}
   - component: {fileID: -3449734511533026241}
   - component: {fileID: 202898120480862817}
+  - component: {fileID: -5147415055577841190}
   m_Layer: 10
   m_Name: Arrow
   m_TagString: Arrow
@@ -303,6 +304,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 823
   enableTrailRenderer: 1
+  paintBomb: {fileID: -5147415055577841190}
 --- !u!54 &3544760493190169588
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -481,3 +483,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &-5147415055577841190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8542102953145869890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bc8898f6de946eebf2f583078ad170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowTip: {fileID: 6223868130374480975}
+  explosionEffect: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664,
+    type: 3}
