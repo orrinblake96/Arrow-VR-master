@@ -999,6 +999,7 @@ GameObject:
   - component: {fileID: 6930835161070576382}
   - component: {fileID: 8538971546861793994}
   - component: {fileID: 6229634985715880172}
+  - component: {fileID: 7203696933819807928}
   m_Layer: 0
   m_Name: BasicPaintMonsterGreenIdle
   m_TagString: Enemy
@@ -1060,6 +1061,20 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &7203696933819807928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6229634985715880173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f27fddc31b64ea8bf7d8e67fb940dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionParticles: {fileID: 3007342358901346101, guid: f3e07bb18c8ce4c3d8ca0e0bba60348d,
+    type: 3}
 --- !u!1 &6288427320925629876
 GameObject:
   m_ObjectHideFlags: 0

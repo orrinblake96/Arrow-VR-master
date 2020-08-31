@@ -853,6 +853,7 @@
           <e p="PillarOfLight" t="Include">
             <e p="ArrowTipColorChecker.cs" t="Include" />
             <e p="ColoredCubeInfo.cs" t="Include" />
+            <e p="DestroyingEnemies.cs" t="Include" />
             <e p="PaintBomb.cs" t="Include" />
             <e p="PillarHealth.cs" t="Include" />
             <e p="SpecialAbilitiesBar.cs" t="Include" />

@@ -456,6 +456,7 @@ GameObject:
   - component: {fileID: 257761938977105920}
   - component: {fileID: 257761940013285585}
   - component: {fileID: 2551105005427237623}
+  - component: {fileID: -3194721255358297095}
   m_Layer: 0
   m_Name: BasicPaintMonsterRedIdle
   m_TagString: Enemy
@@ -539,6 +540,20 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &-3194721255358297095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2551105005427237622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f27fddc31b64ea8bf7d8e67fb940dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionParticles: {fileID: 3007342358901346101, guid: 9b8a59bf08e434987a4e23e73bf8d8b0,
+    type: 3}
 --- !u!1 &2659199703208486814
 GameObject:
   m_ObjectHideFlags: 0

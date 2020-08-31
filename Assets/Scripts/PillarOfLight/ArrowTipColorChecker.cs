@@ -56,6 +56,33 @@ public class ArrowTipColorChecker : MonoBehaviour
         }
     }
 
+    public void DestroyDuringExplosion(Collider enemy)
+    {
+        SkinnedMeshRenderer enemyColor = enemy.gameObject.GetComponent<SkinnedMeshRenderer>();
+        
+        if (enemyColor.material.color.r == 1)
+        {
+            Instantiate(explosionParticles[0], transform.position + Vector3.up, transform.rotation);
+        }
+        if (enemyColor.material.color.g == 1)
+        {
+            Instantiate(explosionParticles[1], transform.position + Vector3.up, transform.rotation);
+        }
+        if (enemyColor.material.color.b == 1)
+        {
+            Instantiate(explosionParticles[2], transform.position + Vector3.up, transform.rotation);
+        }
+        
+        // Increase score, power and destroy enemy
+        if (_scoreBoardExists)
+        {
+            _waveScoreBoard.IncreaseCurrentScore();
+            _specialAbilitiesBar.IncrementPower(.05f);
+        }
+        
+        Destroy(enemy.transform.parent.gameObject);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         //Check if cubes color matches tip of arrow
@@ -68,26 +95,27 @@ public class ArrowTipColorChecker : MonoBehaviour
         {
             _enemyHitTransform = other.gameObject.transform;
             
-            // Instantiate correct particle colours
-            if (_cubeColor.material.color.r == 1)
-            {
-                Instantiate(explosionParticles[0], transform.position + Vector3.up, transform.rotation);
-            }
-            if (_cubeColor.material.color.g == 1)
-            {
-                Instantiate(explosionParticles[1], transform.position + Vector3.up, transform.rotation);
-            }
-            if (_cubeColor.material.color.b == 1)
-            {
-                Instantiate(explosionParticles[2], transform.position + Vector3.up, transform.rotation);
-            }
+//            // Instantiate correct particle colours
+//            if (_cubeColor.material.color.r == 1)
+//            {
+//                Instantiate(explosionParticles[0], transform.position + Vector3.up, transform.rotation);
+//            }
+//            if (_cubeColor.material.color.g == 1)
+//            {
+//                Instantiate(explosionParticles[1], transform.position + Vector3.up, transform.rotation);
+//            }
+//            if (_cubeColor.material.color.b == 1)
+//            {
+//                Instantiate(explosionParticles[2], transform.position + Vector3.up, transform.rotation);
+//            }
             
             // Increase score, power and destroy enemy
-            if (_scoreBoardExists)
-            {
-                _waveScoreBoard.IncreaseCurrentScore();
-                _specialAbilitiesBar.IncrementPower(.05f);
-            }
+//            if (_scoreBoardExists)
+//            {
+//                _waveScoreBoard.IncreaseCurrentScore();
+//                _specialAbilitiesBar.IncrementPower(.05f);
+//            }
+
             Destroy(_enemyHitTransform.parent.gameObject);
         }
     }

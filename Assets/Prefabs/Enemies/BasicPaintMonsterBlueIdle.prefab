@@ -1044,6 +1044,7 @@ GameObject:
   - component: {fileID: 6896316217478074410}
   - component: {fileID: 5267913819122860062}
   - component: {fileID: 7633595695514853950}
+  - component: {fileID: 4364432035880562846}
   m_Layer: 0
   m_Name: BasicPaintMonsterBlueIdle
   m_TagString: Enemy
@@ -1105,6 +1106,20 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &4364432035880562846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7633595695514853945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f27fddc31b64ea8bf7d8e67fb940dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionParticles: {fileID: 3007342358901346101, guid: a8a129f7493b445539f011bf6f75fb8c,
+    type: 3}
 --- !u!1 &7957793067086112593
 GameObject:
   m_ObjectHideFlags: 0
