@@ -19,7 +19,7 @@ public class ArrowTipColorChecker : MonoBehaviour
     private Material _currentMaterialColor;
     private Transform _enemyHitTransform;
     private WaveScore _waveScoreBoard;
-    private bool _scoreBoardExists = false;
+//    private bool _scoreBoardExists = false; // Removable??
     private SpecialAbilitiesBar _specialAbilitiesBar;
 
     private void Awake()
@@ -31,7 +31,7 @@ public class ArrowTipColorChecker : MonoBehaviour
         {
             _waveScoreBoard = GameObject.FindGameObjectWithTag("WaveScoreBoard").GetComponent<WaveScore>();
             _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>();
-            _scoreBoardExists = true;
+//            _scoreBoardExists = true; // Removable??
         }
 
         colorInfoNum = GameObject.Find("EnemyManager").GetComponent<ColoredCubeInfo>();
@@ -54,33 +54,6 @@ public class ArrowTipColorChecker : MonoBehaviour
             _tipColor.material = _currentMaterialColor;
             shaftColor.material = _currentMaterialColor;
         }
-    }
-
-    public void DestroyDuringExplosion(Collider enemy)
-    {
-        SkinnedMeshRenderer enemyColor = enemy.gameObject.GetComponent<SkinnedMeshRenderer>();
-        
-        if (enemyColor.material.color.r == 1)
-        {
-            Instantiate(explosionParticles[0], transform.position + Vector3.up, transform.rotation);
-        }
-        if (enemyColor.material.color.g == 1)
-        {
-            Instantiate(explosionParticles[1], transform.position + Vector3.up, transform.rotation);
-        }
-        if (enemyColor.material.color.b == 1)
-        {
-            Instantiate(explosionParticles[2], transform.position + Vector3.up, transform.rotation);
-        }
-        
-        // Increase score, power and destroy enemy
-        if (_scoreBoardExists)
-        {
-            _waveScoreBoard.IncreaseCurrentScore();
-            _specialAbilitiesBar.IncrementPower(.05f);
-        }
-        
-        Destroy(enemy.transform.parent.gameObject);
     }
 
     private void OnTriggerEnter(Collider other)

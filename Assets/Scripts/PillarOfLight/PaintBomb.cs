@@ -7,13 +7,31 @@ namespace PillarOfLight
     {
         public GameObject arrowTip;
         public GameObject explosionEffect;
+        public GameObject smokeEffect;
+        
         public float blastRadius = 5f;
 
-        private ArrowTipColorChecker _arrowTipColorChecker;
+        private bool _bombArrowReady = false;
+        private SpecialAbilitiesBar _specialAbilitiesBar;
 
         private void Awake()
         {
-            _arrowTipColorChecker = GameObject.Find("Tip").GetComponent<ArrowTipColorChecker>();
+            _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>();
+        }
+
+        private void Update()
+        {
+            if (OVRInput.GetDown(OVRInput.Button.Three) && !_bombArrowReady && _specialAbilitiesBar.IsPowerFull())
+            {
+                _specialAbilitiesBar.ResetPower();
+                _bombArrowReady = true;
+                smokeEffect.SetActive(true);
+            }
+        }
+
+        public bool BombArrowReady()
+        {
+            return _bombArrowReady;
         }
 
         public void Explode()
@@ -29,7 +47,6 @@ namespace PillarOfLight
                 if (nearObjects.transform.parent.gameObject.CompareTag("Enemy"))
                 {
                     Destroy(nearObjects.transform.parent.gameObject);
-//                    _arrowTipColorChecker.DestroyDuringExplosion(nearObjects);
                 }
             }
         }

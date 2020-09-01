@@ -31859,7 +31859,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: BasicPaintMonsterRedIdle
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3194721255358297095, guid: 1dd10ddec833c4a6382ec9143bda6cbf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1dd10ddec833c4a6382ec9143bda6cbf, type: 3}
 --- !u!1001 &992838060923028480
 PrefabInstance:
@@ -32041,7 +32042,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: BasicPaintMonsterBlueIdle
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4364432035880562846, guid: fcf4736f5cd6a4f62a3e4351ef071a53, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fcf4736f5cd6a4f62a3e4351ef071a53, type: 3}
 --- !u!1001 &3258648384133990099
 PrefabInstance:
@@ -32110,7 +32112,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7203696933819807928, guid: bbbceb7e843cf4cbfb745d217952a405, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bbbceb7e843cf4cbfb745d217952a405, type: 3}
 --- !u!4 &5554713687363888173 stripped
 Transform:

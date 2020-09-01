@@ -71,7 +71,7 @@ namespace BowArrow
             //check if damageable
             CheckForDamage(hitObject);
 
-            if (SceneManager.GetActiveScene().name == "WaveBasedAltLayout") paintBomb.Explode();
+            if (SceneManager.GetActiveScene().name == "WaveBasedAltLayout" && paintBomb.BombArrowReady()) paintBomb.Explode();
         
             //Destroy Arrow
             Destroy(gameObject, 2f);
