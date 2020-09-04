@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace PillarOfLight
 {
@@ -9,7 +8,7 @@ namespace PillarOfLight
         public GameObject explosionEffect;
         public GameObject smokeEffect;
         
-        public float blastRadius = 5f;
+        public float blastRadius = 10f;
 
         private bool _bombArrowReady = false;
         private SpecialAbilitiesBar _specialAbilitiesBar;
@@ -41,12 +40,11 @@ namespace PillarOfLight
 
             Collider[] colliders = Physics.OverlapSphere(position, blastRadius);
 
-            foreach (var nearObjects in colliders)
+            foreach (var nearObject in colliders)
             {
-                
-                if (nearObjects.transform.parent.gameObject.CompareTag("Enemy"))
+                if (nearObject.transform.name == "Monster")
                 {
-                    Destroy(nearObjects.transform.parent.gameObject);
+                    Destroy(nearObject.transform.parent.gameObject);
                 }
             }
         }

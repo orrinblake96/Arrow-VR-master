@@ -25,7 +25,7 @@ namespace Enemy
 
         private void Awake()
         {
-            _pillar = GameObject.FindGameObjectWithTag("Pillar");
+            _pillar = GameObject.Find("PillarOfLightTarget");
             _pillarTransform = _pillar.transform;
             _pillarHealth = _pillar.GetComponent<PillarHealth>();
         
