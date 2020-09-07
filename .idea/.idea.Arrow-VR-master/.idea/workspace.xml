@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="" />
+    <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Audio/AudioManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Audio/AudioManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonster@Victory.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonster@Victory.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/CastleRockTimer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/CastleRockTimer.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,62 +23,62 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRSceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu/RespawnTargets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpecialAbilitiesBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/General/Arrow.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/WaveBasedArena.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainMenuArea/LightingData.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Waves.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRSceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/CleanSceneBrokenModels.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/CrateSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetScore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu/RespawnTargets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/DestroyParticles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpecialAbilitiesBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonster@Victory.fbx.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Destroy Crate.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonsterBlue.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonsterRed.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Sound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/WaveBasedArena.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/WaveScore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ToonShader/Toon.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/ArrowTipColorChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Oculus/VR/Editor/OVRBuild.cs" />
-        <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CleanSceneBrokenModels.cs" />
-        <option value="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrateSpawner.cs" />
@@ -79,11 +90,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Waves.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/StartWaveMiniGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/ReturnToMainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/CleanSceneBrokenModels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/LevelManager.cs" />
@@ -108,19 +117,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/RespawnTargets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/TimeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpecialAbilitiesBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1YtQGAOykjzEtU6JdjzLHPUTW8M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -206,7 +222,11 @@
       <workItem from="1597764033742" duration="8049000" />
       <workItem from="1598458694167" duration="2384000" />
       <workItem from="1598536299808" duration="5769000" />
-      <workItem from="1598870572726" duration="314000" />
+      <workItem from="1598870572726" duration="5656000" />
+      <workItem from="1598957636081" duration="1621000" />
+      <workItem from="1598964046382" duration="3202000" />
+      <workItem from="1599218530828" duration="3594000" />
+      <workItem from="1599485603942" duration="841000" />
     </task>
     <servers />
   </component>

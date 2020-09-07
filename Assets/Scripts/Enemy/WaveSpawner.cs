@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Audio;
 using PillarOfLight;
 using UnityEngine;
 
@@ -76,7 +77,7 @@ namespace Enemy
                 
                 // Increase number of enemies spawned, speed each agent moves & time waited before next wave 
                 currentRoundNumber++;
-                _nextWaveSpawnCountIncrease += 2;
+                _nextWaveSpawnCountIncrease += 1;
                 if (timeBetweenWaves > 0) timeBetweenWaves -= 1;
             }
             else
@@ -96,6 +97,7 @@ namespace Enemy
                 //*********************** can be optimised ***********************
                 if (GameObject.FindGameObjectWithTag("Enemy") == null)
                 {
+                    FindObjectOfType<AudioManager>().Play("WaveOver");
                     return false;
                 }
             }

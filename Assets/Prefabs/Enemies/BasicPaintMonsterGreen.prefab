@@ -375,6 +375,7 @@ GameObject:
   - component: {fileID: 1689029499}
   - component: {fileID: 1689029500}
   - component: {fileID: 720348077}
+  - component: {fileID: 3893593049742224205}
   m_Layer: 0
   m_Name: BasicPaintMonsterGreen
   m_TagString: Enemy
@@ -457,6 +458,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3893593049742224205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2374691550736286090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f27fddc31b64ea8bf7d8e67fb940dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionParticles: {fileID: 3007342358901346101, guid: f3e07bb18c8ce4c3d8ca0e0bba60348d,
+    type: 3}
 --- !u!1 &2433208469022637267
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,7 +753,7 @@ GameObject:
   - component: {fileID: 8973872375237728092}
   - component: {fileID: 2414137446470457920}
   - component: {fileID: 7638596747635828769}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1437,6 +1452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlobShadowProjector
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.05
@@ -1507,7 +1526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11900000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
       propertyPath: m_IgnoreLayers.m_Bits
-      value: 0
+      value: 8192
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}

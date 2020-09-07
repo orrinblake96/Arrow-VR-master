@@ -51,7 +51,7 @@ PlayerSettings:
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
-  m_StereoRenderingPath: 1
+  m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
   m_MTRendering: 1
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
@@ -448,6 +448,13 @@ PlayerSettings:
   - m_BuildTarget: iPhone
     m_Enabled: 1
     m_Devices: []
+  - m_BuildTarget: XboxOne
+    m_Enabled: 1
+    m_Devices: []
+  - m_BuildTarget: PS4
+    m_Enabled: 1
+    m_Devices:
+    - PlayStationVR
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0

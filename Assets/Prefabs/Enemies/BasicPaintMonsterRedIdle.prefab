@@ -79,7 +79,7 @@ Projector:
   m_Material: {fileID: 2100000, guid: e30ff3588e719f34bbf0c66f22d97487, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8192
 --- !u!1 &422908648082982172
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +456,7 @@ GameObject:
   - component: {fileID: 257761938977105920}
   - component: {fileID: 257761940013285585}
   - component: {fileID: 2551105005427237623}
+  - component: {fileID: -3194721255358297095}
   m_Layer: 0
   m_Name: BasicPaintMonsterRedIdle
   m_TagString: Enemy
@@ -534,11 +535,26 @@ Animation:
   serializedVersion: 3
   m_Animation: {fileID: -203655887218126122, guid: df380ba962f7943ef8f58f019e1983b2,
     type: 3}
-  m_Animations: []
+  m_Animations:
+  - {fileID: -203655887218126122, guid: df380ba962f7943ef8f58f019e1983b2, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &-3194721255358297095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2551105005427237622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f27fddc31b64ea8bf7d8e67fb940dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionParticles: {fileID: 3007342358901346101, guid: 9b8a59bf08e434987a4e23e73bf8d8b0,
+    type: 3}
 --- !u!1 &2659199703208486814
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +775,7 @@ GameObject:
   - component: {fileID: 9158730096780538912}
   - component: {fileID: 2455442740773861692}
   - component: {fileID: 7607281650170170205}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
