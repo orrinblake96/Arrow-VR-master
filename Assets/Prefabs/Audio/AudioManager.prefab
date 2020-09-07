@@ -80,3 +80,9 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: WaveOver
+    clip: {fileID: 8300000, guid: b3705d679cbcd4da4b51b98e3d96519e, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

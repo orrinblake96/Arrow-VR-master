@@ -7,6 +7,7 @@ namespace WaveBasedLevel
     {
         public GameObject waveManager;
         public GameObject startGameUi;
+        public GameObject specialAbilitiesInstructions;
 
         private void Update()
         {
@@ -14,6 +15,7 @@ namespace WaveBasedLevel
             waveManager.SetActive(true);
             startGameUi.SetActive(false);
             gameObject.SetActive(false);
+            specialAbilitiesInstructions.SetActive(true);
         }
     }
 }

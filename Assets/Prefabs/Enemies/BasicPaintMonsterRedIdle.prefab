@@ -79,7 +79,7 @@ Projector:
   m_Material: {fileID: 2100000, guid: e30ff3588e719f34bbf0c66f22d97487, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8192
 --- !u!1 &422908648082982172
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,7 +535,8 @@ Animation:
   serializedVersion: 3
   m_Animation: {fileID: -203655887218126122, guid: df380ba962f7943ef8f58f019e1983b2,
     type: 3}
-  m_Animations: []
+  m_Animations:
+  - {fileID: -203655887218126122, guid: df380ba962f7943ef8f58f019e1983b2, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -774,7 +775,7 @@ GameObject:
   - component: {fileID: 9158730096780538912}
   - component: {fileID: 2455442740773861692}
   - component: {fileID: 7607281650170170205}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
