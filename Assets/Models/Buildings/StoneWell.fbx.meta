@@ -3,7 +3,37 @@ guid: 52ac04b37f232404185ee6e7efdcf9f9
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone base
+    second: {fileID: 4218046369211427024, guid: 940b14537c1884d3ca4d738f1c9d233f,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone green
+    second: {fileID: -4075660409666774977, guid: 940b14537c1884d3ca4d738f1c9d233f,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone red
+    second: {fileID: 2084055494614915261, guid: 940b14537c1884d3ca4d738f1c9d233f,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood dark
+    second: {fileID: 6349256134017747682, guid: 940b14537c1884d3ca4d738f1c9d233f,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood light
+    second: {fileID: -3696843555292437472, guid: 940b14537c1884d3ca4d738f1c9d233f,
+      type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -44,7 +74,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -68,7 +98,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
