@@ -104,7 +104,7 @@ namespace BowArrow
             if(enableTrailRenderer) _trailRenderer.enabled = true;
             
             //after 12 seconds, remove arrow (scene management, overloading scenes)
-            Destroy(gameObject, 12.0f);
+            Destroy(gameObject, 10.0f);
         }
 
         private void CheckForDamage(GameObject hitObject)

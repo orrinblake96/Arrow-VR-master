@@ -21757,7 +21757,7 @@ PrefabInstance:
     - target: {fileID: 121568463889076213, guid: b16c963d183fc4ef1a20582bf6c736e1,
         type: 3}
       propertyPath: levelChosen
-      value: WaveBasedAltLayout
+      value: AccuracyMiniGame
       objectReference: {fileID: 0}
     - target: {fileID: 121568463889076213, guid: b16c963d183fc4ef1a20582bf6c736e1,
         type: 3}
@@ -21773,7 +21773,7 @@ PrefabInstance:
     - target: {fileID: 1622813654446518789, guid: b16c963d183fc4ef1a20582bf6c736e1,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7378496381441462858, guid: b16c963d183fc4ef1a20582bf6c736e1,
         type: 3}

@@ -825,6 +825,13 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AccuracyMiniGame" t="Include">
+            <e p="DestroyAccuracyTarget.cs" t="Include" />
+            <e p="MoveTarget.cs" t="Include" />
+          </e>
+          <e p="AllLevels" t="Include">
+            <e p="HoverFloatingIslands.cs" t="Include" />
+          </e>
           <e p="Audio" t="Include">
             <e p="AudioManager.cs" t="Include" />
             <e p="Sound.cs" t="Include" />
