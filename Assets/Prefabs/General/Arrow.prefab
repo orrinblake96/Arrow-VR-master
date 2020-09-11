@@ -9718,13 +9718,13 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6223868130374480975}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_Material: {fileID: 13400000, guid: 3157ab9328ea4475f8166a20065f03fe, type: 2}
+  m_IsTrigger: 0
   m_Enabled: 0
   m_Radius: 0.013795684
   m_Height: 0.094175205
   m_Direction: 1
-  m_Center: {x: 0, y: -0.00000011920929, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &1209837964093216041
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9732,8 +9732,8 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6223868130374480975}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_Material: {fileID: 13400000, guid: 3157ab9328ea4475f8166a20065f03fe, type: 2}
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.006742376
@@ -9975,8 +9975,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 0.004637705, y: 0.018935025, z: -0.00022897124}
-    m_Extent: {x: 0.014995223, y: 0.4067287, z: 0.016995668}
+    m_Center: {x: 0.004637705, y: 0.00070957, z: -0.03300965}
+    m_Extent: {x: 0.014995223, y: 0.006117965, z: 0.3756349}
   m_DirtyAABB: 0
 --- !u!64 &202898120480862817
 MeshCollider:
@@ -9985,7 +9985,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8542102953145869890}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 3157ab9328ea4475f8166a20065f03fe, type: 2}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 3
