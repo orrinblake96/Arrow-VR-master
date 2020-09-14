@@ -4,13 +4,21 @@
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/Dissolve.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/Dissolve.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/FireFlies.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Misc Effects/Prefabs/FireFlies.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonster@Victory.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BasicPaintMonster@Victory.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/General/Arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/General/Arrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/General/MainMenuArrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/General/MainMenuArrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainMenu/MainMenuArrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MainMenu/MainMenuArrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/BlueEnemiesParticles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/BlueEnemiesParticles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/GreenEnemiesParticles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/GreenEnemiesParticles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/RedEnemiesParticles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/RedEnemiesParticles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +81,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AllLevels/HoverFloatingIslands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/RuntimeManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ToonShader/Toon.shader" root0="FORCE_HIGHLIGHTING" />
@@ -82,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pillar Of Light/PillarHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/WaveScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ToonShader/Toon.shader" />
@@ -113,11 +121,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/DontDestoryBow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/StartGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/RespawnTargets.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" />
@@ -128,11 +133,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/MoveTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/HoverFloatingIslands.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowColorSetter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
       </list>
     </option>
   </component>
@@ -232,7 +241,7 @@
       <workItem from="1599485603942" duration="4334000" />
       <workItem from="1599666320731" duration="597000" />
       <workItem from="1599830200901" duration="1660000" />
-      <workItem from="1600077089815" duration="3610000" />
+      <workItem from="1600077089815" duration="7766000" />
     </task>
     <servers />
   </component>

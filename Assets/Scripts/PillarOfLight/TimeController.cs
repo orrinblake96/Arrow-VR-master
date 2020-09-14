@@ -15,8 +15,8 @@ namespace WaveBasedLevel
           private float _powerValue;
 
           public float slowTimeFactor = 0.25f;
-          public AudioClip slowTimeClip;
-          public AudioClip speedUpTimeClip;
+          public string slowTimeAudio;
+          public string regainTimeAudio;
 
           private void Start()
           {
@@ -48,8 +48,7 @@ namespace WaveBasedLevel
                _specialAbilitiesBar.ResetPower();
                
                _slowingTime = true;
-               FindObjectOfType<AudioManager>().Play("SlowTime");
-               
+               FMODUnity.RuntimeManager.PlayOneShot(slowTimeAudio, transform.position);
                Time.timeScale = slowTimeFactor;
                
                ResumeTime();
@@ -71,8 +70,8 @@ namespace WaveBasedLevel
                // Use RealTime as normal was causing increased wait times
                yield return new WaitForSecondsRealtime(_powerValue);
                
-               FindObjectOfType<AudioManager>().Play("ResumeTime");
-
+               FMODUnity.RuntimeManager.PlayOneShot(regainTimeAudio, transform.position);
+               
                _resumeTime = true;
           }
      }

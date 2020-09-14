@@ -1,5 +1,4 @@
-﻿using System;
-using BowArrow;
+﻿using BowArrow;
 using UnityEngine;
 
 public class OculusInput : MonoBehaviour
@@ -51,7 +50,6 @@ public class OculusInput : MonoBehaviour
                 
             PlayerPrefs.SetInt("dominantHandIndex", 1);
             PlayerPrefs.Save();
-            print("Changed");
         }
         else
         {
@@ -63,7 +61,6 @@ public class OculusInput : MonoBehaviour
                 
             PlayerPrefs.SetInt("dominantHandIndex", 0);
             PlayerPrefs.Save();
-            print("Changed");
         }
     }
     
@@ -76,7 +73,6 @@ public class OculusInput : MonoBehaviour
             bows[1].SetActive(true);
             customHands[0].SetActive(false);
             customHands[1].SetActive(true);
-            print("Changed");
         }
         else
         {
@@ -85,7 +81,6 @@ public class OculusInput : MonoBehaviour
             bows[1].SetActive(false);
             customHands[1].SetActive(false);
             customHands[0].SetActive(true);
-            print("Changed");
         }
     }
 }
