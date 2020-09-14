@@ -36,6 +36,7 @@ namespace PillarOfLight
     
         private void Update()
         {
+            // If arrow has been fired then dont allow it to change colour
             if (arrow.arrowFired) return;
             
             if (OVRInput.GetDown(OVRInput.Button.One) || Input.GetKeyDown(KeyCode.A))

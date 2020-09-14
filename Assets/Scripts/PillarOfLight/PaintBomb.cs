@@ -37,16 +37,6 @@ namespace PillarOfLight
         {
             var position = arrowTip.transform.position;
             Instantiate(explosionEffect, position, arrowTip.transform.rotation);
-
-            Collider[] colliders = Physics.OverlapSphere(position, blastRadius);
-
-            foreach (var nearObject in colliders)
-            {
-                if (nearObject.transform.name == "Monster")
-                {
-                    Destroy(nearObject.transform.parent.gameObject);
-                }
-            }
         }
     }
 }
