@@ -858,7 +858,6 @@
           </e>
           <e p="OculusInput.cs" t="Include" />
           <e p="PillarOfLight" t="Include">
-            <e p="ArrowColorSetter.cs" t="Include" />
             <e p="ArrowTipColorChecker.cs" t="Include" />
             <e p="ColoredCubeInfo.cs" t="Include" />
             <e p="DestroyingEnemies.cs" t="Include" />

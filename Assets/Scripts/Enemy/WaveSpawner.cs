@@ -98,6 +98,7 @@ namespace Enemy
                 if (GameObject.FindGameObjectWithTag("Enemy") == null)
                 {
                     FindObjectOfType<AudioManager>().Play("WaveOver");
+                    _pillarOfLight.GetComponent<PillarHealth>().ResetPillarHitCount();
                     return false;
                 }
             }
