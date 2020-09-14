@@ -9756,6 +9756,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 7b80f0a9144d44fb29940cb6667595d0, type: 2}
   colorInfoNum: {fileID: 0}
   shaftColor: {fileID: 384999108649450282}
+  arrow: {fileID: 7046829276956346025}
 --- !u!1 &8542102953145869890
 GameObject:
   m_ObjectHideFlags: 0
@@ -9813,6 +9814,7 @@ MonoBehaviour:
     m_Bits: 11063
   enableTrailRenderer: 1
   paintBomb: {fileID: 0}
+  arrowFired: 0
 --- !u!54 &3544760493190169588
 Rigidbody:
   m_ObjectHideFlags: 0
