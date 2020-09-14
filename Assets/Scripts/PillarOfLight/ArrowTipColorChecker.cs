@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using BowArrow;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace PillarOfLight
@@ -8,6 +9,7 @@ namespace PillarOfLight
         public Material[] cubeColors;
         public ColoredCubeInfo colorInfoNum;
         public MeshRenderer shaftColor;
+        public Arrow arrow;
 
         private MeshRenderer _tipColor;
         private SkinnedMeshRenderer _cubeColor;
@@ -34,6 +36,8 @@ namespace PillarOfLight
     
         private void Update()
         {
+            if (arrow.arrowFired) return;
+            
             if (OVRInput.GetDown(OVRInput.Button.One) || Input.GetKeyDown(KeyCode.A))
             {
                 colorInfoNum.SetCurrentColor((_currentMaterial += 1) % 3);

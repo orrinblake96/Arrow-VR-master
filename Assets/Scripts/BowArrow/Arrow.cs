@@ -14,6 +14,7 @@ namespace BowArrow
         public LayerMask layerToIgnore;
         public bool enableTrailRenderer;
         public PaintBomb paintBomb;
+        public bool arrowFired = false;
     
         private TrailRenderer _trailRenderer;
         private Rigidbody _mRigidbody = null;
@@ -80,6 +81,9 @@ namespace BowArrow
         //called by bow script when released 
         public void Fire(float pullValue)
         {
+            // set fired to true so colour wont change
+            arrowFired = true;
+            
             //Play arrow sound
             FindObjectOfType<AudioManager>().Play("BowRelease");
         
