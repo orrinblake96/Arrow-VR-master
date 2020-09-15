@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TargetsMiniGamePrefabs/Particles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TargetsMiniGamePrefabs/Particles.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AccuracyMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AccuracyMiniGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/FmodBackgroundMusicManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/FmodBackgroundMusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRSceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/WaveScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ToonShader/Toon.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Waves.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColoredCubeInfo.cs" />
@@ -126,12 +124,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/FMODBackgroundMusic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/FmodBackgroundMusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
       </list>
     </option>
   </component>
@@ -232,7 +231,7 @@
       <workItem from="1599666320731" duration="597000" />
       <workItem from="1599830200901" duration="1660000" />
       <workItem from="1600077089815" duration="7927000" />
-      <workItem from="1600163827216" duration="585000" />
+      <workItem from="1600163827216" duration="1099000" />
     </task>
     <servers />
   </component>
