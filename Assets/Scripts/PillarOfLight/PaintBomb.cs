@@ -20,7 +20,7 @@ namespace PillarOfLight
 
         private void Update()
         {
-            if (OVRInput.GetDown(OVRInput.Button.Three) && !_bombArrowReady && _specialAbilitiesBar.IsPowerFull())
+            if (OVRInput.GetDown(OVRInput.Button.Three) && !_bombArrowReady && _specialAbilitiesBar.IsPowerFull() )
             {
                 _specialAbilitiesBar.ResetPower();
                 _bombArrowReady = true;
@@ -37,6 +37,14 @@ namespace PillarOfLight
         {
             var position = arrowTip.transform.position;
             Instantiate(explosionEffect, position, arrowTip.transform.rotation);
+            
+            Collider[] nearObjects = Physics.OverlapSphere(gameObject.transform.position, 5f);
+
+            foreach (Collider nearObject in nearObjects)
+            {
+                if (nearObject.transform.name != "Monster") continue;
+                Destroy(nearObject.transform.parent.gameObject);
+            }
         }
     }
 }

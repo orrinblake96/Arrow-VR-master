@@ -14,6 +14,7 @@ namespace Enemy
         public float timeBetweenWaves = 4f;
         public Transform[] spawnPoints;
         public float currentRoundNumber = 0f;
+        public string soundPath;
 
         private int _nextWave = 0;
         private float _waveCountdown = 0f;
@@ -97,7 +98,7 @@ namespace Enemy
                 //*********************** can be optimised ***********************
                 if (GameObject.FindGameObjectWithTag("Enemy") == null)
                 {
-                    FindObjectOfType<AudioManager>().Play("WaveOver");
+                    FMODUnity.RuntimeManager.PlayOneShot(soundPath, transform.position);
                     _pillarOfLight.GetComponent<PillarHealth>().ResetPillarHitCount();
                     return false;
                 }

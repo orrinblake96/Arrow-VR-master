@@ -14,17 +14,20 @@ namespace BowArrow
         public LayerMask layerToIgnore;
         public bool enableTrailRenderer;
         public PaintBomb paintBomb;
-        public bool arrowFired = false;
+        
+        [HideInInspector] public bool arrowFired = false;
     
         private TrailRenderer _trailRenderer;
         private Rigidbody _mRigidbody = null;
         private bool _mIsStopped = true;
         private Vector3 _mLastPosition = Vector3.zero;
+        private FMODUnity.StudioEventEmitter _eventEmitterRef;
 
         private void Awake()
         {
             _mRigidbody = GetComponent<Rigidbody>();
             TipCollider = m_Tip.GetComponent<CapsuleCollider>();
+            _eventEmitterRef = GetComponent<FMODUnity.StudioEventEmitter>();
         }
 
         private void Start()
@@ -85,7 +88,7 @@ namespace BowArrow
             arrowFired = true;
             
             //Play arrow sound
-            FindObjectOfType<AudioManager>().Play("BowRelease");
+            _eventEmitterRef.Play();
         
             _mLastPosition = transform.position;
             

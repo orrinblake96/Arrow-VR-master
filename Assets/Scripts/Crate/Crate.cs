@@ -9,6 +9,7 @@ namespace Crate
         public GameObject destroyedCrate;
         public LevelManager levelManager;
         public string levelChosen;
+        public string soundPath;
 
         public void Damage(int amount)
         {
@@ -24,7 +25,7 @@ namespace Crate
             else
             {
                 levelManager.StartSelectedGameMode(levelChosen);
-                FindObjectOfType<AudioManager>().Play("WoodenBoxBreak");
+                FMODUnity.RuntimeManager.PlayOneShot(soundPath, transform.position);
                 Instantiate(destroyedCrate, transform.position, transform.rotation);
                 Destroy(gameObject);   
             }
