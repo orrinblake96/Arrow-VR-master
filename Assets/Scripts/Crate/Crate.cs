@@ -9,7 +9,7 @@ namespace Crate
         public LevelManager levelManager;
         public string levelChosen;
         public string soundPath;
-
+        
         public void Damage(int amount)
         {
             DestroyCrate();
@@ -26,7 +26,7 @@ namespace Crate
                 levelManager.StartSelectedGameMode(levelChosen);
                 FMODUnity.RuntimeManager.PlayOneShot(soundPath, transform.position);
                 Instantiate(destroyedCrate, transform.position, transform.rotation);
-                Destroy(gameObject);   
+                Destroy(gameObject);
             }
         }
     }
