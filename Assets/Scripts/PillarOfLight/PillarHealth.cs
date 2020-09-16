@@ -4,25 +4,18 @@ namespace PillarOfLight
 {
     public class PillarHealth : MonoBehaviour
     {
-        public enum PillarState
-        {
-            Idle,
-            TakingDamage,
-            Attacking,
-            Destroyed
-        }
         
         public float startingHealth = 100;
-        public float currentHealth;
         public Material pillarOfLightMaterial;
-        public PillarState pillarState = PillarState.Idle;
         public GameObject exitSign;
         public GameObject replaySign;
         public GameObject pillarExplosionEffect;
-
+        
+        private float _currentHealth;
         private float _pillarColor = 255f;
         private int _hitCount = 0;
         private Material _pillarOfLightMaterialInstance;
+        private Collider[] _pillarExplosionOverlapResults = new Collider[20];
 
         private void Start()
         {
@@ -30,12 +23,12 @@ namespace PillarOfLight
             _pillarOfLightMaterialInstance = Instantiate(pillarOfLightMaterial);
             GetComponent<MeshRenderer>().material = _pillarOfLightMaterialInstance;
             
-            currentHealth = startingHealth;
+            _currentHealth = startingHealth;
         }
 
         public void DamageTaken()
         {
-            currentHealth -= 10;
+            _currentHealth -= 10;
 
             // Changes pillar color from white to red the more times it takes damage
             _pillarColor -= 25.5f;
@@ -52,7 +45,7 @@ namespace PillarOfLight
                 DestroyEnemies();
             }
 
-            if (!(currentHealth <= 0)) return;
+            if (!(_currentHealth <= 0)) return;
             if(exitSign) exitSign.SetActive(true);
             if(replaySign) replaySign.SetActive(true);
             gameObject.SetActive(false);
@@ -60,19 +53,22 @@ namespace PillarOfLight
 
         private void DestroyEnemies()
         {
-            Collider[] nearObjects = Physics.OverlapSphere(gameObject.transform.position, 5f);
+            Physics.OverlapSphereNonAlloc(transform.position, 5f, _pillarExplosionOverlapResults);
 
-            foreach (Collider nearObject in nearObjects)
+            foreach (Collider nearObject in _pillarExplosionOverlapResults)
             {
+                if (nearObject == null) continue;
                 if (nearObject.transform.name != "Monster") continue;
                 Destroy(nearObject.transform.parent.gameObject);
-                print("Destroyed enemy");
             }
         }
-
-        public void ResetPillarHitCount()
+        
+        public void ResetPillarHits(int hitCount)
         {
-            _hitCount = 0;
+            _hitCount = hitCount;
         }
+        
+        // Calculating random power-up drops
+        public float CurrentHealth => _currentHealth;
     }
 }

@@ -935,6 +935,7 @@
             <e p="DestroyingEnemies.cs" t="Include" />
             <e p="PaintBomb.cs" t="Include" />
             <e p="PillarHealth.cs" t="Include" />
+            <e p="SpawnRandomPowerUp.cs" t="Include" />
             <e p="SpecialAbilitiesBar.cs" t="Include" />
             <e p="TimeController.cs" t="Include" />
             <e p="WaveScore.cs" t="Include" />

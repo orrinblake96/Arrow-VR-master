@@ -18,6 +18,7 @@ namespace Enemy
 
         private int _nextWave = 0;
         private float _waveCountdown = 0f;
+        private int _waveCount = 0;
         private float _nextWaveSpawnCountIncrease = 0f;
         private float _searchEnemyAliveCountdown = 1f;
         private SpawnState _state = SpawnState.Counting;
@@ -88,25 +89,27 @@ namespace Enemy
         }
 
         // Check if enemies are all dead every 1 second
-        bool EnemyIsAlive()
+        private bool EnemyIsAlive()
         {
             _searchEnemyAliveCountdown -= Time.deltaTime;
             if (_searchEnemyAliveCountdown <= 0f)
             {
                 _searchEnemyAliveCountdown = 1f;
                 
-                //*********************** can be optimised ***********************
                 if (GameObject.FindGameObjectWithTag("Enemy") == null)
                 {
+//                    _waveCount++;
+                    WaveCount++;
+                    Debug.Log(WaveCount);
                     FMODUnity.RuntimeManager.PlayOneShot(soundPath, transform.position);
-                    _pillarOfLight.GetComponent<PillarHealth>().ResetPillarHitCount();
+                    _pillarOfLight.GetComponent<PillarHealth>().ResetPillarHits(0);
                     return false;
                 }
             }
             return true;
         }
 
-        IEnumerator SpawnWave(Waves wave)
+        private IEnumerator SpawnWave(Waves wave)
         {
             // set wave system to spawning state
             _state = SpawnState.Spawning;
@@ -130,6 +133,13 @@ namespace Enemy
             // Spawn enemies at 1 of 3 pre-defined spawn points
             Transform sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
             Instantiate(enemy, sp.position, sp.rotation);
+        }
+        
+        // Calculating random power-up drops
+        public int WaveCount
+        {
+            get => _waveCount;
+            set => _waveCount = value;
         }
     }
 }

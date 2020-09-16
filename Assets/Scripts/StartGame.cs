@@ -8,6 +8,7 @@ namespace WaveBasedLevel
         public GameObject waveManager;
         public GameObject startGameUi;
         public GameObject specialAbilitiesInstructions;
+        public GameObject powerupSpawnPoints;
 
         private void Update()
         {
@@ -16,6 +17,7 @@ namespace WaveBasedLevel
             startGameUi.SetActive(false);
             gameObject.SetActive(false);
             specialAbilitiesInstructions.SetActive(true);
+            powerupSpawnPoints.SetActive(true);
         }
     }
 }
