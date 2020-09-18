@@ -14,6 +14,7 @@ namespace PillarOfLight
         private PillarHealth _pillarHealth;
         private WaveScore _waveScore;
         private WaveSpawner _waveSpawner;
+        public int _powerUpsSpawnedCount = 0;
 
         private void Start()
         {
@@ -24,9 +25,10 @@ namespace PillarOfLight
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            
+            if ( (Input.GetKeyDown(KeyCode.Space) || OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger)) && _powerUpsSpawnedCount < 2 )
             {
-                
+                _powerUpsSpawnedCount++;
                 Random random = new Random();
                 int powerup = random.Next(0, powerUps.Length);
                 
@@ -34,11 +36,18 @@ namespace PillarOfLight
                 int spawnPoint = random.Next(0, spawnPoints.Length);
 
                 Instantiate(powerUps[powerup], spawnPoints[spawnPoint].position, spawnPoints[spawnPoint].rotation);
-
-                Debug.Log("Health: " + _pillarHealth.CurrentHealth);
-                Debug.Log("Score: " +_waveScore.CurrentScore);
-                Debug.Log("Wave #: " +_waveSpawner.WaveCount);
             }
+        }
+
+        private int GetCurrentValuesForCalculation()
+        {
+            Debug.Log("Health: " + _pillarHealth.CurrentHealth);
+            Debug.Log("Score: " +_waveScore.CurrentScore);
+            Debug.Log("Wave #: " +_waveSpawner.WaveCount);
+            
+//            _powerUpSpawned = true;
+            
+            return _waveScore.CurrentScore;
         }
     }
 }

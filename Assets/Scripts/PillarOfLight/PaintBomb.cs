@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace PillarOfLight
 {
@@ -11,19 +12,19 @@ namespace PillarOfLight
         public float blastRadius = 10f;
 
         private bool _bombArrowReady = false;
-        private SpecialAbilitiesBar _specialAbilitiesBar;
         private Collider[] _paintBombOverlapResults = new Collider[20];
+        private PowerUpManager _powerUpManager;
 
-        private void Awake()
+        private void Start()
         {
-            _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>();
+            _powerUpManager = GameObject.Find("PowerUpsManagers").GetComponent<PowerUpManager>();
         }
 
         private void Update()
         {
-            if (OVRInput.GetDown(OVRInput.Button.Three) && !_bombArrowReady && _specialAbilitiesBar.IsPowerFull() )
+            if (OVRInput.GetDown(OVRInput.Button.Three) && !_bombArrowReady && _powerUpManager.bombArrowAcquired)
             {
-                _specialAbilitiesBar.ResetPower();
+                _powerUpManager.bombArrowAcquired = false;
                 _bombArrowReady = true;
                 smokeEffect.SetActive(true);
             }

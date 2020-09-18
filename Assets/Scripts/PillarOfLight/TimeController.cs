@@ -11,8 +11,9 @@ namespace WaveBasedLevel
 
           private bool _slowingTime = false;
           private bool _resumeTime = false;
-          private SpecialAbilitiesBar _specialAbilitiesBar;
+//          private SpecialAbilitiesBar _specialAbilitiesBar; // Remove
           private float _powerValue;
+          private PowerUpManager _powerUpManager;
 
           public float slowTimeFactor = 0.25f;
           public string slowTimeAudio;
@@ -20,13 +21,15 @@ namespace WaveBasedLevel
 
           private void Start()
           {
-               _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>();
+//               _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>(); // Remove
+               _powerUpManager = GameObject.Find("PowerUpsManagers").GetComponent<PowerUpManager>();
           }
 
           private void Update()
           {
-               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime && _specialAbilitiesBar.IsPowerCharged() && Time.timeScale >= 1.0f)
+               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime && _powerUpManager.slowTimeAcquired && Time.timeScale >= 1.0f)
                {
+                    _powerUpManager.slowTimeAcquired = false;
                     SlowTime();
                }
 
@@ -44,8 +47,8 @@ namespace WaveBasedLevel
           {
                // safe power value to be used later
                // reset so bar is empty
-               _powerValue = _specialAbilitiesBar.CurrentPower();
-               _specialAbilitiesBar.ResetPower();
+//               _powerValue = _specialAbilitiesBar.CurrentPower(); // Remove
+//               _specialAbilitiesBar.ResetPower(); // Remove
                
                _slowingTime = true;
                FMODUnity.RuntimeManager.PlayOneShot(slowTimeAudio, transform.position);
@@ -68,7 +71,7 @@ namespace WaveBasedLevel
                
                // Wait for time (power value: 0.5 - 10)
                // Use RealTime as normal was causing increased wait times
-               yield return new WaitForSecondsRealtime(_powerValue);
+               yield return new WaitForSecondsRealtime(7);
                
                FMODUnity.RuntimeManager.PlayOneShot(regainTimeAudio, transform.position);
                

@@ -100,7 +100,6 @@ namespace Enemy
                 {
 //                    _waveCount++;
                     WaveCount++;
-                    Debug.Log(WaveCount);
                     FMODUnity.RuntimeManager.PlayOneShot(soundPath, transform.position);
                     _pillarOfLight.GetComponent<PillarHealth>().ResetPillarHits(0);
                     return false;

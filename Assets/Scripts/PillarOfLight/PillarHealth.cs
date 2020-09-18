@@ -5,13 +5,13 @@ namespace PillarOfLight
     public class PillarHealth : MonoBehaviour
     {
         
-        public float startingHealth = 100;
+        public int startingHealth = 100;
         public Material pillarOfLightMaterial;
         public GameObject exitSign;
         public GameObject replaySign;
         public GameObject pillarExplosionEffect;
         
-        private float _currentHealth;
+        private int _currentHealth;
         private float _pillarColor = 255f;
         private int _hitCount = 0;
         private Material _pillarOfLightMaterialInstance;
@@ -69,6 +69,6 @@ namespace PillarOfLight
         }
         
         // Calculating random power-up drops
-        public float CurrentHealth => _currentHealth;
+        public int CurrentHealth => _currentHealth;
     }
 }
