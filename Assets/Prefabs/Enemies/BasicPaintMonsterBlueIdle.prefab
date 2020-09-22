@@ -1044,7 +1044,7 @@ GameObject:
   - component: {fileID: 6896316217478074410}
   - component: {fileID: 5267913819122860062}
   - component: {fileID: 7633595695514853950}
-  - component: {fileID: 4364432035880562846}
+  - component: {fileID: 1820738326}
   m_Layer: 0
   m_Name: BasicPaintMonsterBlueIdle
   m_TagString: Enemy
@@ -1107,7 +1107,7 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &4364432035880562846
+--- !u!114 &1820738326
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

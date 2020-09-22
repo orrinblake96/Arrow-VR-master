@@ -1,4 +1,5 @@
 ﻿using System;
+using Crate;
 using UnityEngine;
 using WaveBasedLevel;
 
@@ -9,7 +10,6 @@ namespace PillarOfLight
         public GameObject explosionParticles;
 
         private WaveScore _waveScoreBoard;
-        private SpecialAbilitiesBar _specialAbilitiesBar;
         private bool _scoreBoardExists = false;
         private LevelManager _levelManager;
         
@@ -20,7 +20,6 @@ namespace PillarOfLight
             if (GameObject.FindGameObjectWithTag("WaveScoreBoard") != null)
             {
                 _waveScoreBoard = GameObject.FindGameObjectWithTag("WaveScoreBoard").GetComponent<WaveScore>();
-                _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>();
                 _scoreBoardExists = true;
             }
         }
@@ -34,7 +33,6 @@ namespace PillarOfLight
             if (_scoreBoardExists)
             {
                 _waveScoreBoard.IncreaseCurrentScore();
-                _specialAbilitiesBar.IncrementPower(.05f);
             }
         }
     }

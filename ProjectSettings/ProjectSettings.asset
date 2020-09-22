@@ -778,10 +778,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: c73f4489-19ec-4c15-918a-e895485df67c
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: BowAndArrow_Unity
-  organizationId: unflappedoyster
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

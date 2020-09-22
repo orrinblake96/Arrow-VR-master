@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 257761938977105920}
   - component: {fileID: 257761940013285585}
   - component: {fileID: 2551105005427237623}
-  - component: {fileID: -3194721255358297095}
+  - component: {fileID: 1242212173}
   m_Layer: 0
   m_Name: BasicPaintMonsterRedIdle
   m_TagString: Enemy
@@ -471,7 +471,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2551105005427237622}
-  m_LocalRotation: {x: -0, y: 0.91637975, z: -0, w: 0.4003102}
+  m_LocalRotation: {x: 0, y: 0.9163802, z: 0, w: 0.40030897}
   m_LocalPosition: {x: -16.49, y: -3.03, z: -4.26}
   m_LocalScale: {x: 0.27024823, y: 0.27024823, z: 0.27024823}
   m_Children:
@@ -541,7 +541,7 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &-3194721255358297095
+--- !u!114 &1242212173
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

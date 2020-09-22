@@ -999,7 +999,7 @@ GameObject:
   - component: {fileID: 6930835161070576382}
   - component: {fileID: 8538971546861793994}
   - component: {fileID: 6229634985715880172}
-  - component: {fileID: 7203696933819807928}
+  - component: {fileID: 275379675}
   m_Layer: 0
   m_Name: BasicPaintMonsterGreenIdle
   m_TagString: Enemy
@@ -1062,7 +1062,7 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &7203696933819807928
+--- !u!114 &275379675
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

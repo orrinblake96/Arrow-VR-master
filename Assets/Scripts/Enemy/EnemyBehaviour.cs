@@ -118,7 +118,7 @@ namespace Enemy
         public void AttackPillar()
         {
             // Attack Pillar while it has health
-            if (_pillarHealth.currentHealth > 0)
+            if (_pillarHealth.CurrentHealth > 0)
             {
                 _pillarHealth.DamageTaken();
             }

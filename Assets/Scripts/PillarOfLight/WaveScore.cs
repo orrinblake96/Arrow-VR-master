@@ -18,5 +18,8 @@ namespace WaveBasedLevel
 
             _scoreText.text = _currentScore.ToString();
         }
+        
+        // Calculating random power-up drops
+        public int CurrentScore => _currentScore;
     }
 }
