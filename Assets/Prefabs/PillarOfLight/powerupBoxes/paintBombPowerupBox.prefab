@@ -123,3 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba07d8d1bd04b48059e112d413eab2be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fracturedBombPowerupBox: {fileID: 3007342358901346101, guid: 7a47dd788cbe54975b8a20f28ea9d212,
+    type: 3}
+  fracturedTimePowerupBox: {fileID: 3007342358901346101, guid: 7a47dd788cbe54975b8a20f28ea9d212,
+    type: 3}

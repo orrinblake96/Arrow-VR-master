@@ -13,16 +13,17 @@ namespace Enemy
         public Waves[] waves;
         public float timeBetweenWaves = 4f;
         public Transform[] spawnPoints;
-        public float currentRoundNumber = 0f;
+        [HideInInspector] public float currentRoundNumber = 0f;
         public string soundPath;
 
         private int _nextWave = 0;
         private float _waveCountdown = 0f;
-        private int _waveCount = 0;
+        private float _roundCount = 0;
         private float _nextWaveSpawnCountIncrease = 0f;
         private float _searchEnemyAliveCountdown = 1f;
         private SpawnState _state = SpawnState.Counting;
         private GameObject _pillarOfLight;
+        private SpawnRandomPowerUp _spawnRandomPowerUp;
 
         private void Start()
         {
@@ -30,6 +31,8 @@ namespace Enemy
             _waveCountdown = timeBetweenWaves;
             
             _pillarOfLight = GameObject.Find("PillarOfLightTarget");
+
+            _spawnRandomPowerUp = GameObject.Find("PowerUpSpawnPoints").GetComponent<SpawnRandomPowerUp>();
         }
 
         private void Update()
@@ -79,6 +82,7 @@ namespace Enemy
                 
                 // Increase number of enemies spawned, speed each agent moves & time waited before next wave 
                 currentRoundNumber++;
+                RoundCount++;
                 _nextWaveSpawnCountIncrease += 1;
                 if (timeBetweenWaves > 0) timeBetweenWaves -= 1;
             }
@@ -99,7 +103,7 @@ namespace Enemy
                 if (GameObject.FindGameObjectWithTag("Enemy") == null)
                 {
 //                    _waveCount++;
-                    WaveCount++;
+                    _spawnRandomPowerUp.SpawnPowerUp();
                     FMODUnity.RuntimeManager.PlayOneShot(soundPath, transform.position);
                     _pillarOfLight.GetComponent<PillarHealth>().ResetPillarHits(0);
                     return false;
@@ -135,10 +139,10 @@ namespace Enemy
         }
         
         // Calculating random power-up drops
-        public int WaveCount
+        public float RoundCount
         {
-            get => _waveCount;
-            set => _waveCount = value;
+            get => _roundCount;
+            set => _roundCount = value;
         }
     }
 }

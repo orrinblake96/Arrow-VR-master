@@ -6,6 +6,9 @@ namespace PillarOfLight
 {
     public class ObtainPowerUp : MonoBehaviour, IDamageable
     {
+        public GameObject fracturedBombPowerupBox;
+        public GameObject fracturedTimePowerupBox;
+        
         private PowerUpManager _powerUpManager;
         private SpawnRandomPowerUp _spawnRandomPowerUp;
         private void Start()
@@ -16,8 +19,17 @@ namespace PillarOfLight
 
         public void Damage(int amount)
         {
-            if(gameObject.name == "slowTimePowerupBox(Clone)") _powerUpManager.slowTimeAcquired = true;
-            if (gameObject.name == "paintBombPowerupBox(Clone)") _powerUpManager.bombArrowAcquired = true;
+            if (gameObject.name == "slowTimePowerupBox(Clone)")
+            {
+                _powerUpManager.slowTimeAcquired = true;
+                Instantiate(fracturedTimePowerupBox, transform.position, transform.rotation);
+            }
+
+            if (gameObject.name == "paintBombPowerupBox(Clone)")
+            {
+                _powerUpManager.bombArrowAcquired = true;
+                Instantiate(fracturedBombPowerupBox, transform.position, transform.rotation);
+            }
             
             // Only 2 boxes allowed at a time
             _spawnRandomPowerUp._powerUpsSpawnedCount--;
