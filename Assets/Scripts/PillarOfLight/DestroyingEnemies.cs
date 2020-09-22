@@ -1,6 +1,4 @@
-﻿using System;
-using Crate;
-using UnityEngine;
+﻿using UnityEngine;
 using WaveBasedLevel;
 
 namespace PillarOfLight
@@ -32,7 +30,7 @@ namespace PillarOfLight
             
             if (_scoreBoardExists)
             {
-                _waveScoreBoard.IncreaseCurrentScore();
+                _waveScoreBoard.IncreaseCurrentScore(25);
             }
         }
     }
