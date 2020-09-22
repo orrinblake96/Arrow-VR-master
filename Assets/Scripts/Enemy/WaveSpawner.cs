@@ -15,6 +15,7 @@ namespace Enemy
         public Transform[] spawnPoints;
         [HideInInspector] public float currentRoundNumber = 0f;
         public string soundPath;
+        public GameObject largeEnemy;
 
         private int _nextWave = 0;
         private float _waveCountdown = 0f;
@@ -124,6 +125,8 @@ namespace Enemy
                 SpawnEnemy(wave.enemyTransforms[Random.Range(0, wave.enemyTransforms.Length)]);
                 yield return new WaitForSeconds(1f/(wave.spawnRate + currentRoundNumber));
             }
+            
+            if(Random.value > 0.5) SpawnEnemy(largeEnemy.transform);
 
             // After all enemies spawned set spawn system state to waiting
             _state = SpawnState.Waiting;

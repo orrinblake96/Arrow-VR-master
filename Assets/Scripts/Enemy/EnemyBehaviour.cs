@@ -9,6 +9,7 @@ namespace Enemy
     {
         public float rotationSpeed = 10f;
         public GameObject fracturedSelf;
+        public bool isLargeEnemy;
 
         private GameObject _pillar;
         private Transform _target;
@@ -28,11 +29,17 @@ namespace Enemy
             _pillar = GameObject.Find("PillarOfLightTarget");
             _pillarTransform = _pillar.transform;
             _pillarHealth = _pillar.GetComponent<PillarHealth>();
-        
             // Pass all attack positions and returns closest 
-            _attackPositions = new Transform[3] {GameObject.Find("RedAttackPos").transform, GameObject.Find("GreenAttackPos").transform, GameObject.Find("BlueAttackPos").transform};
-            _target = GetClosestAttackPosition(_attackPositions);
-
+            if (!isLargeEnemy)
+            {
+                _attackPositions = new Transform[] {GameObject.Find("RedAttackPos").transform, GameObject.Find("GreenAttackPos").transform, GameObject.Find("BlueAttackPos").transform};
+                _target = GetClosestAttackPosition(_attackPositions);
+            }
+            else
+            {
+                _attackPositions = new Transform[] {GameObject.Find("LargeRedAttackPos").transform, GameObject.Find("LargeGreenAttackPos").transform, GameObject.Find("LargeBlueAttackPos").transform};
+                _target = GetClosestAttackPosition(_attackPositions);   
+            }
         }
 
         private void Start()

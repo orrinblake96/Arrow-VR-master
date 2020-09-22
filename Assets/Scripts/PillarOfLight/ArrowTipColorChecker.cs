@@ -51,10 +51,15 @@ namespace PillarOfLight
         private void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.GetComponent<SkinnedMeshRenderer>() == null) return;
+            
+            if (other.gameObject.name == "LargeMonster")
+            {
+                other.transform.parent.GetComponent<DestroyLargeEnemy>().Damage(10);
+            }
         
             //Check if cubes color matches tip of arrow
             _cubeColor = other.gameObject.GetComponent<SkinnedMeshRenderer>();
-
+            
             //*************************** Refine **********************************
             if ((_cubeColor.material.color.r != _tipColor.material.color.r) ||
                 (_cubeColor.material.color.g != _tipColor.material.color.g) ||

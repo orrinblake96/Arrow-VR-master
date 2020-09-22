@@ -414,7 +414,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53d45e687783345408eff40e4dffa3d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
+  attackPositions: []
+  rotationSpeed: 2
   fracturedSelf: {fileID: 9222215353654509073, guid: 56a7dad18f495495d9a27781e6a7ac90,
     type: 3}
 --- !u!195 &1689029500

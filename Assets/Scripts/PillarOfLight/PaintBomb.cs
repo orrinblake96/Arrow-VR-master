@@ -45,7 +45,12 @@ namespace PillarOfLight
             foreach (Collider nearObject in _paintBombOverlapResults)
             {
                 if (nearObject == null) continue;
-                if (nearObject.transform.name != "Monster") continue;
+                if (nearObject.transform.name != "Monster" && nearObject.transform.name != "LargeMonster") continue;
+                if (nearObject.transform.name == "LargeMonster")
+                {
+                    nearObject.transform.parent.GetComponent<DestroyLargeEnemy>().Damage(50);
+                    continue;
+                }
                 Destroy(nearObject.transform.parent.gameObject);
             }
         }

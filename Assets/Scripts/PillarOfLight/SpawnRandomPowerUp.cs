@@ -24,22 +24,7 @@ namespace PillarOfLight
             _waveSpawner = GameObject.Find("GM").GetComponent<WaveSpawner>();
         }
 
-//        private void Update()
-//        {
-//            
-//            if ( (Input.GetKeyDown(KeyCode.Space) || OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger)) && _powerUpsSpawnedCount < 1 )
-//            {
-//                _powerUpsSpawnedCount++;
-//                Random random = new Random();
-//                int powerup = random.Next(0, powerUps.Length);
-//                
-//                random = new Random();
-//                int spawnPoint = random.Next(0, spawnPoints.Length);
-//
-//                Instantiate(powerUps[powerup], spawnPoints[spawnPoint].position, spawnPoints[spawnPoint].rotation);
-//            }
-//        }
-
+        // ReSharper disable once CognitiveComplexity
         public void SpawnPowerUp()
         {
             // Check number of power-ups currently spawned (2 max)
@@ -61,15 +46,15 @@ namespace PillarOfLight
             if ((int)_waveSpawner.RoundCount >= 7 || _pillarHealth.CurrentHealth == 10)
                 _spawnabilityNumber = 0.9f;
             
-            print("spawn Chance" + _spawnabilityNumber);
-            
+            // if random value is bigger then return and don't spawn a power-up
             if (Random.value > _spawnabilityNumber) return;
-
-            _powerUpsSpawnedCount++;
-            int powerup = Random.Range(0, powerUps.Length);
             
+            // Increase counter to track number of power-ups in play
+            _powerUpsSpawnedCount++;
+            
+            // Choose random power-up and position then spawn
+            int powerup = Random.Range(0, powerUps.Length);
             int spawnPoint = Random.Range(0, spawnPoints.Length);
-
             Instantiate(powerUps[powerup], spawnPoints[spawnPoint].position, spawnPoints[spawnPoint].rotation);
             }
 
