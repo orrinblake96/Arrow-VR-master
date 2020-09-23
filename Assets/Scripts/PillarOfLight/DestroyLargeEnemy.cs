@@ -19,15 +19,11 @@ namespace PillarOfLight
         public void Damage(int amount)
         {
             _enemyHealth -= amount;
-            
-            print("Health: " + _enemyHealth);
-            
-            if (_enemyHealth <= 0)
-            {
-                Instantiate(explosionParticles, transform.position + Vector3.up, transform.rotation);
-                _waveScoreBoard.IncreaseCurrentScore(100);
-                Destroy(gameObject);
-            }
+
+            if (_enemyHealth > 0) return;
+            Instantiate(explosionParticles, transform.position + Vector3.up, transform.rotation);
+            _waveScoreBoard.IncreaseCurrentScore(100, transform);
+            Destroy(gameObject);
         }
     }
 }

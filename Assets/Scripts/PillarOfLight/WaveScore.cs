@@ -2,10 +2,12 @@
 using TMPro;
 using UnityEngine;
 
-namespace WaveBasedLevel
+namespace PillarOfLight
 {
     public class WaveScore : MonoBehaviour
     {
+        public GameObject[] scoreMultiplierEffects;
+        
         private int _currentScore;
         private int _currentMultiplier = 1;
         private TextMeshProUGUI _scoreText;
@@ -14,45 +16,55 @@ namespace WaveBasedLevel
             _scoreText = GetComponent<TextMeshProUGUI>();
         }
         
-        public void IncreaseCurrentScore(int pointsToAdd)
+        public void IncreaseCurrentScore(int pointsToAdd, Transform enemyPosition)
         {
             switch (_currentMultiplier)
             {
                 case 1:
                     _currentScore += (pointsToAdd * _currentMultiplier);
                     _currentMultiplier++;
-                    StartCoroutine(ScoreMultiplierTimer());
+                    StopCoroutine(nameof(ScoreMultiplierTimer));
                     _scoreText.text = _currentScore.ToString();
-                    Debug.Log("Multiplier: " + _currentMultiplier);
-                    return;
+                    Instantiate(scoreMultiplierEffects[0], enemyPosition.position + ( Vector3.up * 2 ), enemyPosition.rotation);
+                    break;
                 case 2:
                     _currentScore += (pointsToAdd * _currentMultiplier);
                     _currentMultiplier++;
-                    StopCoroutine(ScoreMultiplierTimer());
+                    StopCoroutine(nameof(ScoreMultiplierTimer));
+                    Instantiate(scoreMultiplierEffects[1], enemyPosition.position + ( Vector3.up * 2 ), enemyPosition.rotation);
                     break;
                 case 3:
                     _currentScore += (pointsToAdd * _currentMultiplier);
                     _currentMultiplier++;
-                    StopCoroutine(ScoreMultiplierTimer());
+                    StopCoroutine(nameof(ScoreMultiplierTimer));
+                    Instantiate(scoreMultiplierEffects[2], enemyPosition.position + ( Vector3.up * 2 ), enemyPosition.rotation);
                     break;
                 case 4:
                     _currentScore += (pointsToAdd * _currentMultiplier);
                     _currentMultiplier++;
-                    StopCoroutine(ScoreMultiplierTimer());
+                    StopCoroutine(nameof(ScoreMultiplierTimer));
+                    Instantiate(scoreMultiplierEffects[3], enemyPosition.position + ( Vector3.up * 2 ), enemyPosition.rotation);
+                    break;
+                case 5:
+                    _currentScore += (pointsToAdd * _currentMultiplier);
+                    _currentMultiplier++;
+                    StopCoroutine(nameof(ScoreMultiplierTimer));
+                    Instantiate(scoreMultiplierEffects[4], enemyPosition.position + ( Vector3.up * 2 ), enemyPosition.rotation);
+                    break;
+                case 6:
+                    _currentScore += (pointsToAdd * _currentMultiplier);
+                    StopCoroutine(nameof(ScoreMultiplierTimer));
+                    Instantiate(scoreMultiplierEffects[5], enemyPosition.position + ( Vector3.up * 2 ), enemyPosition.rotation);
                     break;
             } 
-            
-            Debug.Log("Multiplier: " + _currentMultiplier);
-            StartCoroutine(ScoreMultiplierTimer());
+            StartCoroutine(nameof(ScoreMultiplierTimer));
             _scoreText.text = _currentScore.ToString();
         }
 
         IEnumerator ScoreMultiplierTimer()
         {
-            Debug.Log("Co Started ");
             yield return new WaitForSeconds(5f);
             _currentMultiplier = 1;
-            Debug.Log("Co ended ");
         }
         
         // Calculating random power-up drops
