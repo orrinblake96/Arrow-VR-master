@@ -5,35 +5,36 @@ using WaveBasedLevel;
 
 namespace PillarOfLight
 {
-    public class DestroyingEnemies : MonoBehaviour
+    public class DestroyingEnemies : MonoBehaviour, IDamageable
     {
         public GameObject explosionParticles;
 
         private WaveScore _waveScoreBoard;
         private bool _scoreBoardExists = false;
-        private LevelManager _levelManager;
+        private int _enemyHealth = 10;
         
         private void Awake()
         {
-            _levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
-            
-            if (GameObject.FindGameObjectWithTag("WaveScoreBoard") != null)
-            {
-                _waveScoreBoard = GameObject.FindGameObjectWithTag("WaveScoreBoard").GetComponent<WaveScore>();
-                _scoreBoardExists = true;
-            }
+            if (GameObject.FindGameObjectWithTag("WaveScoreBoard") == null) return;
+            _waveScoreBoard = GameObject.FindGameObjectWithTag("WaveScoreBoard").GetComponent<WaveScore>();
+            _scoreBoardExists = true;
         }
 
-        private void OnDestroy()
+        public void Damage(int amount)
         {
-            if (_levelManager.IsSceneChanging()) return;
-            
-            Instantiate(explosionParticles, transform.position + Vector3.up, transform.rotation);
-            
+
+            // Damage and check if dead
+            _enemyHealth -= amount;
+            if (_enemyHealth > 0) return;
+
+            // Explode with effects, increase overall score and destroy enemy
+            var enemyTransform = transform;
+            Instantiate(explosionParticles, enemyTransform.position + Vector3.up, enemyTransform.rotation);
             if (_scoreBoardExists)
             {
-                _waveScoreBoard.IncreaseCurrentScore();
+                _waveScoreBoard.IncreaseCurrentScore(25, enemyTransform);
             }
+            Destroy(gameObject);
         }
     }
 }

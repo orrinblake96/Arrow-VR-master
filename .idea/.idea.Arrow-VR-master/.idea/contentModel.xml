@@ -901,6 +901,7 @@
             <e p="MoveTarget.cs" t="Include" />
           </e>
           <e p="AllLevels" t="Include">
+            <e p="CameraFacingBillboard.cs" t="Include" />
             <e p="HoverFloatingIslands.cs" t="Include" />
           </e>
           <e p="Audio" t="Include">

@@ -65,9 +65,10 @@ namespace PillarOfLight
                 (_cubeColor.material.color.g != _tipColor.material.color.g) ||
                 (_cubeColor.material.color.b != _tipColor.material.color.b)) return;
         
-            _enemyHitTransform = other.gameObject.transform;
-
-            Destroy(_enemyHitTransform.parent.gameObject);
+//            _enemyHitTransform = other.gameObject.transform;
+//
+//            Destroy(_enemyHitTransform.parent.gameObject);
+            other.transform.parent.GetComponent<DestroyingEnemies>().Damage(10);
         }
     }
 }

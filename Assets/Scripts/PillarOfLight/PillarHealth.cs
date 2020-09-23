@@ -64,7 +64,7 @@ namespace PillarOfLight
                     nearObject.transform.parent.GetComponent<DestroyLargeEnemy>().Damage(50);
                     continue;
                 }
-                Destroy(nearObject.transform.parent.gameObject);
+                nearObject.transform.parent.GetComponent<DestroyingEnemies>().Damage(10);
             }
         }
         

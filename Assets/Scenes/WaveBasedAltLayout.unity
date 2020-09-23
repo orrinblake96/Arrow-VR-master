@@ -29801,6 +29801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e195913da71942879aaf2e3ee7aa85d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreMultiplierEffect: {fileID: 824060398181147966, guid: 4387391d509dd44938a61f7798d16d4c,
+    type: 3}
 --- !u!114 &1442191278
 MonoBehaviour:
   m_ObjectHideFlags: 0

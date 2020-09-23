@@ -109,7 +109,7 @@ namespace BowArrow
             //Add Trail to see better
             if(enableTrailRenderer) _trailRenderer.enabled = true;
             
-            //after 12 seconds, remove arrow (scene management, overloading scenes)
+            //after 10 seconds, remove arrow (scene management, overloading scenes)
             Destroy(gameObject, 10.0f);
         }
 
@@ -122,7 +122,7 @@ namespace BowArrow
                 if (behaviour is IDamageable)
                 {
                     IDamageable damageable = (IDamageable)behaviour;
-                    damageable.Damage(5);
+                    damageable.Damage(10);
 
                     break;
                 }
