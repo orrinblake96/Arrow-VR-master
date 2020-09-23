@@ -122,7 +122,7 @@ namespace BowArrow
                 if (behaviour is IDamageable)
                 {
                     IDamageable damageable = (IDamageable)behaviour;
-                    damageable.Damage(5);
+                    damageable.Damage(10);
 
                     break;
                 }

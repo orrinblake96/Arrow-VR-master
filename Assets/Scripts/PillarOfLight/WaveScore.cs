@@ -16,32 +16,30 @@ namespace WaveBasedLevel
         
         public void IncreaseCurrentScore(int pointsToAdd)
         {
-            if (_currentMultiplier == 1)
+            switch (_currentMultiplier)
             {
-                _currentScore += (pointsToAdd * _currentMultiplier);
-                _currentMultiplier++;
-                StartCoroutine(ScoreMultiplierTimer());
-                _scoreText.text = _currentScore.ToString();
-                Debug.Log("Multiplier: " + _currentMultiplier);
-                return;
-            } 
-            else if (_currentMultiplier == 2)
-            {
-                _currentScore += (pointsToAdd * _currentMultiplier);
-                _currentMultiplier++;
-                StopCoroutine(ScoreMultiplierTimer());
-            } 
-            else if (_currentMultiplier == 3)
-            {
-                _currentScore += (pointsToAdd * _currentMultiplier);
-                _currentMultiplier++;
-                StopCoroutine(ScoreMultiplierTimer());
-            } 
-            else if (_currentMultiplier == 4)
-            {
-                _currentScore += (pointsToAdd * _currentMultiplier);
-                _currentMultiplier++;
-                StopCoroutine(ScoreMultiplierTimer());
+                case 1:
+                    _currentScore += (pointsToAdd * _currentMultiplier);
+                    _currentMultiplier++;
+                    StartCoroutine(ScoreMultiplierTimer());
+                    _scoreText.text = _currentScore.ToString();
+                    Debug.Log("Multiplier: " + _currentMultiplier);
+                    return;
+                case 2:
+                    _currentScore += (pointsToAdd * _currentMultiplier);
+                    _currentMultiplier++;
+                    StopCoroutine(ScoreMultiplierTimer());
+                    break;
+                case 3:
+                    _currentScore += (pointsToAdd * _currentMultiplier);
+                    _currentMultiplier++;
+                    StopCoroutine(ScoreMultiplierTimer());
+                    break;
+                case 4:
+                    _currentScore += (pointsToAdd * _currentMultiplier);
+                    _currentMultiplier++;
+                    StopCoroutine(ScoreMultiplierTimer());
+                    break;
             } 
             
             Debug.Log("Multiplier: " + _currentMultiplier);
