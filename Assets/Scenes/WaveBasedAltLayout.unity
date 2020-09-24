@@ -38799,6 +38799,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801575010}
     m_Modifications:
+    - target: {fileID: 6229634985715880172, guid: bbbceb7e843cf4cbfb745d217952a405,
+        type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6229634985715880172, guid: bbbceb7e843cf4cbfb745d217952a405,
+        type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: -203655887218126122, guid: df380ba962f7943ef8f58f019e1983b2,
+        type: 3}
+    - target: {fileID: 6229634985715880172, guid: bbbceb7e843cf4cbfb745d217952a405,
+        type: 3}
+      propertyPath: m_Animations.Array.data[1]
+      value: 
+      objectReference: {fileID: -203655887218126122, guid: df380ba962f7943ef8f58f019e1983b2,
+        type: 3}
+    - target: {fileID: 6229634985715880172, guid: bbbceb7e843cf4cbfb745d217952a405,
+        type: 3}
+      propertyPath: m_Animations.Array.data[0]
+      value: 
+      objectReference: {fileID: -203655887218126122, guid: df380ba962f7943ef8f58f019e1983b2,
+        type: 3}
     - target: {fileID: 6229634985715880173, guid: bbbceb7e843cf4cbfb745d217952a405,
         type: 3}
       propertyPath: m_Name

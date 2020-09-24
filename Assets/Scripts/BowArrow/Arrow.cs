@@ -13,6 +13,7 @@ namespace BowArrow
         public LayerMask layerToIgnore;
         public bool enableTrailRenderer;
         public PaintBomb paintBomb;
+        public GlueBomb glueBomb;
         
         [HideInInspector] public bool arrowFired = false;
     
@@ -75,6 +76,7 @@ namespace BowArrow
             CheckForDamage(hitObject);
 
             if (SceneManager.GetActiveScene().name == "WaveBasedAltLayout" && paintBomb.BombArrowReady()) paintBomb.Explode();
+            if (SceneManager.GetActiveScene().name == "WaveBasedAltLayout" && glueBomb.GlueBombArrowReady()) glueBomb.Explode();
         
             //Destroy Arrow
             Destroy(gameObject, 2f);

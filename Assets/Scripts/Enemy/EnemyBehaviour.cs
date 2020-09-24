@@ -9,7 +9,13 @@ namespace Enemy
     {
         public float rotationSpeed = 10f;
         public GameObject fracturedSelf;
+        
+        [Header("Enemy Size")]
         public bool isLargeEnemy;
+        
+        [Header("Glue Power-up")]
+        public float glueWaitTime = 7f;
+        public GameObject glue;
 
         private GameObject _pillar;
         private Transform _target;
@@ -21,8 +27,10 @@ namespace Enemy
 
         private PillarHealth _pillarHealth;
         private bool _readyToAttack;
+        private static readonly int IsWalking = Animator.StringToHash("IsWalking");
         private static readonly int IsAttacking = Animator.StringToHash("IsAttacking");
         private static readonly int IsCelebrating = Animator.StringToHash("IsCelebrating");
+        private static readonly int IsStuck = Animator.StringToHash("IsStuck");
 
         private void Awake()
         {
@@ -129,6 +137,29 @@ namespace Enemy
             {
                 _pillarHealth.DamageTaken();
             }
+        }
+        
+        // Stop enemies moving for set time, special ability
+        public void GlueBomb()
+        {
+            StartCoroutine(GlueEnemies());
+        }
+
+        private IEnumerator GlueEnemies()
+        {
+            _attackAnimation.SetBool(IsWalking, false);
+            _attackAnimation.SetBool(IsStuck, true);
+            
+            glue.SetActive(true);
+            _agent.isStopped = true;
+//            _agent.velocity = Vector3.zero;
+
+            yield return new WaitForSeconds(glueWaitTime);
+            
+            glue.SetActive(false);
+            _attackAnimation.SetBool(IsStuck, false);
+            _attackAnimation.SetBool(IsWalking, true);
+            _agent.isStopped = false;
         }
     }
 }

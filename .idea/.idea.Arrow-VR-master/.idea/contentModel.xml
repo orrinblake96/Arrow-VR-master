@@ -935,6 +935,7 @@
             <e p="ColoredCubeInfo.cs" t="Include" />
             <e p="DestroyingEnemies.cs" t="Include" />
             <e p="DestroyLargeEnemy.cs" t="Include" />
+            <e p="GlueBomb.cs" t="Include" />
             <e p="ObtainPowerUp.cs" t="Include" />
             <e p="PaintBomb.cs" t="Include" />
             <e p="PillarHealth.cs" t="Include" />
