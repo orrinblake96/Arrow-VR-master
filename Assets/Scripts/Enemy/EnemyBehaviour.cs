@@ -152,7 +152,7 @@ namespace Enemy
             
             glue.SetActive(true);
             _agent.isStopped = true;
-//            _agent.velocity = Vector3.zero;
+            _agent.velocity = Vector3.zero;
 
             yield return new WaitForSeconds(glueWaitTime);
             

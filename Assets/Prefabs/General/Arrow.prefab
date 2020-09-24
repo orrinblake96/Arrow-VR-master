@@ -9773,7 +9773,6 @@ GameObject:
   - component: {fileID: 202898120480862817}
   - component: {fileID: -5147415055577841190}
   - component: {fileID: 1368525578898888657}
-  - component: {fileID: 4219353829505605251}
   m_Layer: 10
   m_Name: Arrow
   m_TagString: Arrow
@@ -9817,7 +9816,7 @@ MonoBehaviour:
     m_Bits: 11063
   enableTrailRenderer: 1
   paintBomb: {fileID: -5147415055577841190}
-  glueBomb: {fileID: 4219353829505605251}
+  glueBomb: {fileID: 0}
   arrowFired: 0
 --- !u!54 &3544760493190169588
 Rigidbody:
@@ -10037,18 +10036,3 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
---- !u!114 &4219353829505605251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8542102953145869890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec757bbf91cee47a4a241b4e7972759b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arrowTip: {fileID: 6223868130374480975}
-  smokeEffect: {fileID: 4081170323018131195}
-  blastRadius: 10

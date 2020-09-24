@@ -196,7 +196,6 @@ GameObject:
   - component: {fileID: 2732105118321867308}
   - component: {fileID: 4270187585429557194}
   - component: {fileID: 9172238945993853926}
-  - component: {fileID: 2855281497233540546}
   m_Layer: 0
   m_Name: Glue
   m_TagString: Untagged
@@ -265,20 +264,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &2855281497233540546
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144415013532925929}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: 0.000000029802322}
 --- !u!1 &1430840238112577461
 GameObject:
   m_ObjectHideFlags: 0
