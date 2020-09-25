@@ -8,7 +8,7 @@ namespace PillarOfLight
 {
     public class GlueBomb : MonoBehaviour, IDamageable
     {
-//        public GameObject explosionEffect;
+        public ParticleSystem explosionEffect;
         
         public float blastRadius = 10f;
         public RespawnGlueBomb respawnGlueBomb;
@@ -31,7 +31,8 @@ namespace PillarOfLight
                 if (nearObject.transform.name != "Monster" && nearObject.transform.name != "LargeMonster") continue;
                 nearObject.transform.parent.GetComponent<EnemyBehaviour>().GlueBomb();
             }
-
+            
+            explosionEffect.Play();
             gameObject.SetActive(false);
             
             respawnGlueBomb.RespawnGlue(gameObject);
