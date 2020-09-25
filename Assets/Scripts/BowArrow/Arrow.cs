@@ -13,6 +13,7 @@ namespace BowArrow
         public LayerMask layerToIgnore;
         public bool enableTrailRenderer;
         public PaintBomb paintBomb;
+        public GlueBomb glueBomb;
         
         [HideInInspector] public bool arrowFired = false;
     

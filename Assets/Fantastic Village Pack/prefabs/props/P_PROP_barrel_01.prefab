@@ -54,11 +54,12 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 239063e401ea1d041b62ea44616b4087, type: 2}
-  - {fileID: 2100000, guid: 4fb631c408b29fc4db7e86f2734b7f89, type: 2}
+  - {fileID: -8067726398312463513, guid: 941214ecaca01489ab68b228fc06bce5, type: 3}
+  - {fileID: 2100000, guid: bc77364cebd5ea84bbdaa7560bccb7d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -66,6 +67,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

@@ -935,10 +935,12 @@
             <e p="ColoredCubeInfo.cs" t="Include" />
             <e p="DestroyingEnemies.cs" t="Include" />
             <e p="DestroyLargeEnemy.cs" t="Include" />
+            <e p="GlueBomb.cs" t="Include" />
             <e p="ObtainPowerUp.cs" t="Include" />
             <e p="PaintBomb.cs" t="Include" />
             <e p="PillarHealth.cs" t="Include" />
             <e p="PowerUpManager.cs" t="Include" />
+            <e p="RespawnGlueBomb.cs" t="Include" />
             <e p="SpawnRandomPowerUp.cs" t="Include" />
             <e p="SpecialAbilitiesBar.cs" t="Include" />
             <e p="TimeController.cs" t="Include" />
