@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Crate;
 using Enemy;
 using UnityEngine;
@@ -15,6 +16,12 @@ namespace PillarOfLight
 
         private bool _glueBombArrowReady = false;
         private Collider[] _glueBombOverlapResults = new Collider[20];
+        private FMODUnity.StudioEventEmitter _eventEmitterRef;
+
+        private void Awake()
+        {
+            _eventEmitterRef = GetComponent<FMODUnity.StudioEventEmitter>();
+        }
 
         public bool GlueBombArrowReady()
         {
@@ -32,9 +39,10 @@ namespace PillarOfLight
                 nearObject.transform.parent.GetComponent<EnemyBehaviour>().GlueBomb();
             }
             
+            _eventEmitterRef.Play();
             explosionEffect.Play();
             gameObject.SetActive(false);
-            
+                
             respawnGlueBomb.RespawnGlue(gameObject);
         }
     }

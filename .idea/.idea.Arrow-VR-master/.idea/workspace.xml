@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Fire &amp; Explosion Effects/Prefabs/EnergyExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Fire &amp; Explosion Effects/Prefabs/EnergyExplosion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Smoke &amp; Steam Effects/Materials/GroundFog.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Smoke &amp; Steam Effects/Materials/GroundFog.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantastic Village Pack/prefabs/props/P_PROP_barrel_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fantastic Village Pack/prefabs/props/P_PROP_barrel_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/GlueBombBarrelMetalMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/GlueBombBarrelMetalMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/GlueBombBarrelWoodMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/GlueBombBarrelWoodMat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/GlueBomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/GlueBomb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -242,7 +242,7 @@
       <workItem from="1600077089815" duration="7927000" />
       <workItem from="1600163827216" duration="8498000" />
       <workItem from="1600361706722" duration="3400000" />
-      <workItem from="1600430856470" duration="35297000" />
+      <workItem from="1600430856470" duration="36300000" />
     </task>
     <servers />
   </component>
