@@ -20,6 +20,7 @@ namespace Crate
             if (levelChosen == "ChangeBowHand")
             {
                 oculusInput.UpdateDominantBowHand();
+                FMODUnity.RuntimeManager.PlayOneShot(soundPath, transform.position);
             }
             else
             {
