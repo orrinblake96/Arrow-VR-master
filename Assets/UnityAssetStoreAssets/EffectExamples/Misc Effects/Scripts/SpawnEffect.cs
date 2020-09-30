@@ -14,33 +14,33 @@ public class SpawnEffect : MonoBehaviour {
 
     int shaderProperty;
 
-	void Start ()
-    {
-        shaderProperty = Shader.PropertyToID("_cutoff");
-        _renderer = GetComponent<Renderer>();
-        ps = GetComponentInChildren <ParticleSystem>();
-
-        var main = ps.main;
-        main.duration = spawnEffectTime;
-
-        ps.Play();
-
-    }
-	
-	void Update ()
-    {
-        if (timer < spawnEffectTime + pause)
-        {
-            timer += Time.deltaTime;
-        }
-        else
-        {
-            ps.Play();
-            timer = 0;
-        }
-
-
-        _renderer.material.SetFloat(shaderProperty, fadeIn.Evaluate( Mathf.InverseLerp(0, spawnEffectTime, timer)));
-        
-    }
+//	void Start ()
+//    {
+//        shaderProperty = Shader.PropertyToID("_cutoff");
+//        _renderer = GetComponent<Renderer>();
+//        ps = GetComponentInChildren <ParticleSystem>();
+//
+//        var main = ps.main;
+//        main.duration = spawnEffectTime;
+//
+//        ps.Play();
+//
+//    }
+//	
+//	void Update ()
+//    {
+//        if (timer < spawnEffectTime + pause)
+//        {
+//            timer += Time.deltaTime;
+//        }
+//        else
+//        {
+//            ps.Play();
+//            timer = 0;
+//        }
+//
+//
+//        _renderer.material.SetFloat(shaderProperty, fadeIn.Evaluate( Mathf.InverseLerp(0, spawnEffectTime, timer)));
+//        
+//    }
 }
