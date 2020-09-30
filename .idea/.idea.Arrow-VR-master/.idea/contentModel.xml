@@ -908,6 +908,7 @@
           <e p="LevelManager.cs" t="Include" />
           <e p="MainMenu" t="Include">
             <e p="RespawnTargets.cs" t="Include" />
+            <e p="ShootableAnimalTargets.cs" t="Include" />
           </e>
           <e p="OculusInput.cs" t="Include" />
           <e p="PillarOfLight" t="Include">
@@ -1003,6 +1004,48 @@
                 <e p="Dissolve.shader" t="Include" />
                 <e p="FireFly.shader" t="Include" />
                 <e p="Respawn.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="polyperfect" t="Include">
+            <e p="Common" t="Include">
+              <e p="Common_AnimationControl.cs" t="Include" />
+              <e p="Common_AnimSpeed.cs" t="Include" />
+              <e p="Common_KillSwitch.cs" t="Include" />
+              <e p="Common_PlaySound.cs" t="Include" />
+              <e p="Common_RandomInt.cs" t="Include" />
+              <e p="RandomCharacterPlacer.cs" t="Include" />
+              <e p="Wander Script" t="Include">
+                <e p="AIState.cs" t="Include" />
+                <e p="AIStats.cs" t="Include" />
+                <e p="Common_AudioManager.cs" t="Include" />
+                <e p="Common_SurfaceRotation.cs" t="Include" />
+                <e p="Common_WanderManager.cs" t="Include" />
+                <e p="Common_WanderScript.cs" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="Common_StatsTable.cs" t="Include" />
+                  <e p="Common_WanderManagerEditor.cs" t="Include" />
+                  <e p="Common_WanderScriptEditor.cs" t="Include" />
+                </e>
+                <e p="IdleState.cs" t="Include" />
+                <e p="MovementState.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Low Poly Animated Animals" t="Include">
+              <e p="- Scripts" t="Include">
+                <e p="AnimalAudioManager.cs" t="Include" />
+                <e p="AnimalPlaySound.cs" t="Include" />
+                <e p="AnimalWanderManager.cs" t="Include" />
+                <e p="SceneAnimatorController.cs" t="Include" />
+                <e p="ToggleEvent.cs" t="Include" />
+                <e p="Wander Script" t="Include">
+                  <e p="Animal_AIStats.cs" t="Include" />
+                  <e p="Animal_SurfaceRotation.cs" t="Include" />
+                  <e p="Animal_WanderScript.cs" t="Include" />
+                  <e p="Editor" t="Include">
+                    <e p="Animals_WanderScriptEditor.cs" t="Include" />
+                  </e>
+                </e>
               </e>
             </e>
           </e>
