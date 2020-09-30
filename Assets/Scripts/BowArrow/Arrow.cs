@@ -124,7 +124,8 @@ namespace BowArrow
                 {
                     IDamageable damageable = (IDamageable)behaviour;
                     damageable.Damage(10);
-
+                    
+                    Destroy(gameObject);
                     break;
                 }
             }
