@@ -65,3 +65,5 @@ fmod_editor.log
 
 Assets/Oculus/*
 !Assets/Oculus/.gitkeep
+
+fmod_editor.log
