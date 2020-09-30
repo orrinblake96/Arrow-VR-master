@@ -980,7 +980,6 @@
         <e p="Standard Assets" t="Include">
           <e p="Effects" t="Include">
             <e p="Projectors" t="Include">
-              <e p="Guidelines.txt" t="Include" />
               <e p="Shaders" t="Include">
                 <e p="ProjectorLight.shader" t="Include" />
                 <e p="ProjectorMultiply.shader" t="Include" />

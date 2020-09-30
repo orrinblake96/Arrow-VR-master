@@ -493,3 +493,421 @@
 [LOG] SoundI::release                          :     bullet_impact_wood_03 (0x7ffc4b8bc768)
 [LOG] SoundI::release                          :  (0x7ffc6c4ecbe8)
 [LOG] SoundI::release                          :     bullet_impact_wood_04 (0x7ffc6c4ecd58)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc54c511e8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Mossberg_M500_Pump_Action_Shotgun_Pump_Action_02', format=2, channels=2, frequency=48000, lengthbytes=17952, lengthpcm=56285, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.971558.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc54c511e8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Mossberg_M500_Pump_Action_Shotgun_Pump_Action_06', format=2, channels=2, frequency=48000, lengthbytes=11296, lengthpcm=39009, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.962006.
+[LOG] SoundI::release                          :  (0x7ffc54c4e718)
+[LOG] SoundI::release                          :     Mossberg_M500_Pump_Action_Shotgun_Pump_Action_02 (0x7ffc54c4e888)
+[LOG] SoundI::release                          :  (0x7ffc54c73f68)
+[LOG] SoundI::release                          :     Mossberg_M500_Pump_Action_Shotgun_Pump_Action_06 (0x7ffc54c740d8)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc558aecc8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_04', format=2, channels=2, frequency=48000, lengthbytes=5536, lengthpcm=18913, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.741608.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc558aecc8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_05', format=2, channels=2, frequency=48000, lengthbytes=6560, lengthpcm=23132, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.715881.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc558aecc8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_03', format=2, channels=2, frequency=48000, lengthbytes=5344, lengthpcm=17903, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.862091.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc558aecc8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_02', format=2, channels=2, frequency=48000, lengthbytes=9856, lengthpcm=35771, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.737427.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc558aecc8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_01', format=2, channels=2, frequency=48000, lengthbytes=5856, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.842896.
+[LOG] SoundI::release                          :  (0x7ffc55a47038)
+[LOG] SoundI::release                          :     bow_release_01 (0x7ffc55a471a8)
+[LOG] SoundI::release                          :  (0x7ffc55a46b88)
+[LOG] SoundI::release                          :     bow_release_02 (0x7ffc55a46cf8)
+[LOG] SoundI::release                          :  (0x7ffc55a466d8)
+[LOG] SoundI::release                          :     bow_release_03 (0x7ffc55a46848)
+[LOG] SoundI::release                          :  (0x7ffc55a45b38)
+[LOG] SoundI::release                          :     bow_release_04 (0x7ffc55a45ca8)
+[LOG] SoundI::release                          :  (0x7ffc55a46228)
+[LOG] SoundI::release                          :     bow_release_05 (0x7ffc55a46398)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55a66aa8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_04', format=2, channels=2, frequency=48000, lengthbytes=5536, lengthpcm=18913, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.741608.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55a66aa8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_05', format=2, channels=2, frequency=48000, lengthbytes=6560, lengthpcm=23132, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.715881.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55a66aa8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_03', format=2, channels=2, frequency=48000, lengthbytes=5344, lengthpcm=17903, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.862091.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55a66aa8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_02', format=2, channels=2, frequency=48000, lengthbytes=9856, lengthpcm=35771, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.737427.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55a66aa8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_01', format=2, channels=2, frequency=48000, lengthbytes=5856, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.842896.
+[LOG] SoundI::release                          :  (0x7ffc55a8a928)
+[LOG] SoundI::release                          :     bow_release_01 (0x7ffc55a8aa98)
+[LOG] SoundI::release                          :  (0x7ffc55a8a478)
+[LOG] SoundI::release                          :     bow_release_02 (0x7ffc55a8a5e8)
+[LOG] SoundI::release                          :  (0x7ffc55a89fc8)
+[LOG] SoundI::release                          :     bow_release_03 (0x7ffc55a8a138)
+[LOG] SoundI::release                          :  (0x7ffc55a40158)
+[LOG] SoundI::release                          :     bow_release_04 (0x7ffc55a439a8)
+[LOG] SoundI::release                          :  (0x7ffc55a89b18)
+[LOG] SoundI::release                          :     bow_release_05 (0x7ffc55a89c88)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55a93188
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_04', format=2, channels=2, frequency=48000, lengthbytes=5536, lengthpcm=18913, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.741608.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55a93188
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_05', format=2, channels=2, frequency=48000, lengthbytes=6560, lengthpcm=23132, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.715881.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55a93188
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_03', format=2, channels=2, frequency=48000, lengthbytes=5344, lengthpcm=17903, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.862091.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55a93188
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_02', format=2, channels=2, frequency=48000, lengthbytes=9856, lengthpcm=35771, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.737427.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55a93188
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_01', format=2, channels=2, frequency=48000, lengthbytes=5856, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.842896.
+[LOG] SoundI::release                          :  (0x7ffc55a3fd88)
+[LOG] SoundI::release                          :     bow_release_01 (0x7ffc55a3fef8)
+[LOG] SoundI::release                          :  (0x7ffc55a653e8)
+[LOG] SoundI::release                          :     bow_release_02 (0x7ffc55a65558)
+[LOG] SoundI::release                          :  (0x7ffc55a46408)
+[LOG] SoundI::release                          :     bow_release_03 (0x7ffc55a46578)
+[LOG] SoundI::release                          :  (0x7ffc55a878e8)
+[LOG] SoundI::release                          :     bow_release_04 (0x7ffc55a87a58)
+[LOG] SoundI::release                          :  (0x7ffc55a95618)
+[LOG] SoundI::release                          :     bow_release_05 (0x7ffc55ab9a28)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55c1e028
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_04', format=2, channels=2, frequency=48000, lengthbytes=5536, lengthpcm=18913, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.741608.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55c1e028
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_05', format=2, channels=2, frequency=48000, lengthbytes=6560, lengthpcm=23132, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.715881.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55c1e028
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_03', format=2, channels=2, frequency=48000, lengthbytes=5344, lengthpcm=17903, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.862091.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55c1e028
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_02', format=2, channels=2, frequency=48000, lengthbytes=9856, lengthpcm=35771, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.737427.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21857824
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 92224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000384494c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1519fa9e4
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1519faa9b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1519faac8
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1519fab6a
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7ffc55c1e028
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='bow_release_01', format=2, channels=2, frequency=48000, lengthbytes=5856, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.842896.
+[LOG] SoundI::release                          :  (0x7ffc55c404e8)
+[LOG] SoundI::release                          :     bow_release_01 (0x7ffc55c40658)
+[LOG] SoundI::release                          :  (0x7ffc55c40038)
+[LOG] SoundI::release                          :     bow_release_02 (0x7ffc55c401a8)
+[LOG] SoundI::release                          :  (0x7ffc55c3fb88)
+[LOG] SoundI::release                          :     bow_release_03 (0x7ffc55c3fcf8)
+[LOG] SoundI::release                          :  (0x7ffc55c3f228)
+[LOG] SoundI::release                          :     bow_release_04 (0x7ffc55c3f398)
+[LOG] SoundI::release                          :  (0x7ffc55c3f6d8)
+[LOG] SoundI::release                          :     bow_release_05 (0x7ffc55c3f848)
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
