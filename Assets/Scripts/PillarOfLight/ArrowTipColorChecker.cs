@@ -1,4 +1,5 @@
 ﻿using BowArrow;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,12 +19,15 @@ namespace PillarOfLight
         private int _currentMaterial;
         private Material _currentMaterialColor;
         private Transform _enemyHitTransform;
+        private StudioEventEmitter _colourChangeSoundEffect;
 
         private void Awake()
         {
             _tipColor = GetComponent<MeshRenderer>();
 
             colorInfoNum = GameObject.Find("EnemyManager").GetComponent<ColoredCubeInfo>();
+
+            _colourChangeSoundEffect = GetComponent<StudioEventEmitter>();
         }
     
         private void Start()
@@ -41,6 +45,7 @@ namespace PillarOfLight
             
             if (OVRInput.GetDown(OVRInput.Button.One) || Input.GetKeyDown(KeyCode.A))
             {
+                _colourChangeSoundEffect.Play();
                 colorInfoNum.SetCurrentColor((_currentMaterial += 1) % 3);
                 _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
                 _tipColor.material = _currentMaterialColor;
