@@ -9836,7 +9836,7 @@ MonoBehaviour:
   TipCollider: {fileID: 0}
   layerToIgnore:
     serializedVersion: 2
-    m_Bits: 11063
+    m_Bits: 11047
   enableTrailRenderer: 1
   paintBomb: {fileID: 0}
   glueBomb: {fileID: 0}
