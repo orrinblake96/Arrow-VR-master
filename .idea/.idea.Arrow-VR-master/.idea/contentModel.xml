@@ -909,7 +909,7 @@
           <e p="MainMenu" t="Include">
             <e p="RespawnTargets.cs" t="Include" />
             <e p="ShootableAnimalTargets.cs" t="Include" />
-            <e p="WaterTriggerSound.cs" t="Include" />
+            <e p="WaterEffects.cs" t="Include" />
           </e>
           <e p="OculusInput.cs" t="Include" />
           <e p="PillarOfLight" t="Include">
