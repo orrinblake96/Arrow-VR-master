@@ -43,7 +43,7 @@ namespace PillarOfLight
             // If arrow has been fired then dont allow it to change colour
             if (arrow.arrowFired) return;
             
-            if (OVRInput.GetDown(OVRInput.Button.One) || Input.GetKeyDown(KeyCode.A))
+            if (OVRInput.GetDown(OVRInput.Button.One))
             {
                 _colourChangeSoundEffect.Play();
                 colorInfoNum.SetCurrentColor((_currentMaterial += 1) % 3);
@@ -68,11 +68,12 @@ namespace PillarOfLight
             //*************************** Refine **********************************
             if ((_cubeColor.material.color.r != _tipColor.material.color.r) ||
                 (_cubeColor.material.color.g != _tipColor.material.color.g) ||
-                (_cubeColor.material.color.b != _tipColor.material.color.b)) return;
-        
-//            _enemyHitTransform = other.gameObject.transform;
-//
-//            Destroy(_enemyHitTransform.parent.gameObject);
+                (_cubeColor.material.color.b != _tipColor.material.color.b))
+            {
+                Destroy(transform.parent.parent.gameObject);
+                return;
+            }
+            
             other.transform.parent.GetComponent<DestroyingEnemies>().Damage(10);
         }
     }
