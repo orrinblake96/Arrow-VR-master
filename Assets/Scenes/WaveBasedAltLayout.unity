@@ -827,6 +827,7 @@ GameObject:
   - component: {fileID: 95873016}
   - component: {fileID: 95873019}
   - component: {fileID: 95873018}
+  - component: {fileID: 95873020}
   m_Layer: 0
   m_Name: OVRCameraRig
   m_TagString: Player
@@ -952,6 +953,29 @@ MonoBehaviour:
   slowTimeFactor: 0.25
   slowTimeAudio: event:/Weapons/Slow Time
   regainTimeAudio: event:/Weapons/Regain Time
+--- !u!114 &95873020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95873014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: snapshot:/Slow-Motion
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &97213731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27148,6 +27172,11 @@ PrefabInstance:
       propertyPath: levelChosen
       value: WaveBasedAltLayout
       objectReference: {fileID: 0}
+    - target: {fileID: 1638501331583307495, guid: e867068336fc6427ba947a71737cd26a,
+        type: 3}
+      propertyPath: soundPath
+      value: event:/Interactables/Wooden Shatter Multisound
+      objectReference: {fileID: 0}
     - target: {fileID: 6626661933686128747, guid: e867068336fc6427ba947a71737cd26a,
         type: 3}
       propertyPath: m_Size.x
@@ -33857,6 +33886,11 @@ PrefabInstance:
       propertyPath: levelManager
       value: 
       objectReference: {fileID: 892963392}
+    - target: {fileID: 6926379079308402551, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
+        type: 3}
+      propertyPath: soundPath
+      value: event:/Interactables/Wooden Shatter Multisound
+      objectReference: {fileID: 0}
     - target: {fileID: 6957815059402991772, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
         type: 3}
       propertyPath: m_LocalPosition.x

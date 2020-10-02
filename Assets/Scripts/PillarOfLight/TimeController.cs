@@ -1,6 +1,8 @@
 ﻿using System;
 using Audio;
 using System.Collections;
+using FMOD.Studio;
+using FMODUnity;
 using PillarOfLight;
 using UnityEngine;
 
@@ -12,23 +14,25 @@ namespace WaveBasedLevel
           private bool _slowingTime = false;
           private bool _resumeTime = false;
 //          private SpecialAbilitiesBar _specialAbilitiesBar; // Remove
+          private StudioEventEmitter _slowMasterMix;
           private float _powerValue;
           private PowerUpManager _powerUpManager;
 
           public float slowTimeFactor = 0.25f;
           public string slowTimeAudio;
-          public string regainTimeAudio;
 
           private void Start()
           {
 //               _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>(); // Remove
                _powerUpManager = GameObject.Find("PowerUpsManagers").GetComponent<PowerUpManager>();
+               _slowMasterMix = GetComponent<StudioEventEmitter>();
           }
 
           private void Update()
           {
-               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime && _powerUpManager.slowTimeAcquired && Time.timeScale >= 1.0f)
+               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime &&  Time.timeScale >= 1.0f)
                {
+//                    _powerUpManager.slowTimeAcquired &&
                     _powerUpManager.slowTimeAcquired = false;
                     SlowTime();
                }
@@ -38,8 +42,13 @@ namespace WaveBasedLevel
                     // Bring timescale back to normal (1)
                     Time.timeScale += (1f / 2f) * Time.unscaledDeltaTime;
                     Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
+                    _slowMasterMix.SetParameter("Slow-Time", Time.timeScale);
 
-                    if (Time.timeScale == 1f) _resumeTime = false;
+                    if (Time.timeScale == 1f)
+                    {
+                         _slowMasterMix.Stop();
+                         _resumeTime = false;
+                    }
                }
           }
 
@@ -52,8 +61,10 @@ namespace WaveBasedLevel
                
                _slowingTime = true;
                FMODUnity.RuntimeManager.PlayOneShot(slowTimeAudio, transform.position);
+               _slowMasterMix.Play();
                Time.timeScale = slowTimeFactor;
-               
+               _slowMasterMix.SetParameter("Slow-Time", slowTimeFactor);
+
                ResumeTime();
           }
 
@@ -72,8 +83,6 @@ namespace WaveBasedLevel
                // Wait for time (power value: 0.5 - 10)
                // Use RealTime as normal was causing increased wait times
                yield return new WaitForSecondsRealtime(7);
-               
-               FMODUnity.RuntimeManager.PlayOneShot(regainTimeAudio, transform.position);
                
                _resumeTime = true;
           }
