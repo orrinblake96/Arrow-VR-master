@@ -4,7 +4,13 @@
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TargetsMiniGamePrefabs/Particles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TargetsMiniGamePrefabs/Particles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/SFX.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/SFX.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,11 +103,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/DestroyParticles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/DontDestoryBow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/StartGame.cs" />
@@ -142,6 +146,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyLargeEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpawnRandomPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" />
       </list>
     </option>
   </component>
@@ -249,6 +255,7 @@
       <workItem from="1601462100520" duration="1737000" />
       <workItem from="1601547059889" duration="4575000" />
       <workItem from="1601645592867" duration="1849000" />
+      <workItem from="1601901359959" duration="2257000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,7 @@
-﻿using Crate;
+﻿using System;
+using System.Collections;
+using Crate;
+using FMODUnity;
 using UnityEngine;
 
 namespace TargetShooterMiniGame
@@ -8,14 +11,30 @@ namespace TargetShooterMiniGame
         public GameObject explosionParticles;
         public StartGame startGame;
 
-        public void Damage(int amount)
+        private StudioEventEmitter _timerStartSound;
+
+        private void Start()
         {
-            DestroySign();
+            _timerStartSound = GetComponent<StudioEventEmitter>();
         }
 
-        private void DestroySign()
+        public void Damage(int amount)
+        {
+            StartCoroutine(DestroySign());
+        }
+
+        private IEnumerator DestroySign()
         {
             Instantiate(explosionParticles, transform.position, transform.rotation);
+
+            if (gameObject.name.Equals("StartTarget"))
+            {
+                gameObject.GetComponent<MeshRenderer>().enabled = false;
+                gameObject.GetComponent<BoxCollider>().enabled = false;
+                _timerStartSound.Play();
+                yield return new WaitForSeconds(3f);
+            }
+
             Destroy(gameObject.transform.parent.gameObject);
         }
     }
