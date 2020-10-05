@@ -789,6 +789,7 @@ GameObject:
   - component: {fileID: 1779383543196931220}
   - component: {fileID: 3065865572077897911}
   - component: {fileID: -6789504911863490708}
+  - component: {fileID: -6927125512143638804}
   m_Layer: 0
   m_Name: LargePaintMonsterWalking
   m_TagString: Enemy
@@ -830,6 +831,8 @@ MonoBehaviour:
   fracturedSelf: {fileID: 9222215353654509073, guid: 56a7dad18f495495d9a27781e6a7ac90,
     type: 3}
   isLargeEnemy: 1
+  glueWaitTime: 7
+  glue: {fileID: 0}
 --- !u!195 &1779383543196931220
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -885,6 +888,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionParticles: {fileID: 3007342358901346101, guid: 3ba6fdc1fcc6f411a88922e7f7a76037,
     type: 3}
+  hitParticles:
+  - {fileID: 3007342358901346101, guid: b69663f2ad72f4944878c15cc44ffdd9, type: 3}
+  - {fileID: 3007342358901346101, guid: b5ca688e6777e4be4b25b171e80370ef, type: 3}
+  - {fileID: 3007342358901346101, guid: 690380eee7476470497864ea944b94c9, type: 3}
+--- !u!114 &-6927125512143638804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353260856998996790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Character/Large Enemy Hit
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &6420926085688677999
 GameObject:
   m_ObjectHideFlags: 0
