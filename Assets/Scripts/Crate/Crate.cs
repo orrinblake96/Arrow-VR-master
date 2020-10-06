@@ -41,10 +41,15 @@ namespace Crate
                     sign.SetActive(true);
                 }
                 
+                if (PlayerPrefs.HasKey("ArrowShotOnce")) return;
+
                 foreach (GameObject objectsToHide in gameObjectsToHide)
                 {
                     objectsToHide.SetActive(false);
                 }
+                
+                PlayerPrefs.SetInt("ArrowShotOnce", 1);
+                PlayerPrefs.Save();
             }
             else
             {

@@ -6,7 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +55,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu/ShootableAnimalTargets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainMenuArea/LightingData.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Waves.cs" root0="FORCE_HIGHLIGHTING" />
@@ -94,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Crate/CrateSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Crate/IDamageable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/DestroyParticles.cs" />
@@ -115,7 +114,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/HoverFloatingIslands.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowColorSetter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/FMODBackgroundMusic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/FmodBackgroundMusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
@@ -143,8 +141,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefChecker.cs" />
       </list>
     </option>
   </component>
@@ -253,7 +254,7 @@
       <workItem from="1601547059889" duration="4575000" />
       <workItem from="1601645592867" duration="1849000" />
       <workItem from="1601901359959" duration="2556000" />
-      <workItem from="1601982793197" duration="1792000" />
+      <workItem from="1601982793197" duration="5541000" />
     </task>
     <servers />
   </component>
