@@ -13,7 +13,7 @@ public class OculusInput : MonoBehaviour
     [HideInInspector]
     public int dominantHandIndex = 0;
 
-    private bool _paused;
+    private bool _paused = false;
 
 //    private void Start()
 //    {
@@ -29,6 +29,20 @@ public class OculusInput : MonoBehaviour
 
     private void Update()
     {
+//        if (OVRInput.GetDown(OVRInput.Button.Start))
+//        {
+//            if (!_paused)
+//            {
+//                _paused = true;
+//                Time.timeScale = 0f;
+//            }
+//            else
+//            {
+//                _paused = false;
+//                Time.timeScale = 1f;
+//            }
+//        }
+        
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, m_Controller[dominantHandIndex])) m_Bow[dominantHandIndex].Pull(m_OppositeController[dominantHandIndex].transform);
 
         if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, m_Controller[dominantHandIndex]))

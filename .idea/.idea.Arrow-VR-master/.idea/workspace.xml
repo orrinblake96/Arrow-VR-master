@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/glueBombPowerupBox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/glueBombPowerupBox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/paintBombPowerupBox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/paintBombPowerupBox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/powerupBox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/powerupBox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/PowerUpBoxBreakingParticles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/PowerUpBoxBreakingParticles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/powerupBoxes/glueBombPowerupBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/powerupBoxes/glueBombPowerupBox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/powerupBoxes/paintBombPowerupBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/powerupBoxes/paintBombPowerupBox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/powerupBoxes/slowTimePowerupBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/powerupBoxes/slowTimePowerupBox.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ObtainPowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ObtainPowerUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpawnRandomPowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpawnRandomPowerUp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,7 +130,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/WaveScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ObtainPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PowerUpManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/RespawnGlueBombs.cs" />
@@ -137,17 +143,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/WaterEffects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyLargeEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpawnRandomPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/InstructionLinePointers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ObtainPowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpawnRandomPowerUp.cs" />
       </list>
     </option>
   </component>
@@ -257,7 +264,7 @@
       <workItem from="1601645592867" duration="1849000" />
       <workItem from="1601901359959" duration="2556000" />
       <workItem from="1601982793197" duration="5744000" />
-      <workItem from="1602070532084" duration="1589000" />
+      <workItem from="1602070532084" duration="6445000" />
     </task>
     <servers />
   </component>
