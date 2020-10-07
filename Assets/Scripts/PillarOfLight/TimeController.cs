@@ -30,9 +30,8 @@ namespace WaveBasedLevel
 
           private void Update()
           {
-               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime &&  Time.timeScale >= 1.0f)
+               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime &&  _powerUpManager.slowTimeAcquired && Time.timeScale >= 1.0f)
                {
-//                    _powerUpManager.slowTimeAcquired &&
                     _powerUpManager.slowTimeAcquired = false;
                     SlowTime();
                }
