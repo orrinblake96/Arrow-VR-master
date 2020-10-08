@@ -341,7 +341,7 @@ PrefabInstance:
     - target: {fileID: 1622813654446518789, guid: 2b9d1710fe4a1400bbd13f1e9d7869d4,
         type: 3}
       propertyPath: m_Name
-      value: ExitSign
+      value: ExitSignGeneral
       objectReference: {fileID: 0}
     - target: {fileID: 1622813654446518789, guid: 2b9d1710fe4a1400bbd13f1e9d7869d4,
         type: 3}

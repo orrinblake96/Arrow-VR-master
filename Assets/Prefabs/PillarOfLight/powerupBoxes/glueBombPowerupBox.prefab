@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3258709688733698850}
   - component: {fileID: 4673985692199291354}
   - component: {fileID: 2335061391377961787}
+  - component: {fileID: 6230914353408633713}
   m_Layer: 0
   m_Name: glueBombPowerupBox
   m_TagString: Untagged
@@ -123,4 +124,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec757bbf91cee47a4a241b4e7972759b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionEffect: {fileID: 0}
   blastRadius: 10
+  respawnGlueBomb: {fileID: 0}
+--- !u!95 &6230914353408633713
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6916774894036975860}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f76f40f7d63c44ba7a2d424e0f1436ce, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

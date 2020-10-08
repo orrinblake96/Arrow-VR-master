@@ -10,6 +10,8 @@ namespace WaveBasedLevel
         public GameObject specialAbilitiesInstructions;
         public GameObject powerupSpawnPoints;
         public GameObject glueBombSpawnPoints;
+        public GameObject powerupControllerInstructions;
+        public GameObject barrellTmp;
 
         private void Update()
         {
@@ -20,6 +22,8 @@ namespace WaveBasedLevel
             specialAbilitiesInstructions.SetActive(true);
             powerupSpawnPoints.SetActive(true);
             glueBombSpawnPoints.SetActive(true);
+            powerupControllerInstructions.SetActive(true);
+            barrellTmp.SetActive(true);
         }
     }
 }

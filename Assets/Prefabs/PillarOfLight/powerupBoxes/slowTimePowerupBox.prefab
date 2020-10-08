@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 9008519383507821768}
   - component: {fileID: 9008519383507821771}
   - component: {fileID: 4991149565179829442}
+  - component: {fileID: 46013289732643803}
   m_Layer: 0
   m_Name: slowTimePowerupBox
   m_TagString: Untagged
@@ -127,3 +128,22 @@ MonoBehaviour:
     type: 3}
   fracturedTimePowerupBox: {fileID: 3007342358901346101, guid: 7a47dd788cbe54975b8a20f28ea9d212,
     type: 3}
+--- !u!95 &46013289732643803
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019323902808311563}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bc11ae7740fbe4b1186bc81b7b549925, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
