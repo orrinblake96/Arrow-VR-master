@@ -34975,6 +34975,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1511082062}
     m_Modifications:
+    - target: {fileID: 6389011868297890670, guid: c5000e88a7a2e4ba7bbcb6477cc7be7d,
+        type: 3}
+      propertyPath: wanderZone
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6427223077974307870, guid: c5000e88a7a2e4ba7bbcb6477cc7be7d,
         type: 3}
       propertyPath: m_LocalPosition.x
