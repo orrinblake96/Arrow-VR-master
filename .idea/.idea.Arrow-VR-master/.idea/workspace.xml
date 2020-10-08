@@ -22,7 +22,6 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefChecker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -274,7 +273,7 @@
       <workItem from="1601901359959" duration="2556000" />
       <workItem from="1601982793197" duration="5744000" />
       <workItem from="1602070532084" duration="6646000" />
-      <workItem from="1602154781228" duration="2231000" />
+      <workItem from="1602154781228" duration="2725000" />
     </task>
     <servers />
   </component>

@@ -34978,7 +34978,7 @@ PrefabInstance:
     - target: {fileID: 6389011868297890670, guid: c5000e88a7a2e4ba7bbcb6477cc7be7d,
         type: 3}
       propertyPath: wanderZone
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6427223077974307870, guid: c5000e88a7a2e4ba7bbcb6477cc7be7d,
         type: 3}
