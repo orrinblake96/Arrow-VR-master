@@ -120,7 +120,7 @@ MonoBehaviour:
   Path: snapshot:/Reverb/Sewer Reverb
   guid: 8ee207c13b87aa4c949268fe72210c48
   Banks:
-  - {fileID: 4535050748088656656}
+  - {fileID: -4681285403425262276}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -368,7 +368,7 @@ MonoBehaviour:
   lastModified: 637377658370000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8598803699790917691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,7 +505,7 @@ MonoBehaviour:
   Path: event:/VO/Wave Over
   guid: e0521adfbd4d074087f86aab55995277
   Banks:
-  - {fileID: -3121962172303635521}
+  - {fileID: -4649032234732016005}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../FMOD/ArrowVRFMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637377658370000000
+  lastModified: 637377663680000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1003,6 +1003,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-8120749047046396764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Explosion/Size
+  m_EditorClassIdentifier: 
+  Name: Size
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &-8096469839837604593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1145,7 +1162,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8006453562562718768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1566,7 +1583,7 @@ MonoBehaviour:
   lastModified: 637377658370000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7514992953263425073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2139,6 +2156,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6833631342200641300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Health/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
 --- !u!114 &-6747153365947959693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2294,12 +2328,12 @@ MonoBehaviour:
   Path: event:/Interactables/Barrel Roll
   guid: 40222cc4b6c4ed42a4731a47f19945ea
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -3120952840079776456}
+  - {fileID: 8101925565914921284}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -2862,7 +2896,7 @@ MonoBehaviour:
   lastModified: 637377658370000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-5997932974511488514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2936,7 +2970,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-5963706411740402118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3090,7 +3124,7 @@ MonoBehaviour:
   Path: snapshot:/Reverb/Cave Reverb
   guid: c0ee95b678fe5547b8069690c06dfc0b
   Banks:
-  - {fileID: 4535050748088656656}
+  - {fileID: -4681285403425262276}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -3991,7 +4025,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &-4697586943486957923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4010,6 +4044,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4681285403425262276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ArrowVRFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637377663680000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-4660069833346182541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4044,6 +4096,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-4649032234732016005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/VO.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ArrowVRFMOD/Build/Desktop/VO.bank
+  SubDir: 
+  lastModified: 637377663680000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-4636336329886395578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4113,6 +4183,24 @@ MonoBehaviour:
   Min: 0
   Max: 3
   Default: 0
+  Exists: 1
+--- !u!114 &-4556086158555579077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue_JP.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ArrowVRFMOD/Build/Desktop/Dialogue_JP.bank
+  SubDir: 
+  lastModified: 637377663680000000
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &-4546152928600923455
 MonoBehaviour:
@@ -4240,7 +4328,7 @@ MonoBehaviour:
   Path: event:/Weapons/Bow Hand Swap
   guid: 443fb2bcb723c74b906a55bc3ce2887c
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -4551,6 +4639,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-3830294976547449660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Rain
+  m_EditorClassIdentifier: 
+  Name: Rain
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-3828945988186393406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4635,7 +4740,7 @@ MonoBehaviour:
   Path: event:/VO/Welcome
   guid: 29bbead7d9ab5740b408eef937d66f2a
   Banks:
-  - {fileID: -3121962172303635521}
+  - {fileID: -4649032234732016005}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -4898,12 +5003,12 @@ MonoBehaviour:
   Path: event:/Weapons/Explosion
   guid: 3871681f6ce0f5409bac57f84bbcedd3
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -2224645814101778215}
+  - {fileID: -8120749047046396764}
   MinDistance: 1
   MaxDistance: 100
   Length: 0
@@ -5098,12 +5203,12 @@ MonoBehaviour:
   Path: snapshot:/Slow-Motion
   guid: 098d8d6ee012cf48b620f9cc3bc478a3
   Banks:
-  - {fileID: 4535050748088656656}
+  - {fileID: -4681285403425262276}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4715439993790908696}
+  - {fileID: -2527157560322919134}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -5160,7 +5265,7 @@ MonoBehaviour:
   lastModified: 637377658380000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3120952840079776456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5177,7 +5282,7 @@ MonoBehaviour:
   Min: 0
   Max: 8
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3116318002710527282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5193,7 +5298,7 @@ MonoBehaviour:
   Path: event:/Weapons/Arrow Shooting
   guid: f1a562449de3b140ada2212f42f71cf8
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -5235,7 +5340,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3039387393019592482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5320,7 +5425,7 @@ MonoBehaviour:
   Path: event:/Weapons/Regain Time
   guid: 8a59aafe601ecc47942689eeb30da542
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -5343,7 +5448,7 @@ MonoBehaviour:
   Path: event:/Interactables/Water Hit
   guid: 7113b3c59ef3534899e4710d04284648
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -5585,7 +5690,7 @@ MonoBehaviour:
   Path: event:/Weapons/Pistol
   guid: cf5dc803ebc4944083c77839b5d058e8
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5643,7 +5748,7 @@ MonoBehaviour:
   Path: event:/Interactables/Ground Hit
   guid: a66ad8d99e677f488763c7cd11d1d11b
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -5760,6 +5865,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2527157560322919134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Slow-Motion/Slow-Time
+  m_EditorClassIdentifier: 
+  Name: Slow-Time
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &-2446290878182659840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5905,6 +6027,24 @@ MonoBehaviour:
   Min: 0
   Max: 80
   Default: 0
+  Exists: 1
+--- !u!114 &-2386853602459531343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ArrowVRFMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637377663680000000
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &-2365777458413337288
 MonoBehaviour:
@@ -6077,7 +6217,7 @@ MonoBehaviour:
   Min: 0
   Max: 3
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2216294393007841511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6111,6 +6251,23 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 100
+  Exists: 1
+--- !u!114 &-2211153843241317214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wooden Collision/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 8
+  Default: 0
   Exists: 1
 --- !u!114 &-2198627022601301126
 MonoBehaviour:
@@ -6311,7 +6468,7 @@ MonoBehaviour:
   Path: event:/UI/Cancel
   guid: e6483e2afc946343946833d2dd4d7b00
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -6721,8 +6878,8 @@ MonoBehaviour:
   Path: snapshot:/Health Low
   guid: 3441ea87f1ff9d4e8f8b294a2b518223
   Banks:
-  - {fileID: 4535050748088656656}
-  - {fileID: 7485216496335585534}
+  - {fileID: -4681285403425262276}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -6748,6 +6905,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1582374313557919700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Cover
+  m_EditorClassIdentifier: 
+  Name: Cover
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-1557827026284684962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ArrowVRFMOD/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637377663680000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-1544996350813790635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6804,14 +6996,14 @@ MonoBehaviour:
   Path: event:/Ambience/Forest
   guid: e51074476d4a2e46bd1e4d558ce488ec
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -8007036400038299915}
-  - {fileID: -280148687852293810}
-  - {fileID: -5966910441853107852}
+  - {fileID: 926977276498928426}
+  - {fileID: -1582374313557919700}
+  - {fileID: -3830294976547449660}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -7433,6 +7625,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-804132165041583951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bow Draw/Draw Bow
+  m_EditorClassIdentifier: 
+  Name: Draw Bow
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-777620556975673232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7739,7 +7948,7 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-302788391389173618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7791,7 +8000,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-262328677202318186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7861,6 +8070,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-173975669580089154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Machine Gun/Auto-Stop
+  m_EditorClassIdentifier: 
+  Name: Auto-Stop
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-157745393385043215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7928,7 +8154,7 @@ MonoBehaviour:
   Path: event:/Interactables/Wooden Shatter
   guid: 3e628b25139c4c429a72bf074f097a30
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -7986,14 +8212,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -8322486182167946307}
-  - {fileID: 7845013953904583634}
-  - {fileID: -7539503509493561498}
-  - {fileID: -8643554467251391275}
-  - {fileID: 4535050748088656656}
-  - {fileID: -5998373822029234502}
-  - {fileID: 7485216496335585534}
-  - {fileID: -3121962172303635521}
-  - {fileID: 1507166805061270785}
+  - {fileID: 6797163822453611987}
+  - {fileID: 1314513018906669627}
+  - {fileID: -4556086158555579077}
+  - {fileID: -4681285403425262276}
+  - {fileID: -2386853602459531343}
+  - {fileID: -1557827026284684962}
+  - {fileID: -4649032234732016005}
+  - {fileID: 1881762646909577946}
   EditorEvents:
   - {fileID: -3142566520316877830}
   - {fileID: -1615653645832743657}
@@ -8032,10 +8258,10 @@ MonoBehaviour:
   - {fileID: 5310467600015416820}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 4535050748088656656}
+  - {fileID: -4681285403425262276}
   StringsBanks:
   - {fileID: -8322486182167946307}
-  stringsBankWriteTime: 637377658370000000
+  stringsBankWriteTime: 637377663680000000
   cacheVersion: 3
 --- !u!114 &30817003106460506
 MonoBehaviour:
@@ -8143,7 +8369,7 @@ MonoBehaviour:
   Path: event:/Character/Large Enemy Hit
   guid: 8173b8034a0f3a468c627b274f4f7fab
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -8452,7 +8678,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &388594098666673339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8526,7 +8752,7 @@ MonoBehaviour:
   Path: event:/Character/Enemy Shatter
   guid: 86bcd92e06bb744da9fc4071669c9812
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -8971,6 +9197,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &926977276498928426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Wind
+  m_EditorClassIdentifier: 
+  Name: Wind
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &934306057377890944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9096,7 +9339,7 @@ MonoBehaviour:
   Path: event:/Interactables/Wooden Shatter Multisound
   guid: 6d28046720c49e448fe405df42a1f9fa
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -9325,6 +9568,24 @@ MonoBehaviour:
   Min: 0
   Max: 8
   Default: 0
+  Exists: 0
+--- !u!114 &1314513018906669627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue_EN.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ArrowVRFMOD/Build/Desktop/Dialogue_EN.bank
+  SubDir: 
+  lastModified: 637377663680000000
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &1363807371871560463
 MonoBehaviour:
@@ -9507,7 +9768,7 @@ MonoBehaviour:
   lastModified: 637377658380000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &1524914288694185489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9755,6 +10016,24 @@ MonoBehaviour:
   Max: 100
   Default: 100
   Exists: 0
+--- !u!114 &1881762646909577946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Vehicles.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ArrowVRFMOD/Build/Desktop/Vehicles.bank
+  SubDir: 
+  lastModified: 637377663680000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &1886372417145877337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10139,7 +10418,7 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 100
-  Exists: 1
+  Exists: 0
 --- !u!114 &2406404365866259988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10622,7 +10901,7 @@ MonoBehaviour:
   Path: snapshot:/Pause
   guid: 98a405e3182b1d46b35c6eaea45fafd6
   Banks:
-  - {fileID: 4535050748088656656}
+  - {fileID: -4681285403425262276}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -10645,12 +10924,12 @@ MonoBehaviour:
   Path: event:/Interactables/Wooden Collision
   guid: d80362bed8c8c5418ce6bce0de95807b
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 1312596467971104953}
+  - {fileID: -2211153843241317214}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -11635,7 +11914,7 @@ MonoBehaviour:
   Path: event:/UI/Okay
   guid: 979e4792c69464459e33efbeec59b34a
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -11698,12 +11977,12 @@ MonoBehaviour:
   Path: event:/Weapons/Machine Gun
   guid: faaab7e9f02d9341b32ea74e5753cfa0
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -3079713299732106922}
+  - {fileID: -173975669580089154}
   MinDistance: 1
   MaxDistance: 20
   Length: 78
@@ -11722,12 +12001,12 @@ MonoBehaviour:
   Path: event:/Weapons/Bow Draw
   guid: 0b41572bcdfec2488000b35ea9e8c523
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 363363459126077977}
+  - {fileID: -804132165041583951}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -11959,7 +12238,7 @@ MonoBehaviour:
   Path: event:/Interactables/Animal Hit
   guid: 5c822af794015d4ea5ba2057ae9997d4
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -12070,7 +12349,7 @@ MonoBehaviour:
   Path: event:/Music/Background Music
   guid: 35b0c8f06734ff42bcee0171fadedc23
   Banks:
-  - {fileID: -5998373822029234502}
+  - {fileID: -2386853602459531343}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -12129,7 +12408,7 @@ MonoBehaviour:
   lastModified: 637377658370000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &4541736238045688532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12445,7 +12724,7 @@ MonoBehaviour:
   Path: event:/Weapons/Slow Time
   guid: f00dd27cef40324287ca6e3691ab4a17
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -12742,7 +13021,7 @@ MonoBehaviour:
   Path: event:/Interactables/Timer
   guid: 0c36e9c502aafd47a4468208a878c644
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -13255,12 +13534,12 @@ MonoBehaviour:
   Path: event:/Character/Health
   guid: d6fef322452bff4faa855351bc5fe9cd
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 2347061950696769643}
+  - {fileID: -6833631342200641300}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -13455,6 +13734,23 @@ MonoBehaviour:
   Name: Draw Bow
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &6270820759743942675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Country/Hour
+  m_EditorClassIdentifier: 
+  Name: Hour
+  Min: 0
+  Max: 4
   Default: 0
   Exists: 1
 --- !u!114 &6275301011260475908
@@ -13936,6 +14232,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &6797163822453611987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue_CN.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ArrowVRFMOD/Build/Desktop/Dialogue_CN.bank
+  SubDir: 
+  lastModified: 637377663680000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6820155963524373624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13986,12 +14300,12 @@ MonoBehaviour:
   Path: event:/Ambience/Country
   guid: 4ec79a24a46e484681da206c4e22b801
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -336857314630456312}
+  - {fileID: 6270820759743942675}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -14490,7 +14804,7 @@ MonoBehaviour:
   Path: event:/Character/Enemy Shatter Multisound
   guid: 785d2fb5aab8964c886edd835a2c4e10
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -14567,7 +14881,7 @@ MonoBehaviour:
   lastModified: 637377658380000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &7498211066484121362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14949,7 +15263,7 @@ MonoBehaviour:
   lastModified: 637377658370000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &7874876477438732510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15222,7 +15536,7 @@ MonoBehaviour:
   Path: event:/Character/Bear Scream
   guid: 1e5b0637fb46a94ca6b2f4f9c6f6f387
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -15230,6 +15544,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 14000
+--- !u!114 &8101925565914921284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Barrel Roll/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 8
+  Default: 0
+  Exists: 1
 --- !u!114 &8151034207967680147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15297,7 +15628,7 @@ MonoBehaviour:
   Path: event:/Weapons/Arrow Colour Change
   guid: 65b8695d947a904e966af29d2f90902c
   Banks:
-  - {fileID: 7485216496335585534}
+  - {fileID: -1557827026284684962}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -16144,7 +16475,7 @@ MonoBehaviour:
   Path: event:/VO/Main Menu
   guid: 1612b8a70bfb9c4b9e7db897825d9821
   Banks:
-  - {fileID: -3121962172303635521}
+  - {fileID: -4649032234732016005}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

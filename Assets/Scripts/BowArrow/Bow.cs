@@ -39,7 +39,7 @@ namespace BowArrow
             _vibrateAmount = m_PullValue;
             
             m_PullValue = Mathf.Clamp(m_PullValue, 0.0f, 1.0f);
-            _vibrateAmount = Mathf.Clamp(_vibrateAmount, 0.2f, 0.8f);
+            _vibrateAmount = Mathf.Clamp(_vibrateAmount, 0f, 0.5f);
             
             m_Animator.SetFloat(Blend, m_PullValue);
             OVRInput.SetControllerVibration(_vibrateAmount, _vibrateAmount, oculusInput.m_Controller[oculusInput.dominantHandIndex]);
