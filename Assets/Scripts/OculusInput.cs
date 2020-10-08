@@ -47,8 +47,8 @@ public class OculusInput : MonoBehaviour
 
         if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, m_Controller[dominantHandIndex]))
         {
-            m_Bow[dominantHandIndex].Release();
             OVRInput.SetControllerVibration(0, 0, m_Controller[dominantHandIndex]);
+            m_Bow[dominantHandIndex].Release();
         }
         
     }

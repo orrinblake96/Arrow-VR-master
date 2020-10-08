@@ -274,7 +274,7 @@ MonoBehaviour:
   layerToIgnore:
     serializedVersion: 2
     m_Bits: 823
-  enableTrailRenderer: 1
+  enableTrailRenderer: 0
   paintBomb: {fileID: 0}
   glueBomb: {fileID: 0}
   arrowFired: 0

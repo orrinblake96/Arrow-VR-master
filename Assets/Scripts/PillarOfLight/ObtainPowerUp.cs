@@ -25,13 +25,13 @@ namespace PillarOfLight
             if (gameObject.name == "slowTimePowerupBox(Clone)")
             {
                 _powerUpManager.slowTimeAcquired = true;
-                Instantiate(fracturedTimePowerupBox, transform.position, transform.rotation);
+                Instantiate(fracturedTimePowerupBox, transform.position, Quaternion.Euler(-90f, 0f, 0f));
             }
 
             if (gameObject.name == "paintBombPowerupBox(Clone)")
             {
                 _powerUpManager.bombArrowAcquired = true;
-                Instantiate(fracturedBombPowerupBox, transform.position, transform.rotation);
+                Instantiate(fracturedBombPowerupBox, transform.position, Quaternion.Euler(-90f, 0f, 0f));
             }
             
             // Only 2 boxes allowed at a time

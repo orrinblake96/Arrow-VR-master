@@ -25,7 +25,7 @@ namespace TargetShooterMiniGame
 
         private IEnumerator DestroySign()
         {
-            Instantiate(explosionParticles, transform.position, transform.rotation);
+            Instantiate(explosionParticles, transform.position, Quaternion.Euler(-90f, 0f, 0f));
 
             if (gameObject.name.Equals("StartTarget"))
             {

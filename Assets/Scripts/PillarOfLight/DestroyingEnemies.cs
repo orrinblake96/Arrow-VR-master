@@ -29,7 +29,7 @@ namespace PillarOfLight
 
             // Explode with effects, increase overall score and destroy enemy
             var enemyTransform = transform;
-            Instantiate(explosionParticles, enemyTransform.position + Vector3.up, enemyTransform.rotation);
+            Instantiate(explosionParticles, enemyTransform.position + Vector3.up, Quaternion.Euler(-90f, 0f, 0f));
             if (_scoreBoardExists)
             {
                 _waveScoreBoard.IncreaseCurrentScore(25, enemyTransform);

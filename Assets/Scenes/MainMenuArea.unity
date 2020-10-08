@@ -20,9 +20,9 @@ RenderSettings:
   m_FogDensity: 0
   m_LinearFogStart: 40.5
   m_LinearFogEnd: 180
-  m_AmbientSkyColor: {r: 0.5801887, g: 0.8485387, b: 1, a: 1}
-  m_AmbientEquatorColor: {r: 0.39044145, g: 0.7735849, b: 0.61255366, a: 1}
-  m_AmbientGroundColor: {r: 0.7264151, g: 0.38719293, b: 0.6896003, a: 1}
+  m_AmbientSkyColor: {r: 0.34901962, g: 0.67058825, b: 0.8509804, a: 1}
+  m_AmbientEquatorColor: {r: 0.15566039, g: 1, b: 0.44195956, a: 1}
+  m_AmbientGroundColor: {r: 0.46474004, g: 1, b: 0.033018887, a: 1}
   m_AmbientIntensity: 0.67
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
@@ -34,11 +34,11 @@ RenderSettings:
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 4
-  m_ReflectionIntensity: 0.5
+  m_ReflectionBounces: 3
+  m_ReflectionIntensity: 0.6
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 509880503}
-  m_IndirectSpecularColor: {r: 0.60795915, g: 0.45234978, b: 0.55617225, a: 0.5}
+  m_IndirectSpecularColor: {r: 0.65713006, g: 0.4947647, b: 0.5710243, a: 0.6}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7906,7 +7906,7 @@ PrefabInstance:
     - target: {fileID: 739528395200091402, guid: 2b34e674ff7a2414daae916f5aa1ff73,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 764394635463573456, guid: 2b34e674ff7a2414daae916f5aa1ff73,
         type: 3}
@@ -8166,7 +8166,7 @@ PrefabInstance:
     - target: {fileID: 2649651229842281437, guid: 2b34e674ff7a2414daae916f5aa1ff73,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 2653518274707571093, guid: 2b34e674ff7a2414daae916f5aa1ff73,
         type: 3}
@@ -9081,7 +9081,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.9896676, g: 1, b: 0.8915094, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
@@ -9123,7 +9123,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -9137,13 +9137,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509880501}
-  m_LocalRotation: {x: 0.5080443, y: -0.72530925, z: 0.46025932, w: 0.06307887}
+  m_LocalRotation: {x: 0.54291916, y: -0.8054794, z: 0.22636974, w: 0.07210011}
   m_LocalPosition: {x: 9.014877, y: 29.8, z: -14.830841}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 47.034, y: -933.498, z: -84.941}
+  m_LocalEulerAnglesHint: {x: 26.293001, y: -908.315, z: -69.908005}
 --- !u!1001 &510097944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34975,6 +34975,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1511082062}
     m_Modifications:
+    - target: {fileID: 6389011868297890670, guid: c5000e88a7a2e4ba7bbcb6477cc7be7d,
+        type: 3}
+      propertyPath: wanderZone
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6427223077974307870, guid: c5000e88a7a2e4ba7bbcb6477cc7be7d,
         type: 3}
       propertyPath: m_LocalPosition.x
