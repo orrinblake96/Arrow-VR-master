@@ -34709,6 +34709,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.6060002
       objectReference: {fileID: 0}
+    - target: {fileID: 2197147552870179752, guid: 534f17a45fc9345908743159f4dc6907,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601452266730433413, guid: 534f17a45fc9345908743159f4dc6907,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 534f17a45fc9345908743159f4dc6907, type: 3}
 --- !u!1001 &3812071395416583900
@@ -34807,10 +34817,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 635187128}
     m_Modifications:
+    - target: {fileID: 4331333227350793336, guid: 7a13a4a1be5b34306b41aaf5978e9f10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412167995838871894, guid: 7a13a4a1be5b34306b41aaf5978e9f10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6694794585972325051, guid: 7a13a4a1be5b34306b41aaf5978e9f10,
         type: 3}
       propertyPath: m_Name
       value: OculusTouchForQuestAndRiftSLeftModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694794585972325051, guid: 7a13a4a1be5b34306b41aaf5978e9f10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6700330725108833489, guid: 7a13a4a1be5b34306b41aaf5978e9f10,
         type: 3}

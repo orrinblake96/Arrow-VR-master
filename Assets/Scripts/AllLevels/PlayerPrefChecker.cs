@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace AllLevels
 {
@@ -9,7 +10,7 @@ namespace AllLevels
         [SerializeField] private OculusInput dominantHandIndex;
         private void Awake()
         {
-            if (PlayerPrefs.GetInt("ArrowShotOnce") == 1)
+            if (SceneManager.GetActiveScene().name == "MainMenuArea" && PlayerPrefs.GetInt("ArrowShotOnce") == 1)
             {
                 foreach (GameObject toolTip in arrowShootingToolTips)
                 {
