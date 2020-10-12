@@ -1,4 +1,5 @@
-﻿using BowArrow;
+﻿using System;
+using BowArrow;
 using FMODUnity;
 using UnityEngine;
 using UnityEngine.UI;
@@ -43,13 +44,27 @@ namespace PillarOfLight
             // If arrow has been fired then dont allow it to change colour
             if (arrow.arrowFired) return;
             
-            if (OVRInput.GetDown(OVRInput.Button.One))
+            if (OVRInput.GetDown(OVRInput.Button.One) || Input.GetKeyDown(KeyCode.A))
             {
                 _colourChangeSoundEffect.Play();
-                colorInfoNum.SetCurrentColor((_currentMaterial += 1) % 3);
+                colorInfoNum.SetCurrentColor(Math.Abs((_currentMaterial += 1)) % 3);
                 _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
                 _tipColor.material = _currentMaterialColor;
                 shaftColor.material = _currentMaterialColor;
+                
+                Debug.Log("material number: " + _currentMaterial);
+                return;
+            }
+            
+            if (OVRInput.GetDown(OVRInput.Button.Two) || Input.GetKeyDown(KeyCode.B))
+            {
+                _colourChangeSoundEffect.Play();
+                colorInfoNum.SetCurrentColor(Math.Abs((_currentMaterial -= 1)) % 3);
+                _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
+                _tipColor.material = _currentMaterialColor;
+                shaftColor.material = _currentMaterialColor;
+                
+                Debug.Log("material number: " + _currentMaterial);
             }
         }
 
