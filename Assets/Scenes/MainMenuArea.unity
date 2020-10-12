@@ -6215,15 +6215,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4042321726043950, guid: 01fc8e1fbda4cbd4b8a03ab5eb21a18b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.915215
+      value: -8.02
       objectReference: {fileID: 0}
     - target: {fileID: 4042321726043950, guid: 01fc8e1fbda4cbd4b8a03ab5eb21a18b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 57.603867
+      value: 57.18
       objectReference: {fileID: 0}
     - target: {fileID: 4042321726043950, guid: 01fc8e1fbda4cbd4b8a03ab5eb21a18b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -58.171417
+      value: -55.8
       objectReference: {fileID: 0}
     - target: {fileID: 4042321726043950, guid: 01fc8e1fbda4cbd4b8a03ab5eb21a18b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8959,15 +8959,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33d5f5fadf64cc541949d4534b848171, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.46
+      value: -20.29
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33d5f5fadf64cc541949d4534b848171, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -21.53
+      value: -26.24
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33d5f5fadf64cc541949d4534b848171, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -71.79
+      value: -74.93
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33d5f5fadf64cc541949d4534b848171, type: 3}
       propertyPath: m_LocalRotation.x
@@ -10122,6 +10122,11 @@ MonoBehaviour:
   arrowShootingToolTips:
   - {fileID: 783072193}
   - {fileID: 437863142}
+  - {fileID: 54179279}
+  signsToShow:
+  - {fileID: 1799688255}
+  - {fileID: 1215128943}
+  - {fileID: 166944423}
   dominantHandIndex: {fileID: 1588811902}
 --- !u!1001 &574415973
 PrefabInstance:
@@ -11444,6 +11449,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 645137503}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &648863557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4015636129794682495, guid: 9de3871831baf214fb72b366f98529a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 227010357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &648863558
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648863557}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!54 &648863559
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648863557}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &650692458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18505,6 +18546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowShootingToolTips: []
+  signsToShow: []
   dominantHandIndex: {fileID: 0}
 --- !u!1001 &1102852760
 PrefabInstance:

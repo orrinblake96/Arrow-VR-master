@@ -44,7 +44,7 @@ namespace PillarOfLight
             // If arrow has been fired then dont allow it to change colour
             if (arrow.arrowFired) return;
             
-            if (OVRInput.GetDown(OVRInput.Button.One) || Input.GetKeyDown(KeyCode.A))
+            if (OVRInput.GetDown(OVRInput.Button.One))
             {
                 _colourChangeSoundEffect.Play();
                 colorInfoNum.SetCurrentColor(Math.Abs((_currentMaterial += 1)) % 3);
@@ -56,7 +56,7 @@ namespace PillarOfLight
                 return;
             }
             
-            if (OVRInput.GetDown(OVRInput.Button.Two) || Input.GetKeyDown(KeyCode.B))
+            if (OVRInput.GetDown(OVRInput.Button.Two))
             {
                 _colourChangeSoundEffect.Play();
                 colorInfoNum.SetCurrentColor(Math.Abs((_currentMaterial -= 1)) % 3);
