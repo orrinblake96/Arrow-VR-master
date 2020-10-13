@@ -126,7 +126,7 @@ namespace Enemy
                 yield return new WaitForSeconds(1f/(wave.spawnRate + currentRoundNumber));
             }
             
-            if(Random.value > 0.7) SpawnEnemy(largeEnemy.transform);
+            if(Random.value > 0.8) SpawnEnemy(largeEnemy.transform);
 
             // After all enemies spawned set spawn system state to waiting
             _state = SpawnState.Waiting;

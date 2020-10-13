@@ -92,7 +92,7 @@ public class OculusInput : MonoBehaviour
             bows[1].SetActive(true);
             customHands[0].SetActive(false);
             customHands[1].SetActive(true);
-            if (toolTipControllers.Equals("null")) return;
+            if (toolTipControllers.Length == 0) return;
             toolTipControllers[0].SetActive(false);
             toolTipControllers[1].SetActive(true);
         }
@@ -103,7 +103,7 @@ public class OculusInput : MonoBehaviour
             bows[1].SetActive(false);
             customHands[1].SetActive(false);
             customHands[0].SetActive(true);
-            if (toolTipControllers.Equals("null")) return;
+            if (toolTipControllers.Length == 0) return;
             toolTipControllers[1].SetActive(false);
             toolTipControllers[0].SetActive(true);
         }
