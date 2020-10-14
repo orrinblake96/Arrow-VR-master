@@ -959,10 +959,13 @@
           </e>
           <e p="StartGame.cs" t="Include" />
           <e p="TargetShooterMiniGame" t="Include">
+            <e p="ArrowColourCheckerTargetMiniGame.cs" t="Include" />
             <e p="DestroyParticles.cs" t="Include" />
             <e p="GameOver.cs" t="Include" />
             <e p="SpawnTargets.cs" t="Include" />
             <e p="StartGame.cs" t="Include" />
+            <e p="StartTargetHealth.cs" t="Include" />
+            <e p="TargetColour.cs" t="Include" />
             <e p="TargetDestructionTimer.cs" t="Include" />
             <e p="TargetHealth.cs" t="Include" />
             <e p="TargetMovement.cs" t="Include" />

@@ -1,40 +1,16 @@
-﻿using System;
-using System.Collections;
-using Crate;
-using FMODUnity;
+﻿using Crate;
 using UnityEngine;
 
 namespace TargetShooterMiniGame
 {
-    public class TargetHealth : MonoBehaviour, IDamageable
+    public class TargetHealth : MonoBehaviour
     {
         public GameObject explosionParticles;
-        public StartGame startGame;
 
-        private StudioEventEmitter _timerStartSound;
-
-        private void Start()
-        {
-            _timerStartSound = GetComponent<StudioEventEmitter>();
-        }
-
-        public void Damage(int amount)
-        {
-            StartCoroutine(DestroySign());
-        }
-
-        private IEnumerator DestroySign()
+        public void Damage()
         {
             Instantiate(explosionParticles, transform.position, Quaternion.Euler(-90f, 0f, 0f));
-
-            if (gameObject.name.Equals("StartTarget"))
-            {
-                gameObject.GetComponent<MeshRenderer>().enabled = false;
-                gameObject.GetComponent<BoxCollider>().enabled = false;
-                _timerStartSound.Play();
-                yield return new WaitForSeconds(3f);
-            }
-
+            
             Destroy(gameObject.transform.parent.gameObject);
         }
     }
