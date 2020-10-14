@@ -28,7 +28,7 @@ namespace TargetShooterMiniGame
             {
                 if (!_gameOverOnce)
                 {
-                    _gameOver.EndGame();
+                    _gameOver.EndGame(false);
                     _gameOverOnce = true;
                 }
                 return;
@@ -46,7 +46,7 @@ namespace TargetShooterMiniGame
                 _timerUI.text = "00";
                 _timer = 0.0f;
                 
-                _gameOver.EndGame();
+                _gameOver.EndGame(true);
             }
         }
 

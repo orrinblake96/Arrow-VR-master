@@ -9,12 +9,10 @@ namespace TargetShooterMiniGame
         [SerializeField] private GameObject[] objectsToShow;
         [SerializeField] private GameObject[] objectsToHide;
         
-        private StudioEventEmitter _gameOverSound;
+        [Header("Game Over Sounds")]
+        [SerializeField] private string winSoundPath;
+        [SerializeField] private string loseSoundPath;
         
-        private void Start()
-        {
-            _gameOverSound = GetComponent<StudioEventEmitter>();
-        }
         private void HideObjects()
         {
             foreach (GameObject hideableObject in objectsToHide)
@@ -29,9 +27,17 @@ namespace TargetShooterMiniGame
             foreach (GameObject showableObject in objectsToShow) showableObject.SetActive(true);
         }
 
-        public void EndGame()
+        public void EndGame(bool timerAtZero)
         {
-            _gameOverSound.Play();
+            if (!timerAtZero)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot(winSoundPath, transform.position);
+                HideObjects();
+                ShowObjects();
+                return;
+            }
+            
+            FMODUnity.RuntimeManager.PlayOneShot(loseSoundPath, transform.position);
             HideObjects();
             ShowObjects();
         }

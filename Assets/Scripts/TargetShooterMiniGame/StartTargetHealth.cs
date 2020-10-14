@@ -9,6 +9,7 @@ namespace TargetShooterMiniGame
     {
         public GameObject explosionParticles;
         public GameObject startUi;
+        public GameObject arrowColourUi;
         public GameObject destroyableTargets;
         public CountDownTimer timer;
         
@@ -27,14 +28,15 @@ namespace TargetShooterMiniGame
         private IEnumerator DestroySign()
         {
             Instantiate(explosionParticles, transform.position, Quaternion.Euler(-90f, 0f, 0f));
-
+            
             gameObject.GetComponent<MeshRenderer>().enabled = false;
             gameObject.GetComponent<BoxCollider>().enabled = false;
             _timerStartSound.Play();
+            startUi.SetActive(false);
+            arrowColourUi.SetActive(true);
             
             yield return new WaitForSeconds(3f);
             
-            startUi.SetActive(false);
             destroyableTargets.SetActive(true);
             timer.enabled = true;
             
