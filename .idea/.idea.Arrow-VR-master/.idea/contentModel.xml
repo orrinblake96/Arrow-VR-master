@@ -960,6 +960,9 @@
           <e p="StartGame.cs" t="Include" />
           <e p="TargetShooterMiniGame" t="Include">
             <e p="ArrowColourCheckerTargetMiniGame.cs" t="Include" />
+            <e p="CheckForTargets.cs" t="Include" />
+            <e p="CountDownTimer.cs" t="Include" />
+            <e p="CountDownTimerGameOver.cs" t="Include" />
             <e p="DestroyParticles.cs" t="Include" />
             <e p="GameOver.cs" t="Include" />
             <e p="SpawnTargets.cs" t="Include" />

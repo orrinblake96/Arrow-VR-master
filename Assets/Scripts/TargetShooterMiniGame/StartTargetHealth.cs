@@ -10,7 +10,7 @@ namespace TargetShooterMiniGame
         public GameObject explosionParticles;
         public GameObject startUi;
         public GameObject destroyableTargets;
-        public TargetDestructionTimer timer;
+        public CountDownTimer timer;
         
         private StudioEventEmitter _timerStartSound;
 
