@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
-    </list>
+    <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,12 +144,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetColour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/ArrowColourCheckerTargetMiniGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CheckForTargets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CountDownTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CountDownTimerGameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
       </list>
     </option>
   </component>
