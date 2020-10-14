@@ -815,6 +815,24 @@
             </e>
           </e>
         </e>
+        <e p="OffScreenIndicator" t="Include">
+          <e p="DemoScenes" t="Include">
+            <e p="DemoScript.cs" t="Include" />
+          </e>
+          <e p="README.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="ArrowIndicator.cs" t="Include" />
+            <e p="ArrowIndicatorCanvas.cs" t="Include" />
+            <e p="ArrowIndicatorVR.cs" t="Include" />
+            <e p="Helpers" t="Include">
+              <e p="Utils.cs" t="Include" />
+            </e>
+            <e p="OffScreenIndicator.cs" t="Include" />
+            <e p="OffScreenIndicatorManager.cs" t="Include" />
+            <e p="OffScreenIndicatorManagerCanvas.cs" t="Include" />
+            <e p="OffScreenIndicatorManagerVR.cs" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="FMOD" t="Include">
             <e p="addons" t="Include">
@@ -941,10 +959,16 @@
           </e>
           <e p="StartGame.cs" t="Include" />
           <e p="TargetShooterMiniGame" t="Include">
+            <e p="ArrowColourCheckerTargetMiniGame.cs" t="Include" />
+            <e p="CheckForTargets.cs" t="Include" />
+            <e p="CountDownTimer.cs" t="Include" />
+            <e p="CountDownTimerGameOver.cs" t="Include" />
             <e p="DestroyParticles.cs" t="Include" />
             <e p="GameOver.cs" t="Include" />
             <e p="SpawnTargets.cs" t="Include" />
             <e p="StartGame.cs" t="Include" />
+            <e p="StartTargetHealth.cs" t="Include" />
+            <e p="TargetColour.cs" t="Include" />
             <e p="TargetDestructionTimer.cs" t="Include" />
             <e p="TargetHealth.cs" t="Include" />
             <e p="TargetMovement.cs" t="Include" />

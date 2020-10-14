@@ -1,23 +1,40 @@
-﻿using System;
-using Crate;
+﻿using Crate;
+using Greyman;
 using UnityEngine;
-using WaveBasedLevel;
 
 namespace PillarOfLight
 {
     public class DestroyingEnemies : MonoBehaviour, IDamageable
     {
         public GameObject explosionParticles;
-
-        private WaveScore _waveScoreBoard;
-        private bool _scoreBoardExists = false;
-        private int _enemyHealth = 10;
         
+        private  OffScreenIndicator _offScreenIndicator;
+        private WaveScore _waveScoreBoard;
+        private bool _scoreBoardExists;
+        private int _enemyHealth = 10;
+
         private void Awake()
         {
             if (GameObject.FindGameObjectWithTag("WaveScoreBoard") == null) return;
             _waveScoreBoard = GameObject.FindGameObjectWithTag("WaveScoreBoard").GetComponent<WaveScore>();
             _scoreBoardExists = true;
+            
+            //Off screen indicators;
+            _offScreenIndicator = GameObject.Find("Logic").GetComponent<OffScreenIndicator>();
+            if (gameObject.name.Contains("Red"))
+            {
+                _offScreenIndicator.AddIndicator(gameObject.transform, 0);
+                return;
+            } 
+            if (gameObject.name.Contains("Green"))
+            {
+                _offScreenIndicator.AddIndicator(gameObject.transform, 1);
+                return;
+            } 
+            if (gameObject.name.Contains("Blue"))
+            {
+                _offScreenIndicator.AddIndicator(gameObject.transform, 2);
+            } 
         }
 
         public void Damage(int amount)
@@ -33,6 +50,7 @@ namespace PillarOfLight
             if (_scoreBoardExists)
             {
                 _waveScoreBoard.IncreaseCurrentScore(25, enemyTransform);
+                _offScreenIndicator.RemoveIndicator(gameObject.transform);
             }
             Destroy(gameObject);
         }

@@ -85,13 +85,14 @@ public class OculusInput : MonoBehaviour
     
     public void GetDominantBowHand()
     {
-        if (UnityEngine.PlayerPrefs.GetInt("dominantHandIndex") == 1)
+        if (PlayerPrefs.GetInt("dominantHandIndex") == 1)
         {
             dominantHandIndex = 1;
             bows[0].SetActive(false);
             bows[1].SetActive(true);
             customHands[0].SetActive(false);
             customHands[1].SetActive(true);
+            if (toolTipControllers.Length == 0) return;
             toolTipControllers[0].SetActive(false);
             toolTipControllers[1].SetActive(true);
         }
@@ -102,6 +103,7 @@ public class OculusInput : MonoBehaviour
             bows[1].SetActive(false);
             customHands[1].SetActive(false);
             customHands[0].SetActive(true);
+            if (toolTipControllers.Length == 0) return;
             toolTipControllers[1].SetActive(false);
             toolTipControllers[0].SetActive(true);
         }

@@ -7,6 +7,7 @@ namespace AllLevels
     public class PlayerPrefChecker : MonoBehaviour
     {
         [SerializeField] private GameObject[] arrowShootingToolTips;
+        [SerializeField] private GameObject[] signsToShow;
         [SerializeField] private OculusInput dominantHandIndex;
         private void Awake()
         {
@@ -15,6 +16,11 @@ namespace AllLevels
                 foreach (GameObject toolTip in arrowShootingToolTips)
                 {
                     toolTip.SetActive(false);
+                }
+                
+                foreach (GameObject sign in signsToShow)
+                {
+                    sign.SetActive(true);
                 }
             }
             

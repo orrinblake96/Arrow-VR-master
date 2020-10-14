@@ -124,6 +124,8 @@ GameObject:
   - component: {fileID: 5509991328502552229}
   - component: {fileID: 6223868130374480976}
   - component: {fileID: 1209837964093216041}
+  - component: {fileID: 3667688619114238017}
+  - component: {fileID: 6498262673659447573}
   m_Layer: 10
   m_Name: Tip
   m_TagString: ArrowTip
@@ -219,6 +221,48 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.006742376
   m_Center: {x: 0, y: -0.03, z: -1.1068079e-16}
+--- !u!114 &3667688619114238017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223868130374480975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e13a7a84b2744d0a3fdef72fd01e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeColors:
+  - {fileID: 2100000, guid: 55d475df9cd2044749dcb0b8196b261c, type: 2}
+  - {fileID: 2100000, guid: 46763a8cc485b4f5d9d8680f21049db9, type: 2}
+  - {fileID: 2100000, guid: 7b80f0a9144d44fb29940cb6667595d0, type: 2}
+  colorInfoNum: {fileID: 0}
+  shaftColor: {fileID: 384999108649450282}
+  arrow: {fileID: 7046829276956346025}
+--- !u!114 &6498262673659447573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223868130374480975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Weapons/Arrow Colour Change
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &8542102953145869890
 GameObject:
   m_ObjectHideFlags: 0
