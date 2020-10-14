@@ -19,7 +19,7 @@ namespace TargetShooterMiniGame
         {
             Instantiate(explosionParticles, transform.position, Quaternion.Euler(-90f, 0f, 0f));
             
-            _countDownTimer.IncreaseTimer(5);
+            _countDownTimer.IncreaseTimer(3f);
             
             Destroy(gameObject.transform.parent.gameObject);
         }
