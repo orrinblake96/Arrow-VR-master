@@ -5,8 +5,6 @@ namespace PillarOfLight
 {
     public class RespawnGlueBomb : MonoBehaviour
     {
-        [SerializeField] private float waitTime = 5f;
-
         public void RespawnGlue(GameObject glueBomb)
         {
             StartCoroutine(Respawn(glueBomb));
@@ -14,7 +12,7 @@ namespace PillarOfLight
 
         private IEnumerator Respawn(GameObject glueBomb)
         {
-            yield return new WaitForSeconds(waitTime);
+            yield return new WaitForSeconds(Random.Range(30f, 50f));
             glueBomb.SetActive(true);
         }
     }
