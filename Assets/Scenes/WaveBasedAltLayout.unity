@@ -6162,7 +6162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d40e1f01a734cf74da01af624c2fb725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableDebug: 1
+  enableDebug: 0
   VirtualRealitySupported: 1
   VR_cameraDistance: 2
   VR_radius: 1.2
@@ -38901,7 +38901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3cdc775d15142e9b00bd79537974cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 20
 --- !u!1001 &1882299371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41097,7 +41096,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3cdc775d15142e9b00bd79537974cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 20
 --- !u!4 &2057681991
 Transform:
   m_ObjectHideFlags: 0
@@ -41806,7 +41804,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3cdc775d15142e9b00bd79537974cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 20
 --- !u!1001 &2120619171
 PrefabInstance:
   m_ObjectHideFlags: 0

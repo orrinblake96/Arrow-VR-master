@@ -51,8 +51,6 @@ namespace PillarOfLight
                 _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
                 _tipColor.material = _currentMaterialColor;
                 shaftColor.material = _currentMaterialColor;
-                
-                Debug.Log("material number: " + _currentMaterial);
                 return;
             }
             
@@ -63,8 +61,6 @@ namespace PillarOfLight
                 _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
                 _tipColor.material = _currentMaterialColor;
                 shaftColor.material = _currentMaterialColor;
-                
-                Debug.Log("material number: " + _currentMaterial);
             }
         }
 

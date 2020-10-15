@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace AllLevels
@@ -8,8 +7,15 @@ namespace AllLevels
     {
         [SerializeField] private GameObject[] arrowShootingToolTips;
         [SerializeField] private GameObject[] signsToShow;
-        [SerializeField] private OculusInput dominantHandIndex;
+        
+        private OculusInput _dominantHandIndex;
+
         private void Awake()
+        {
+            _dominantHandIndex = GameObject.Find("Input").GetComponent<OculusInput>();
+        }
+
+        private void Start()
         {
             if (SceneManager.GetActiveScene().name == "MainMenuArea" && PlayerPrefs.GetInt("ArrowShotOnce") == 1)
             {
@@ -26,7 +32,7 @@ namespace AllLevels
             
             if (PlayerPrefs.HasKey("dominantHandIndex"))
             {
-                dominantHandIndex.GetDominantBowHand();
+                _dominantHandIndex.GetDominantBowHand();
                 return;
             }
             
