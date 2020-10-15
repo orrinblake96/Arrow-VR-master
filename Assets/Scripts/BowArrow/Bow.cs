@@ -21,6 +21,8 @@ namespace BowArrow
         private float _vibrateAmount = 0.0f;
         private static readonly int Blend = Animator.StringToHash("Blend");
 
+        private float _slowedTimeWait;
+
         private void Awake() 
         {
             m_Animator = GetComponent<Animator>();
@@ -83,13 +85,15 @@ namespace BowArrow
  
         public void Release ()
         {
-            if (m_PullValue > 0.4f) FireArrow();
+            if (m_PullValue > 0.3f) FireArrow();
 
             m_PullingHand = null;
             m_PullValue = 0.0f;
             m_Animator.SetFloat("Blend", 0);
 
-            if (!m_CurrentArrow) StartCoroutine(CreateArrow(0.25f));
+            _slowedTimeWait = Time.timeScale < 1f ? 0f : .25f;
+
+            if (!m_CurrentArrow) StartCoroutine(CreateArrow(_slowedTimeWait));
         }
 
         private void FireArrow()
