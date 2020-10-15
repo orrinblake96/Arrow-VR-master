@@ -36,7 +36,7 @@ namespace PillarOfLight
             
             // Check for damage taken then explode to destroy enemies
             _hitCount++;
-            if (_hitCount == 2)
+            if (_hitCount == 3)
             {
                 _hitCount = 0;
 
