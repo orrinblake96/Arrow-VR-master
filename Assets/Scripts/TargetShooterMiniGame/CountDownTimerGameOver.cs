@@ -1,4 +1,5 @@
-﻿using FMODUnity;
+﻿using System;
+using FMODUnity;
 using UnityEngine;
 
 namespace TargetShooterMiniGame
@@ -13,6 +14,14 @@ namespace TargetShooterMiniGame
         [SerializeField] private string winSoundPath;
         [SerializeField] private string loseSoundPath;
         
+        private Animator _scorePulsate;
+        private static readonly int GameOver = Animator.StringToHash("GameOver");
+
+        private void Start()
+        {
+            _scorePulsate = GameObject.Find("CountDownTimerCanvas").GetComponent<Animator>();
+        }
+
         private void HideObjects()
         {
             foreach (GameObject hideableObject in objectsToHide)
@@ -29,6 +38,8 @@ namespace TargetShooterMiniGame
 
         public void EndGame(bool timerAtZero)
         {
+            _scorePulsate.SetBool(GameOver, true);
+            
             if (!timerAtZero)
             {
                 FMODUnity.RuntimeManager.PlayOneShot(winSoundPath, transform.position);
