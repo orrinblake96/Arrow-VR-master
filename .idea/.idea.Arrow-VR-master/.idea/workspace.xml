@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyLargeEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyLargeEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetColour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetColour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +94,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AllLevels/HoverFloatingIslands.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/RuntimeManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96C9BAFF-A941-4FE5-B4EB-911E74F8F90E/39/2fe46860/Coroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/ArrowColourCheckerTargetMiniGame.cs" root0="FORCE_HIGHLIGHTING" />
@@ -126,7 +132,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/ShootableAnimalTargets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/WaterTriggerSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/WaterEffects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyLargeEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
@@ -134,25 +139,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ObtainPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetColour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/ArrowColourCheckerTargetMiniGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CheckForTargets.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CountDownTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CountDownTimerGameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/RespawnGlueBomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpawnRandomPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyLargeEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetColour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" />
       </list>
     </option>
   </component>
@@ -266,7 +272,7 @@
       <workItem from="1602154781228" duration="3860000" />
       <workItem from="1602500482587" duration="3148000" />
       <workItem from="1602589673283" duration="13539000" />
-      <workItem from="1602754395920" duration="5645000" />
+      <workItem from="1602754395920" duration="9212000" />
     </task>
     <servers />
   </component>

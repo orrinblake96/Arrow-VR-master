@@ -17,13 +17,14 @@ namespace PillarOfLight
             _waveScoreBoard = GameObject.FindGameObjectWithTag("WaveScoreBoard").GetComponent<WaveScore>();
         }
 
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.K))
-            {
-                Damage(10);
-            }
-        }
+        //Debug code
+//        private void Update()
+//        {
+//            if (Input.GetKeyDown(KeyCode.K))
+//            {
+//                Damage(10);
+//            }
+//        }
 
         public void Damage(int amount)
         {
