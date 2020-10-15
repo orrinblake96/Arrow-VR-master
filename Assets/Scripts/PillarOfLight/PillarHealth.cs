@@ -17,6 +17,9 @@ namespace PillarOfLight
         private Material _pillarOfLightMaterialInstance;
         private Collider[] _pillarExplosionOverlapResults = new Collider[20];
 
+        private Animator _gameScoreAnimator;
+        private static readonly int GameOver = Animator.StringToHash("GameOver");
+
         private void Start()
         {
             // Make an instance of the material so its color changes back to white on Quitting
@@ -24,6 +27,8 @@ namespace PillarOfLight
             GetComponent<MeshRenderer>().material = _pillarOfLightMaterialInstance;
             
             _currentHealth = startingHealth;
+
+            _gameScoreAnimator = GameObject.Find("PlayerScoreCanvasUI").GetComponent<Animator>();
         }
 
         public void DamageTaken()
@@ -48,6 +53,7 @@ namespace PillarOfLight
             if (!(_currentHealth <= 0)) return;
             if(exitSign) exitSign.SetActive(true);
             if(replaySign) replaySign.SetActive(true);
+            _gameScoreAnimator.SetBool(GameOver, true);
             gameObject.SetActive(false);
         }
 
