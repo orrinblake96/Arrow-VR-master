@@ -24,6 +24,8 @@ namespace Enemy
         private NavMeshAgent _agent;
         private Animator _attackAnimation;
         private WaveSpawner _waveSpawnedInformation;
+        private DestroyingEnemies _destroyingEnemies;
+        private DestroyLargeEnemy _destroyLargeEnemy;
 
         private PillarHealth _pillarHealth;
         private bool _readyToAttack;
@@ -42,11 +44,13 @@ namespace Enemy
             {
                 _attackPositions = new Transform[] {GameObject.Find("RedAttackPos").transform, GameObject.Find("GreenAttackPos").transform, GameObject.Find("BlueAttackPos").transform};
                 _target = GetClosestAttackPosition(_attackPositions);
+                _destroyingEnemies = GetComponent<DestroyingEnemies>();
             }
             else
             {
                 _attackPositions = new Transform[] {GameObject.Find("LargeRedAttackPos").transform, GameObject.Find("LargeGreenAttackPos").transform, GameObject.Find("LargeBlueAttackPos").transform};
-                _target = GetClosestAttackPosition(_attackPositions);   
+                _target = GetClosestAttackPosition(_attackPositions);
+                _destroyLargeEnemy = GetComponent<DestroyLargeEnemy>();
             }
         }
 
@@ -125,8 +129,10 @@ namespace Enemy
         private IEnumerator SelfDestroy()
         {
             yield return  new WaitForSeconds(1.5f);
-            Instantiate(fracturedSelf, transform.position, transform.rotation);
-            Destroy(gameObject);
+            // Add Damage code
+            if (isLargeEnemy) _destroyLargeEnemy.Damage(100);
+            if (!isLargeEnemy) _destroyingEnemies.Damage(10);
+
         } 
     
         // Called as an animation event on swinging animation
