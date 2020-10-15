@@ -10,7 +10,7 @@ namespace TargetShooterMiniGame
         private Material _material;
         private void Start()
         {
-            _material = GetComponent<MeshRenderer>().material = possibleColours[Random.Range(0, possibleColours.Length)];
+            GetComponent<MeshRenderer>().material = possibleColours[Random.Range(0, possibleColours.Length)];
         }
     }
 }

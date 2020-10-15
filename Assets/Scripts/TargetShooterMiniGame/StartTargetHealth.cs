@@ -7,27 +7,50 @@ namespace TargetShooterMiniGame
 {
     public class StartTargetHealth : MonoBehaviour, IDamageable
     {
-        public GameObject explosionParticles;
+        public GameObject[] explosionParticles;
         public GameObject startUi;
         public GameObject arrowColourUi;
         public GameObject destroyableTargets;
         public CountDownTimer timer;
         
         private StudioEventEmitter _timerStartSound;
+        private Material _targetMaterial;
 
         private void Start()
         {
             _timerStartSound = GetComponent<StudioEventEmitter>();
+            _targetMaterial = GetComponent<MeshRenderer>().materials[0];
+            Debug.Log("Material: " + _targetMaterial.name);
         }
+        
+        //Debug code
+//        private void Update()
+//        {
+//            if (Input.GetKeyDown(KeyCode.Space))
+//            {
+//                Damage(10);
+//            }
+//        }
 
         public void Damage(int amount)
         {
-            StartCoroutine(DestroySign());
+            if (_targetMaterial.name.Contains("Red"))
+            {
+                StartCoroutine(DestroySign(explosionParticles[0]));
+            } 
+            else if (_targetMaterial.name.Contains("Green"))
+            {
+                StartCoroutine(DestroySign(explosionParticles[1]));
+            }
+            else if(_targetMaterial.name.Contains("Blue"))
+            {
+                StartCoroutine(DestroySign(explosionParticles[2]));
+            }
         }
 
-        private IEnumerator DestroySign()
+        private IEnumerator DestroySign(GameObject explosionParticle)
         {
-            Instantiate(explosionParticles, transform.position, Quaternion.Euler(-90f, 0f, 0f));
+            Instantiate(explosionParticle, transform.position, Quaternion.Euler(-90f, 0f, 0f));
             
             gameObject.GetComponent<MeshRenderer>().enabled = false;
             gameObject.GetComponent<BoxCollider>().enabled = false;
