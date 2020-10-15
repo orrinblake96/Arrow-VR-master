@@ -1,4 +1,5 @@
-﻿using Crate;
+﻿using System;
+using Crate;
 using Greyman;
 using UnityEngine;
 
@@ -35,6 +36,14 @@ namespace PillarOfLight
             {
                 _offScreenIndicator.AddIndicator(gameObject.transform, 2);
             } 
+        }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Damage(10);
+            }
         }
 
         public void Damage(int amount)

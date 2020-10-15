@@ -25,6 +25,7 @@ namespace Enemy
         private SpawnState _state = SpawnState.Counting;
         private GameObject _pillarOfLight;
         private SpawnRandomPowerUp _spawnRandomPowerUp;
+        private float _spawnability;
 
         private void Start()
         {
@@ -126,12 +127,27 @@ namespace Enemy
                 yield return new WaitForSeconds(1f/(wave.spawnRate + currentRoundNumber));
             }
             
-            if(Random.value > 0.8) SpawnEnemy(largeEnemy.transform);
+            SpawnLargeEnemy();
 
             // After all enemies spawned set spawn system state to waiting
             _state = SpawnState.Waiting;
             
             yield break;
+        }
+
+        private void SpawnLargeEnemy()
+        {
+            if(RoundCount >= 0 && RoundCount <= 2) _spawnability = 0.8f;
+            if(RoundCount >= 3 && RoundCount <= 5) _spawnability = 0.5f;
+            if(RoundCount >= 6) _spawnability = 0.3f;
+
+            if (Random.value > _spawnability)
+            {
+                for (float i = 0; i<=RoundCount; i++)
+                {
+                    SpawnEnemy(largeEnemy.transform);
+                }
+            }
         }
 
         private void SpawnEnemy(Transform enemy)
