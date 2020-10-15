@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,10 +130,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/CleanFracturedPieces.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/InstructionLinePointers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ObtainPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetColour.cs" />
@@ -155,6 +151,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/WaveSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
       </list>
     </option>
   </component>
@@ -268,7 +266,7 @@
       <workItem from="1602154781228" duration="3860000" />
       <workItem from="1602500482587" duration="3148000" />
       <workItem from="1602589673283" duration="13539000" />
-      <workItem from="1602754395920" duration="4578000" />
+      <workItem from="1602754395920" duration="5645000" />
     </task>
     <servers />
   </component>
