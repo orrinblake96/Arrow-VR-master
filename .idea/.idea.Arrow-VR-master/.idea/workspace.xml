@@ -4,7 +4,9 @@
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainMenu/MainMenuArrow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainMenu/MainMenuArrow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AccuracyMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AccuracyMiniGame.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +47,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/DestroyAccuracyTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyGameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetColour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/WaveBasedArena.unity" root0="FORCE_HIGHLIGHTING" />
@@ -58,6 +61,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainMenuArea/LightingData.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AllLevels/PlayerPrefChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Waves.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AllLevels/CameraFacingBillboard.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/SpawnTargets.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/RespawnTargets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpecialAbilitiesBar.cs" />
@@ -156,6 +158,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/RotateControllers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" />
       </list>
     </option>
   </component>
@@ -269,7 +273,8 @@
       <workItem from="1602154781228" duration="3860000" />
       <workItem from="1602500482587" duration="3148000" />
       <workItem from="1602589673283" duration="13539000" />
-      <workItem from="1602754395920" duration="11964000" />
+      <workItem from="1602754395920" duration="12103000" />
+      <workItem from="1602859488569" duration="9422000" />
     </task>
     <servers />
   </component>
