@@ -125,6 +125,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitAmount: 10
+  scoreNumberEffect: {fileID: 824060398181147966, guid: f37f59a7c65cd44d3b33e7c6f1274ba5,
+    type: 3}
+  targetSmokeParticles: {fileID: 1322582951114098681, guid: b1b60b9319dac409ba4f213a1db6ba2b,
+    type: 3}
 --- !u!1 &1570667930866200778
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,6 +254,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitAmount: 2
+  scoreNumberEffect: {fileID: 824060398181147966, guid: bcc8dda42be7546f796fb2359c8b64e6,
+    type: 3}
+  targetSmokeParticles: {fileID: 1322582951114098681, guid: b1b60b9319dac409ba4f213a1db6ba2b,
+    type: 3}
 --- !u!1 &3597402711028385406
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +418,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitAmount: 4
+  scoreNumberEffect: {fileID: 824060398181147966, guid: 3cf3fa0072e6e40f797206d6d9b95847,
+    type: 3}
+  targetSmokeParticles: {fileID: 1322582951114098681, guid: b1b60b9319dac409ba4f213a1db6ba2b,
+    type: 3}
 --- !u!1 &5396214659097483996
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,6 +547,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitAmount: 6
+  scoreNumberEffect: {fileID: 824060398181147966, guid: 39dae223340804953a3974dc72d3e77d,
+    type: 3}
+  targetSmokeParticles: {fileID: 1322582951114098681, guid: b1b60b9319dac409ba4f213a1db6ba2b,
+    type: 3}
 --- !u!1 &9012568094210343010
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,3 +676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitAmount: 8
+  scoreNumberEffect: {fileID: 824060398181147966, guid: eccfc0c879a7441808d2f242e84b2934,
+    type: 3}
+  targetSmokeParticles: {fileID: 1322582951114098681, guid: b1b60b9319dac409ba4f213a1db6ba2b,
+    type: 3}

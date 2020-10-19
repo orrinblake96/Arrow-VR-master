@@ -6,10 +6,16 @@ namespace AccuracyMiniGame
 {
     public class AccuracyGameManager : MonoBehaviour
     {
+        [Header("Static Targets")]
         [SerializeField] private List<GameObject> easyTargetsList;
         [SerializeField] private List<GameObject> mediumTargetsList;
         [SerializeField] private List<GameObject> hardTargetsList;
-
+        
+        [Header("Moving Targets")]
+        [SerializeField] private List<GameObject> easyTargetsMovingList;
+        [SerializeField] private List<GameObject> mediumTargetsMovingList;
+        [SerializeField] private List<GameObject> hardTargetsMovingList;
+        
         private List<GameObject> _currentTargetList;
         private int _currentTargetListIndex = 0;
         private GameObject _nextPosition;
