@@ -1,5 +1,6 @@
 ﻿using System;
 using Crate;
+using TargetShooterMiniGame;
 using UnityEngine;
 
 namespace AccuracyMiniGame
@@ -12,6 +13,9 @@ namespace AccuracyMiniGame
         [Header("Target Effects")] 
         [SerializeField] private GameObject scoreNumberEffect;
         [SerializeField] private GameObject targetSmokeParticles;
+
+        [Header("Score")] 
+        [SerializeField] private TargetScore _targetScore;
         
         private AccuracyGameManager _accuracyGameManager;
         
@@ -20,15 +24,18 @@ namespace AccuracyMiniGame
             _accuracyGameManager = GameObject.Find("GM").GetComponent<AccuracyGameManager>();
         }
 
-//        private void Update()
-//        {
-//            if(Input.GetKeyDown(KeyCode.Space)) Damage(10);
-//        }
+        private void Update()
+        {
+            if(Input.GetKeyDown(KeyCode.Space)) Damage(10);
+        }
 
         public void Damage(int amount)
         {
             Instantiate(targetSmokeParticles, transform.position, transform.rotation);
             Instantiate(scoreNumberEffect, transform.position, transform.rotation);
+            
+            _targetScore.IncreaseCurrentScore(hitAmount);
+            
             _accuracyGameManager.DisplayNextTarget(transform.parent.gameObject);
             
             transform.parent.gameObject.SetActive(false);

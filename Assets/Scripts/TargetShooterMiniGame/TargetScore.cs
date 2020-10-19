@@ -11,10 +11,10 @@ namespace TargetShooterMiniGame
         {
             _scoreText = GetComponent<TextMeshProUGUI>();
         }
-        
-        public void IncreaseCurrentScore()
+
+        public void IncreaseCurrentScore(int amount = 10)
         {
-            _currentScore += 10;
+            _currentScore += amount;
 
             _scoreText.text = _currentScore.ToString();
         }
