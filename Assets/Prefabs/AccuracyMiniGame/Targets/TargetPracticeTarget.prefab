@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5655042429023177825}
   - component: {fileID: 6339102576836569581}
   - component: {fileID: 3377810273804275706}
+  - component: {fileID: 1958389575}
   m_Layer: 0
   m_Name: 10_Points
   m_TagString: Untagged
@@ -129,6 +130,29 @@ MonoBehaviour:
     type: 3}
   targetSmokeParticles: {fileID: 1322582951114098681, guid: b1b60b9319dac409ba4f213a1db6ba2b,
     type: 3}
+--- !u!114 &1958389575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588892244321586008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/Accuracy Targets HIt
+  PlayEvent: 12
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1570667930866200778
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,6 +167,7 @@ GameObject:
   - component: {fileID: 3708989311920684978}
   - component: {fileID: 8321342393250657007}
   - component: {fileID: 8810743167735332170}
+  - component: {fileID: 872294842}
   m_Layer: 0
   m_Name: 2_Points
   m_TagString: Untagged
@@ -258,6 +283,29 @@ MonoBehaviour:
     type: 3}
   targetSmokeParticles: {fileID: 1322582951114098681, guid: b1b60b9319dac409ba4f213a1db6ba2b,
     type: 3}
+--- !u!114 &872294842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570667930866200778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/Accuracy Targets HIt
+  PlayEvent: 12
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &3597402711028385406
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 556145541412107373}
+  - component: {fileID: 7173547130234287671}
   m_Layer: 0
   m_Name: TargetPracticeTarget
   m_TagString: Untagged
@@ -293,6 +342,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7173547130234287671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3597402711028385406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c41e437916c7141e89a2c6a9a4876394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4922435229793481118
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +368,7 @@ GameObject:
   - component: {fileID: 2528922722938500754}
   - component: {fileID: 6881332821593726776}
   - component: {fileID: 4069794042645008738}
+  - component: {fileID: 459735367}
   m_Layer: 0
   m_Name: 4_Points
   m_TagString: Untagged
@@ -422,6 +484,29 @@ MonoBehaviour:
     type: 3}
   targetSmokeParticles: {fileID: 1322582951114098681, guid: b1b60b9319dac409ba4f213a1db6ba2b,
     type: 3}
+--- !u!114 &459735367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4922435229793481118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/Accuracy Targets HIt
+  PlayEvent: 12
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &5396214659097483996
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,6 +521,7 @@ GameObject:
   - component: {fileID: 149067002976962208}
   - component: {fileID: 2512224782423850081}
   - component: {fileID: 3942520078068577454}
+  - component: {fileID: 238006171}
   m_Layer: 0
   m_Name: 6_Points
   m_TagString: Untagged
@@ -551,6 +637,29 @@ MonoBehaviour:
     type: 3}
   targetSmokeParticles: {fileID: 1322582951114098681, guid: b1b60b9319dac409ba4f213a1db6ba2b,
     type: 3}
+--- !u!114 &238006171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5396214659097483996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/Accuracy Targets HIt
+  PlayEvent: 12
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &9012568094210343010
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,6 +674,7 @@ GameObject:
   - component: {fileID: 5921151966531178854}
   - component: {fileID: 6763427750789649087}
   - component: {fileID: 795908099859653233}
+  - component: {fileID: 2036262639}
   m_Layer: 0
   m_Name: 8_Points
   m_TagString: Untagged
@@ -680,3 +790,26 @@ MonoBehaviour:
     type: 3}
   targetSmokeParticles: {fileID: 1322582951114098681, guid: b1b60b9319dac409ba4f213a1db6ba2b,
     type: 3}
+--- !u!114 &2036262639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012568094210343010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/Accuracy Targets HIt
+  PlayEvent: 12
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0

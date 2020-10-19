@@ -67,7 +67,7 @@ namespace AccuracyMiniGame
                     break;
                 case 3:
                     _currentTargetList = easyTargetsMovingList;
-                    _moveTarget.enabled = true;
+                    _moveTarget.StartVerticalMovement();
                     DisplayNextTarget(target);
                     break;
                 case 4:

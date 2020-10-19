@@ -6,7 +6,7 @@ namespace AccuracyMiniGame
 {
     public class MoveTarget : MonoBehaviour
     {
-        private void Start()
+        public void StartVerticalMovement()
         {
             LeanTween.moveLocalY(gameObject, 10f, 3f).setLoopPingPong().setEaseInOutSine();
         }
