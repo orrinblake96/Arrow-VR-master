@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AccuracyMiniGame/Targets/TargetsParticleEffects/SmokeParticle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AccuracyMiniGame/Targets/TargetsParticleEffects/SmokeParticle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/AccuracyMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AccuracyMiniGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CountDownTimerGameOver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu/RespawnTargets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRCameraRig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BNG Framework/Scripts/Components/Tooltip.cs" root0="FORCE_HIGHLIGHTING" />
@@ -106,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/ArrowTipColorChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveBasedLevel/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpecialAbilitiesBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/HoverFloatingIslands.cs" />
@@ -153,10 +156,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/RotateControllers.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/DestroyAccuracyTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/MoveTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyScoreManager.cs" />
       </list>
     </option>
   </component>
@@ -272,7 +276,7 @@
       <workItem from="1602589673283" duration="13539000" />
       <workItem from="1602754395920" duration="12103000" />
       <workItem from="1602859488569" duration="9530000" />
-      <workItem from="1603104485171" duration="3948000" />
+      <workItem from="1603104485171" duration="5716000" />
     </task>
     <servers />
   </component>

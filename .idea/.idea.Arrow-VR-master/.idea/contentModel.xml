@@ -905,6 +905,7 @@
         <e p="Scripts" t="Include">
           <e p="AccuracyMiniGame" t="Include">
             <e p="AccuracyGameManager.cs" t="Include" />
+            <e p="AccuracyScoreManager.cs" t="Include" />
             <e p="AccuracyTargetLogic.cs" t="Include" />
             <e p="MoveTarget.cs" t="Include" />
           </e>
