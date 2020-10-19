@@ -12,9 +12,11 @@ namespace AccuracyMiniGame
         [SerializeField] private List<GameObject> hardTargetsList;
         
         [Header("Moving Targets")]
+        [SerializeField] private MoveTarget _moveTarget;
         [SerializeField] private List<GameObject> easyTargetsMovingList;
         [SerializeField] private List<GameObject> mediumTargetsMovingList;
         [SerializeField] private List<GameObject> hardTargetsMovingList;
+        
         
         private List<GameObject> _currentTargetList;
         private int _currentTargetListIndex = 0;
@@ -64,7 +66,20 @@ namespace AccuracyMiniGame
                     DisplayNextTarget(target);
                     break;
                 case 3:
-                    Debug.Log("Done");
+                    _currentTargetList = easyTargetsMovingList;
+                    _moveTarget.enabled = true;
+                    DisplayNextTarget(target);
+                    break;
+                case 4:
+                    _currentTargetList = mediumTargetsMovingList;
+                    DisplayNextTarget(target);
+                    break;
+                case 5:
+                    _currentTargetList = hardTargetsMovingList;
+                    DisplayNextTarget(target);
+                    break;
+                case 6:
+                    Debug.Log("Done!!!!");
                     break;
             }
         }
