@@ -11,13 +11,17 @@ namespace PillarOfLight
         private int _currentScore;
         private int _currentMultiplier = 1;
         private TextMeshProUGUI _scoreText;
+        private PillarHealth _pillarHealth;
         private void Start()
         {
             _scoreText = GetComponent<TextMeshProUGUI>();
+            _pillarHealth = GameObject.Find("PillarOfLightTarget").GetComponent<PillarHealth>();
         }
         
         public void IncreaseCurrentScore(int pointsToAdd, Transform enemyPosition)
         {
+            if (_pillarHealth.CurrentHealth <= 0) return;
+            
             switch (_currentMultiplier)
             {
                 case 1:

@@ -911,6 +911,13 @@
           </e>
           <e p="AllLevels" t="Include">
             <e p="CameraFacingBillboard.cs" t="Include" />
+            <e p="HighScore" t="Include">
+              <e p="Scoreboard.cs" t="Include" />
+              <e p="ScoreboardEntryData.cs" t="Include" />
+              <e p="ScoreboardEntryUI.cs" t="Include" />
+              <e p="ScoreboardSaveData.cs" t="Include" />
+            </e>
+            <e p="HighscoreTable.cs" t="Include" />
             <e p="HoverFloatingIslands.cs" t="Include" />
             <e p="InstructionLinePointers.cs" t="Include" />
             <e p="PlayerPrefChecker.cs" t="Include" />

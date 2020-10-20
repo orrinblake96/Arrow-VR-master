@@ -1,22 +1,30 @@
-﻿using UnityEngine;
+﻿using AllLevels.HighScore;
+using TargetShooterMiniGame;
+using UnityEngine;
 
 namespace PillarOfLight
 {
     public class PillarHealth : MonoBehaviour
     {
         
-        public int startingHealth = 100;
-        public Material pillarOfLightMaterial;
-        public GameObject exitSign;
-        public GameObject replaySign;
-        public GameObject pillarExplosionEffect;
+        [SerializeField] private int startingHealth = 100;
+        [SerializeField] private Material pillarOfLightMaterial;
+        [SerializeField] private GameObject pillarExplosionEffect;
+
+        [Header("Objects To Show/Hide")] 
+        [SerializeField] private GameObject[] objectsToShow;
+        [SerializeField] private GameObject[] objectsToHide;
         
         private int _currentHealth;
         private float _pillarColor = 255f;
         private int _hitCount = 0;
         private Material _pillarOfLightMaterialInstance;
         private Collider[] _pillarExplosionOverlapResults = new Collider[20];
-
+        
+        private WaveScore _targetScore;
+        private ScoreboardEntryData _entryData = new ScoreboardEntryData();
+        private Scoreboard _highscoreBoard;
+        
         private Animator _gameScoreAnimator;
         private static readonly int GameOver = Animator.StringToHash("GameOver");
 
@@ -28,6 +36,7 @@ namespace PillarOfLight
             
             _currentHealth = startingHealth;
 
+            _targetScore = GameObject.Find("ScorenumberTMP").GetComponent<WaveScore>();
             _gameScoreAnimator = GameObject.Find("PlayerScoreCanvasUI").GetComponent<Animator>();
         }
 
@@ -51,12 +60,9 @@ namespace PillarOfLight
             }
 
             if (!(_currentHealth <= 0)) return;
-            if(exitSign) exitSign.SetActive(true);
-            if(replaySign) replaySign.SetActive(true);
-            _gameScoreAnimator.SetBool(GameOver, true);
-            gameObject.SetActive(false);
+            EndGame();
+            
         }
-
         private void DestroyEnemies()
         {
             Physics.OverlapSphereNonAlloc(transform.position, 5f, _pillarExplosionOverlapResults);
@@ -73,12 +79,47 @@ namespace PillarOfLight
                 nearObject.transform.parent.GetComponent<DestroyingEnemies>().Damage(10);
             }
         }
+
+        private void EndGame()
+        {
+            ObjectsToShow();
+            ObjectsToHide();
+            _gameScoreAnimator.SetBool(GameOver, true);
+            
+            HighscoreHandler();
+            gameObject.SetActive(false);
+        }
+
+        private void ObjectsToShow()
+        {
+            foreach (GameObject showable in objectsToShow)
+            {
+                showable.SetActive(true);
+            }
+        }
+        
+        private void ObjectsToHide()
+        {
+            foreach (GameObject hideable in objectsToHide)
+            {
+                hideable.SetActive(false);
+            }
+        }
+
+        private void HighscoreHandler()
+        {
+            _highscoreBoard = GameObject.Find("ScoreBoard").GetComponent<Scoreboard>();
+            _entryData.entryName = "OJ";
+            _entryData.entryScore = _targetScore.CurrentScore;
+            _highscoreBoard.AddEntry(_entryData);
+        }
+        
         
         public void ResetPillarHits(int hitCount)
         {
             _hitCount = hitCount;
         }
-        
+
         // Calculating random power-up drops
         public int CurrentHealth => _currentHealth;
     }

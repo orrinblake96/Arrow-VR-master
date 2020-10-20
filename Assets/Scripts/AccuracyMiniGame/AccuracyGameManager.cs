@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using AllLevels.HighScore;
+using TargetShooterMiniGame;
 using UnityEngine;
 
 namespace AccuracyMiniGame
@@ -16,17 +18,29 @@ namespace AccuracyMiniGame
         [SerializeField] private List<GameObject> easyTargetsMovingList;
         [SerializeField] private List<GameObject> mediumTargetsMovingList;
         [SerializeField] private List<GameObject> hardTargetsMovingList;
-        
+
+        [Header("Objects To Show/Hide")] 
+        [SerializeField] private GameObject[] objectsToShow;
+        [SerializeField] private GameObject[] objectsToHide;
         
         private List<GameObject> _currentTargetList;
         private int _currentTargetListIndex = 0;
         private GameObject _nextPosition;
         private Transform _playerPosition;
+        
+        private TargetScore _targetScore;
+        private ScoreboardEntryData _entryData = new ScoreboardEntryData();
+        private Scoreboard _highscoreBoard;
+        private Animator _scoreAnimator;
+        private static readonly int GameOver = Animator.StringToHash("GameOver");
 
         private void Start()
         {
             _playerPosition = GameObject.Find("OVRCameraRig").transform;
             _currentTargetList = easyTargetsList;
+            
+            _targetScore = GameObject.Find("ScorenumberTMP").GetComponent<TargetScore>();
+            _scoreAnimator = GameObject.Find("PlayerScoreCanvasUI").GetComponent<Animator>();
         }
 
         public void DisplayNextTarget(GameObject target)
@@ -79,9 +93,47 @@ namespace AccuracyMiniGame
                     DisplayNextTarget(target);
                     break;
                 case 6:
-                    Debug.Log("Done!!!!");
+                    EndGame();
                     break;
             }
+        }
+
+        private void EndGame()
+        {
+            PlayScoreAnimation();
+            ObjectsToHide();
+            ObjectsToShow();
+            HighscoreHandler();
+            Debug.Log("Done!!!!");
+        }
+
+        private void ObjectsToHide()
+        {
+            foreach (GameObject hideable in objectsToHide)
+            {
+                hideable.SetActive(false);
+            }
+        }
+
+        private void ObjectsToShow()
+        {
+            foreach (GameObject showable in objectsToShow)
+            {
+                showable.SetActive(true);
+            }
+        }
+
+        private void HighscoreHandler()
+        {
+            _highscoreBoard = GameObject.Find("ScoreBoard").GetComponent<Scoreboard>();
+            _entryData.entryName = "OJ";
+            _entryData.entryScore = _targetScore.CurrentScore;
+            _highscoreBoard.AddEntry(_entryData);
+        }
+
+        private void PlayScoreAnimation()
+        {
+            _scoreAnimator.SetBool(GameOver, true);
         }
 
         private static IEnumerator ActivateTarget(GameObject target)

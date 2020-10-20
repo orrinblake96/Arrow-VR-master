@@ -1,4 +1,5 @@
 ﻿using System;
+using AllLevels.HighScore;
 using FMODUnity;
 using UnityEngine;
 
@@ -16,6 +17,9 @@ namespace TargetShooterMiniGame
         
         private Animator _scorePulsate;
         private static readonly int GameOver = Animator.StringToHash("GameOver");
+        
+        private ScoreboardEntryData _entryData = new ScoreboardEntryData();
+        private Scoreboard _highscoreBoard;
 
         private void Start()
         {
@@ -36,21 +40,20 @@ namespace TargetShooterMiniGame
             foreach (GameObject showableObject in objectsToShow) showableObject.SetActive(true);
         }
 
-        public void EndGame(bool timerAtZero)
+        public void EndGame(bool timerAtZero, float timerTime)
         {
+            FMODUnity.RuntimeManager.PlayOneShot(!timerAtZero ? winSoundPath : loseSoundPath, transform.position);
+
             _scorePulsate.SetBool(GameOver, true);
             
-            if (!timerAtZero)
-            {
-                FMODUnity.RuntimeManager.PlayOneShot(winSoundPath, transform.position);
-                HideObjects();
-                ShowObjects();
-                return;
-            }
-            
-            FMODUnity.RuntimeManager.PlayOneShot(loseSoundPath, transform.position);
             HideObjects();
             ShowObjects();
+            
+            _highscoreBoard = GameObject.Find("ScoreBoard").GetComponent<Scoreboard>();
+            _entryData.entryName = "OJ";
+            _entryData.entryScore = (int) timerTime;
+            _highscoreBoard.AddEntry(_entryData);
+            
         }
     }
 }
