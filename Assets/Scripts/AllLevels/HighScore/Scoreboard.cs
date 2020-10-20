@@ -10,6 +10,8 @@ namespace AllLevels.HighScore
         [SerializeField] private GameObject scoreBoardEntryObject;
 
         [SerializeField] private string savePathName;
+        
+        [SerializeField] ScoreboardEntryData testData = new ScoreboardEntryData();
 
         private ScoreboardSaveData savedScores;
         private string SavePath => $"{Application.persistentDataPath}/" + savePathName + ".json";
@@ -19,6 +21,12 @@ namespace AllLevels.HighScore
             savedScores = GetSavedScores();
             SaveScores(savedScores);
             UpdateUI(savedScores);
+        }
+
+        [ContextMenu("Add Test")]
+        public void Test()
+        {
+            AddEntry(testData);
         }
 
         public void AddEntry(ScoreboardEntryData scoreboardEntryData)
