@@ -1,6 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Linq.Expressions;
+﻿using System.IO;
 using UnityEngine;
 
 namespace AllLevels.HighScore
@@ -8,25 +6,19 @@ namespace AllLevels.HighScore
     public class Scoreboard : MonoBehaviour
     {
         [SerializeField] private int maxScoreboardEntries = 5;
-        [SerializeField] private Transform highScoresHolderTransform = null;
-        [SerializeField] private GameObject scoreBoardEntryObject = null;
-        
-        [SerializeField] ScoreboardEntryData testEntryData = new ScoreboardEntryData();
+        [SerializeField] private Transform highScoresHolderTransform;
+        [SerializeField] private GameObject scoreBoardEntryObject;
+
+        [SerializeField] private string savePathName;
 
         private ScoreboardSaveData savedScores;
-        private string SavePath => $"{Application.persistentDataPath}/highscores.json";
+        private string SavePath => $"{Application.persistentDataPath}/" + savePathName + ".json";
 
         private void Start()
         {
             savedScores = GetSavedScores();
             SaveScores(savedScores);
             UpdateUI(savedScores);
-        }
-        
-        [ContextMenu("Add Test Data")]
-        public void AddTestEntry()
-        {
-            AddEntry(testEntryData);
         }
 
         public void AddEntry(ScoreboardEntryData scoreboardEntryData)
