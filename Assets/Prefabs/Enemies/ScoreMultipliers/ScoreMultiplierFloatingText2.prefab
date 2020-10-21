@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8328198819667523402}
   - component: {fileID: -5949737392101167521}
   - component: {fileID: 2974245613901992349}
+  - component: {fileID: -1904265633442324499}
   m_Layer: 0
   m_Name: ScoreMultiplierFloatingText2
   m_TagString: Untagged
@@ -213,7 +214,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824060398181147966}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 490781db55b1a4aa1b363417b99c644a, type: 3}
   m_Name: 
@@ -228,5 +229,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e820399a5b6e4a1ead0a7ab61266a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-1904265633442324499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824060398181147966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62869a0fcfc64e4ba87fb40324997cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
