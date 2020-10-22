@@ -48,7 +48,6 @@ namespace PillarOfLight
 
         public void Damage(int amount)
         {
-
             // Damage and check if dead
             _enemyHealth -= amount;
             if (_enemyHealth > 0) return;

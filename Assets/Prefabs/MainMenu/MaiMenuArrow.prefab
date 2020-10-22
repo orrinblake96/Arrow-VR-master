@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: -1147580289122254398}
   - component: {fileID: 5732707149681898964}
   m_Layer: 10
-  m_Name: MainMenuArrow
+  m_Name: MaiMenuArrow
   m_TagString: Arrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -320,7 +320,7 @@ MonoBehaviour:
     m_Bits: 823
   enableTrailRenderer: 0
   paintBomb: {fileID: 0}
-  glueBomb: {fileID: 0}
+  arrowShotSound: {fileID: 5732707149681898964}
   arrowFired: 0
 --- !u!54 &3544760493190169588
 Rigidbody:
