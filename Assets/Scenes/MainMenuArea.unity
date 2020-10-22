@@ -57,7 +57,7 @@ LightmapSettings:
     serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 7
-    m_AtlasSize: 2048
+    m_AtlasSize: 4096
     m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -5904,7 +5904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3cdc775d15142e9b00bd79537974cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 10
 --- !u!1001 &382238473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10166,7 +10165,6 @@ MonoBehaviour:
   - {fileID: 1799688255}
   - {fileID: 1215128943}
   - {fileID: 166944423}
-  dominantHandIndex: {fileID: 1588811902}
 --- !u!1001 &574415973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11737,9 +11735,10 @@ MonoBehaviour:
   startingHealth: 100
   pillarOfLightMaterial: {fileID: 2100000, guid: ac86fbcae65234fd4bf2acad7a3e11dd,
     type: 2}
-  exitSign: {fileID: 0}
-  replaySign: {fileID: 0}
   pillarExplosionEffect: {fileID: 0}
+  pillarExplosionSound: {fileID: 0}
+  objectsToShow: []
+  objectsToHide: []
 --- !u!1 &656092463 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1584254150316824, guid: c7d07209a987b4f44bf3c00ce24a4cb4,
@@ -14480,7 +14479,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3cdc775d15142e9b00bd79537974cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 10
 --- !u!4 &826198312
 Transform:
   m_ObjectHideFlags: 0
@@ -15396,7 +15394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3cdc775d15142e9b00bd79537974cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 10
 --- !u!4 &892727915
 Transform:
   m_ObjectHideFlags: 0
@@ -15917,7 +15914,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3cdc775d15142e9b00bd79537974cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 10
 --- !u!4 &924052363
 Transform:
   m_ObjectHideFlags: 0
@@ -18586,7 +18582,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrowShootingToolTips: []
   signsToShow: []
-  dominantHandIndex: {fileID: 0}
 --- !u!1001 &1102852760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19356,7 +19351,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3cdc775d15142e9b00bd79537974cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 10
 --- !u!4 &1145629736
 Transform:
   m_ObjectHideFlags: 0
@@ -24862,7 +24856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3cdc775d15142e9b00bd79537974cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 10
 --- !u!1 &1513146026
 GameObject:
   m_ObjectHideFlags: 0
