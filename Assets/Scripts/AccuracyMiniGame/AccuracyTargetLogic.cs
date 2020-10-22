@@ -24,10 +24,10 @@ namespace AccuracyMiniGame
             _accuracyGameManager = GameObject.Find("GM").GetComponent<AccuracyGameManager>();
         }
 
-        private void Update()
-        {
-            if(Input.GetKeyDown(KeyCode.Space)) Damage(10);
-        }
+//        private void Update()
+//        {
+//            if(Input.GetKeyDown(KeyCode.Space)) Damage(10);
+//        }
 
         public void Damage(int amount)
         {
