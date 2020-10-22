@@ -8,11 +8,16 @@ namespace AllLevels
     {
         private Camera _mainCamera;
 
-        private void Start()
+        private void OnEnable()
         {
             _mainCamera = GameObject.Find("CenterEyeAnchor").GetComponent<Camera>();
-            LeanTween.moveLocalY(gameObject, Random.Range(transform.position.y + 3f, transform.position.y + 1.5f), Random.Range(1f, 2f));
-            LeanTween.scale(gameObject, Vector3.zero, Random.Range(1f, 2f));
+            LeanTween.moveLocalY(gameObject, transform.position.y + 5f, 2f);
+            LeanTween.scale(gameObject, Vector3.zero, 2f);
+        }
+
+        private void OnDisable()
+        {
+            LeanTween.scale(gameObject, new Vector3(0.6f, 0.6f, 0.6f), 0f);
         }
 
         //Orient the camera after all movement is completed this frame to avoid jittering

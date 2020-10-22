@@ -14,13 +14,13 @@ namespace PillarOfLight
         private bool _scoreBoardExists;
         private int _enemyHealth = 10;
 
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                Damage(10);
-            }
-        }
+//        private void Update()
+//        {
+//            if (Input.GetKeyDown(KeyCode.Space))
+//            {
+//                Damage(10);
+//            }
+//        }
 
         private void Awake()
         {
@@ -48,7 +48,6 @@ namespace PillarOfLight
 
         public void Damage(int amount)
         {
-
             // Damage and check if dead
             _enemyHealth -= amount;
             if (_enemyHealth > 0) return;

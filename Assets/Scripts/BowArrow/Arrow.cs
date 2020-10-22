@@ -1,4 +1,5 @@
 ﻿using Crate;
+using FMODUnity;
 using PillarOfLight;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,13 +8,17 @@ namespace BowArrow
 {
     public class Arrow : MonoBehaviour
     {
+        [Header("Arrow Configuration")]
         public float m_Speed = 2000.0f;
         public Transform m_Tip = null;
         public CapsuleCollider TipCollider;
         public LayerMask layerToIgnore;
         public bool enableTrailRenderer;
         public PaintBomb paintBomb;
-        public GlueBomb glueBomb;
+//        public GlueBomb glueBomb; //Remove
+        
+        [Header("Arrow Effects")]
+        [SerializeField] private StudioEventEmitter arrowShotSound;
         
         [HideInInspector] public bool arrowFired = false;
     
@@ -21,13 +26,11 @@ namespace BowArrow
         private Rigidbody _mRigidbody = null;
         private bool _mIsStopped = true;
         private Vector3 _mLastPosition = Vector3.zero;
-        private FMODUnity.StudioEventEmitter _eventEmitterRef;
 
         private void Awake()
         {
             _mRigidbody = GetComponent<Rigidbody>();
             TipCollider = m_Tip.GetComponent<CapsuleCollider>();
-            _eventEmitterRef = GetComponent<FMODUnity.StudioEventEmitter>();
         }
 
         private void Start()
@@ -88,7 +91,7 @@ namespace BowArrow
             arrowFired = true;
             
             //Play arrow sound
-            _eventEmitterRef.Play();
+            arrowShotSound.Play();
         
             _mLastPosition = transform.position;
             

@@ -5,6 +5,7 @@ using FMOD.Studio;
 using FMODUnity;
 using PillarOfLight;
 using UnityEngine;
+using System.Threading.Tasks;
 
 namespace WaveBasedLevel
 {
@@ -30,7 +31,7 @@ namespace WaveBasedLevel
 
           private void Update()
           {
-               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime &&  _powerUpManager.slowTimeAcquired && Time.timeScale >= 1.0f)
+               if (OVRInput.GetDown(OVRInput.Button.Four) && !_slowingTime &&  _powerUpManager.slowTimeAcquired  && Time.timeScale >= 1.0f)
                {
                     _powerUpManager.slowTimeAcquired = false;
                     SlowTime();
@@ -67,23 +68,37 @@ namespace WaveBasedLevel
                ResumeTime();
           }
 
-          private void ResumeTime()
+          // Testing Async/Await functionality
+          private async void ResumeTime()
           {
                if (_slowingTime)
                {
                     _slowingTime = false;
-                    StartCoroutine(ResumeTimeRoutine());
+//                    StartCoroutine(ResumeTimeRoutine());
+                    await ResumeTimeRoutine();
                }
           }
-
-          private IEnumerator ResumeTimeRoutine()
+          
+          // Testing Async/Await functionality
+          private async Task ResumeTimeRoutine()
           {
                
                // Wait for time (power value: 0.5 - 10)
                // Use RealTime as normal was causing increased wait times
-               yield return new WaitForSecondsRealtime(7);
+               await Task.Delay(TimeSpan.FromSeconds(7));
                
                _resumeTime = true;
           }
+          
+
+//          private IEnumerator ResumeTimeRoutine()
+//          {
+//               
+//               // Wait for time (power value: 0.5 - 10)
+//               // Use RealTime as normal was causing increased wait times
+//               yield return new WaitForSecondsRealtime(7);
+//               
+//               _resumeTime = true;
+//          }
      }
 }

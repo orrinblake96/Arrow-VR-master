@@ -1,4 +1,5 @@
 ﻿using AllLevels.HighScore;
+using FMODUnity;
 using TargetShooterMiniGame;
 using UnityEngine;
 
@@ -9,7 +10,10 @@ namespace PillarOfLight
         
         [SerializeField] private int startingHealth = 100;
         [SerializeField] private Material pillarOfLightMaterial;
-        [SerializeField] private GameObject pillarExplosionEffect;
+        
+        [Header("Pillar Effects")]
+        [SerializeField] private ParticleSystem pillarExplosionEffect;
+        [SerializeField] private StudioEventEmitter pillarExplosionSound;
 
         [Header("Objects To Show/Hide")] 
         [SerializeField] private GameObject[] objectsToShow;
@@ -38,6 +42,8 @@ namespace PillarOfLight
 
             _targetScore = GameObject.Find("ScorenumberTMP").GetComponent<WaveScore>();
             _gameScoreAnimator = GameObject.Find("PlayerScoreCanvasUI").GetComponent<Animator>();
+            
+            
         }
 
         public void DamageTaken()
@@ -53,9 +59,10 @@ namespace PillarOfLight
             if (_hitCount == 3)
             {
                 _hitCount = 0;
-
-                GameObject explosionEffect = Instantiate(pillarExplosionEffect, transform.position + Vector3.down, transform.rotation);
-                Destroy(explosionEffect, 4f);
+                
+                // Position & play explosion effects
+                pillarExplosionEffect.Play();
+                pillarExplosionSound.Play();
                 DestroyEnemies();
             }
 
@@ -69,8 +76,7 @@ namespace PillarOfLight
 
             foreach (Collider nearObject in _pillarExplosionOverlapResults)
             {
-                if (nearObject == null) continue;
-                if (nearObject.transform.name != "Monster" && nearObject.transform.name != "LargeMonster") continue;
+                if (nearObject == null || (nearObject.transform.name != "Monster" && nearObject.transform.name != "LargeMonster")) continue;
                 if (nearObject.transform.name == "LargeMonster")
                 {
                     nearObject.transform.parent.GetComponent<DestroyLargeEnemy>().Damage(50);
@@ -109,7 +115,7 @@ namespace PillarOfLight
         private void HighscoreHandler()
         {
             _highscoreBoard = GameObject.Find("ScoreBoard").GetComponent<Scoreboard>();
-            _entryData.entryName = "OJ";
+            _entryData.entryName = "Player 1";
             _entryData.entryScore = _targetScore.CurrentScore;
             _highscoreBoard.AddEntry(_entryData);
         }

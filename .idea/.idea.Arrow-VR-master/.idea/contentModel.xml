@@ -19,6 +19,7 @@
             </e>
           </e>
         </e>
+        <e p="DisableGameobjects.cs" t="Include" />
         <e p="LeanTween" t="Include">
           <e p="Editor" t="Include">
             <e p="LeanTweenDocumentationEditor.cs" t="Include" />

@@ -9839,7 +9839,7 @@ MonoBehaviour:
     m_Bits: 11047
   enableTrailRenderer: 0
   paintBomb: {fileID: 0}
-  glueBomb: {fileID: 0}
+  arrowShotSound: {fileID: 2543540561665143510}
   arrowFired: 0
 --- !u!54 &3544760493190169588
 Rigidbody:
