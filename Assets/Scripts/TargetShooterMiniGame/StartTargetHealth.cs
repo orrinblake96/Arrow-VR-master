@@ -24,13 +24,13 @@ namespace TargetShooterMiniGame
         }
         
         //Debug code
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                Damage(10);
-            }
-        }
+//        private void Update()
+//        {
+//            if (Input.GetKeyDown(KeyCode.Space))
+//            {
+//                Damage(10);
+//            }
+//        }
 
         public void Damage(int amount)
         {
