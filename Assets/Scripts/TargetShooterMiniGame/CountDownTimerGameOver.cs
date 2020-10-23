@@ -50,7 +50,7 @@ namespace TargetShooterMiniGame
             ShowObjects();
             
             _highscoreBoard = GameObject.Find("ScoreBoard").GetComponent<Scoreboard>();
-            _entryData.entryName = "OJ";
+            _entryData.entryName = "Player";
             _entryData.entryScore = (int) timerTime;
             _highscoreBoard.AddEntry(_entryData);
             

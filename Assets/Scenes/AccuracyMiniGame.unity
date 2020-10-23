@@ -5760,6 +5760,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &744946313
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744946311}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.990865, y: 0.6337357, z: 0.23362598}
+  m_Center: {x: 0.030249842, y: -0.3078806, z: 0.08681618}
+--- !u!65 &744946314
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744946311}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7283986, y: 0.5203774, z: 0.23362598}
+  m_Center: {x: -0.06444454, y: 0.7512014, z: 0.08681622}
 --- !u!4 &765967701 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7689246660427520470, guid: 3053456bcbd424869b0ca0b352553a5a,
@@ -13812,6 +13838,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1601531634
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601531632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8951886, y: 0.5579745, z: 0.23362598}
+  m_Center: {x: -0.21495342, y: 0.22101262, z: 0.086816266}
+--- !u!65 &1601531635
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601531632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.990865, y: 0.6337357, z: 0.23362598}
+  m_Center: {x: 0.030249842, y: -0.3078806, z: 0.08681618}
 --- !u!1 &1622439639
 GameObject:
   m_ObjectHideFlags: 0
@@ -18394,6 +18446,36 @@ PrefabInstance:
       propertyPath: soundPath
       value: event:/Interactables/Wooden Shatter
       objectReference: {fileID: 0}
+    - target: {fileID: 6626661933686128747, guid: e867068336fc6427ba947a71737cd26a,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.8951886
+      objectReference: {fileID: 0}
+    - target: {fileID: 6626661933686128747, guid: e867068336fc6427ba947a71737cd26a,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.21495342
+      objectReference: {fileID: 0}
+    - target: {fileID: 6626661933686128747, guid: e867068336fc6427ba947a71737cd26a,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.22101262
+      objectReference: {fileID: 0}
+    - target: {fileID: 6626661933686128747, guid: e867068336fc6427ba947a71737cd26a,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.086816266
+      objectReference: {fileID: 0}
+    - target: {fileID: 6626661933686128747, guid: e867068336fc6427ba947a71737cd26a,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.5579745
+      objectReference: {fileID: 0}
+    - target: {fileID: 6626661933686128747, guid: e867068336fc6427ba947a71737cd26a,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.23362598
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e867068336fc6427ba947a71737cd26a, type: 3}
 --- !u!1001 &4655615651130465515
@@ -18407,6 +18489,36 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1824273031}
+    - target: {fileID: 3266500336557216251, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.7283986
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266500336557216251, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.5203774
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266500336557216251, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.23362598
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266500336557216251, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.06444454
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266500336557216251, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.7512014
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266500336557216251, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.08681622
+      objectReference: {fileID: 0}
     - target: {fileID: 6926379079308402551, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
         type: 3}
       propertyPath: levelManager

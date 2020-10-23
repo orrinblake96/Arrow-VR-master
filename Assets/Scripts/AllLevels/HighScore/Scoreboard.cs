@@ -34,6 +34,7 @@ namespace AllLevels.HighScore
             savedScores = GetSavedScores();
 
             bool scoreAdded = false;
+            string pos;
 
             for (int i = 0; i < savedScores.highscores.Count; i++)
             {

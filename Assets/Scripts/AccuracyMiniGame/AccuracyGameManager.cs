@@ -104,7 +104,6 @@ namespace AccuracyMiniGame
             ObjectsToHide();
             ObjectsToShow();
             HighscoreHandler();
-            Debug.Log("Done!!!!");
         }
 
         private void ObjectsToHide()
@@ -126,7 +125,7 @@ namespace AccuracyMiniGame
         private void HighscoreHandler()
         {
             _highscoreBoard = GameObject.Find("ScoreBoard").GetComponent<Scoreboard>();
-            _entryData.entryName = "OJ";
+            _entryData.entryName = "Player";
             _entryData.entryScore = _targetScore.CurrentScore;
             _highscoreBoard.AddEntry(_entryData);
         }
