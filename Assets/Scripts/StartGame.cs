@@ -5,25 +5,31 @@ namespace WaveBasedLevel
 {
     public class StartGame : MonoBehaviour
     {
-        public GameObject waveManager;
-        public GameObject startGameUi;
-        public GameObject specialAbilitiesInstructions;
-        public GameObject powerupSpawnPoints;
-        public GameObject glueBombSpawnPoints;
-        public GameObject powerupControllerInstructions;
-        public GameObject barrellTmp;
+        [Header("Object To Show/Hide")]
+        [SerializeField] private GameObject[] objectsToHide;
+        [SerializeField] private GameObject[] objectsToShow;
 
         private void Update()
         {
             if (gameObject.transform.childCount > 0) return;
-            waveManager.SetActive(true);
-            startGameUi.SetActive(false);
-            gameObject.SetActive(false);
-            specialAbilitiesInstructions.SetActive(true);
-            powerupSpawnPoints.SetActive(true);
-            glueBombSpawnPoints.SetActive(true);
-            powerupControllerInstructions.SetActive(true);
-            barrellTmp.SetActive(true);
+                ObjectsToShow();
+                ObjectsToHide();
+        }
+
+        private void ObjectsToHide()
+        {
+            foreach (GameObject hideable in objectsToHide)
+            {
+                hideable.SetActive(false);
+            }
+        }
+
+        private void ObjectsToShow()
+        {
+            foreach (GameObject showable in objectsToShow)
+            {
+                showable.SetActive(true);
+            }
         }
     }
 }
