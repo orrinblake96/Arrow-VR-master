@@ -11095,7 +11095,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 0
+  m_padding: 11.25
   m_canvasRenderer: {fileID: 131379298}
   m_TextComponent: {fileID: 1138328634}
   m_materialReferenceIndex: 1
@@ -11896,12 +11896,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4482027986711614, guid: 5cff75651c2e12d459d9c7d8ce7a4915,
     type: 3}
   m_PrefabInstance: {fileID: 211275457}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &212797470 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3606738300240319998, guid: 38edf780f44794bf39cd9a413df03d12,
-    type: 3}
-  m_PrefabInstance: {fileID: 1902402743}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &212797474 stripped
 Transform:
@@ -32933,8 +32927,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668495936}
-  m_LocalRotation: {x: -1.3944504e-11, y: 0.0432887, z: -5.6979137e-11, w: 0.9990626}
-  m_LocalPosition: {x: 0, y: 0, z: 56.15}
+  m_LocalRotation: {x: 0.08322234, y: 0.0431383, z: 0.003605967, w: 0.9955904}
+  m_LocalPosition: {x: 0, y: 0, z: 58.5}
   m_LocalScale: {x: 0.8850583, y: 1.3233914, z: 1.1645392}
   m_Children:
   - {fileID: 1980992923}
@@ -32942,10 +32936,10 @@ RectTransform:
   - {fileID: 1138328633}
   m_Father: {fileID: 0}
   m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: 4.9620004, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.52, y: 5.032, z: 0.83400005}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 29.4, y: 28.2}
+  m_AnchoredPosition: {x: 28.8, y: 30.6}
   m_SizeDelta: {x: 14.094, y: 5.555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &679637953
@@ -39411,8 +39405,16 @@ MonoBehaviour:
   specialAbilitiesInstructions: {fileID: 668495936}
   powerupSpawnPoints: {fileID: 641355245}
   glueBombSpawnPoints: {fileID: 1736332903}
-  powerupControllerInstructions: {fileID: 212797470}
   barrellTmp: {fileID: 829188168}
+  objectsToHide:
+  - {fileID: 1814208917}
+  - {fileID: 801575009}
+  objectsToShow:
+  - {fileID: 574370228}
+  - {fileID: 668495936}
+  - {fileID: 641355245}
+  - {fileID: 1736332903}
+  - {fileID: 829188168}
 --- !u!1001 &807785943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43342,7 +43344,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138328632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.25}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1.161, z: 1}
   m_Children:
   - {fileID: 131379296}
@@ -43351,7 +43353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.5, y: -6.22}
+  m_AnchoredPosition: {x: 0.5, y: -6.21}
   m_SizeDelta: {x: 0.91, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138328634
@@ -43372,7 +43374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THE  TOWER  HOLDS  THE  POWER
+  m_text: 'press "A" to Cange arrow colour '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13c383f73cee64f2db42ffe82d547ab8, type: 2}
   m_sharedMaterial: {fileID: -1476535135100503580, guid: 13c383f73cee64f2db42ffe82d547ab8,
@@ -43442,14 +43444,14 @@ MonoBehaviour:
   m_margin: {x: -2.4024587, y: 0, z: -1.3752005, w: 0}
   m_textInfo:
     textComponent: {fileID: 1138328634}
-    characterCount: 29
+    characterCount: 32
     spriteCount: 0
-    spaceCount: 8
-    wordCount: 5
+    spaceCount: 6
+    wordCount: 6
     linkCount: 0
     lineCount: 3
     pageCount: 1
-    materialCount: 1
+    materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}

@@ -115,7 +115,7 @@ namespace PillarOfLight
         private void HighscoreHandler()
         {
             _highscoreBoard = GameObject.Find("ScoreBoard").GetComponent<Scoreboard>();
-            _entryData.entryName = "Player 1";
+            _entryData.entryName = "Player";
             _entryData.entryScore = _targetScore.CurrentScore;
             _highscoreBoard.AddEntry(_entryData);
         }
