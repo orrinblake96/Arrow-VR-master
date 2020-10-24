@@ -15,10 +15,10 @@ namespace BowArrow
         public LayerMask layerToIgnore;
         public bool enableTrailRenderer;
         public PaintBomb paintBomb;
-//        public GlueBomb glueBomb; //Remove
         
         [Header("Arrow Effects")]
         [SerializeField] private StudioEventEmitter arrowShotSound;
+        [SerializeField] private ArrowTipColorChecker _arrowTipColorChecker;
         
         [HideInInspector] public bool arrowFired = false;
     
@@ -111,7 +111,11 @@ namespace BowArrow
             _mRigidbody.AddForce(transform.forward * (pullValue * m_Speed));
             
             //Add Trail to see better
-            if(enableTrailRenderer) _trailRenderer.enabled = true;
+            if (enableTrailRenderer)
+            {
+                _trailRenderer.enabled = true;
+                _trailRenderer.material = _arrowTipColorChecker.CurrentMaterialColor;
+            }
             
             //after 10 seconds, remove arrow (scene management, overloading scenes)
             Destroy(gameObject, 10.0f);
