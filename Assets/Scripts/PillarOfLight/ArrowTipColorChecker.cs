@@ -87,5 +87,7 @@ namespace PillarOfLight
             
             other.transform.parent.GetComponent<DestroyingEnemies>().Damage(10);
         }
+
+        public Material CurrentMaterialColor => _currentMaterialColor;
     }
 }

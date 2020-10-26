@@ -9839,9 +9839,10 @@ MonoBehaviour:
   layerToIgnore:
     serializedVersion: 2
     m_Bits: 11063
-  enableTrailRenderer: 0
+  enableTrailRenderer: 1
   paintBomb: {fileID: -5147415055577841190}
   arrowShotSound: {fileID: 1368525578898888657}
+  _arrowTipColorChecker: {fileID: 2152512817766891245}
   arrowFired: 0
 --- !u!54 &3544760493190169588
 Rigidbody:
