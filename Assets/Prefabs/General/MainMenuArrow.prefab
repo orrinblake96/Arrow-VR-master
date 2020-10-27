@@ -9837,9 +9837,10 @@ MonoBehaviour:
   layerToIgnore:
     serializedVersion: 2
     m_Bits: 11047
-  enableTrailRenderer: 0
+  enableTrailRenderer: 1
   paintBomb: {fileID: 0}
   arrowShotSound: {fileID: 2543540561665143510}
+  _arrowTipColorChecker: {fileID: 2152512817766891245}
   arrowFired: 0
 --- !u!54 &3544760493190169588
 Rigidbody:
@@ -9897,7 +9898,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 0.5
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
