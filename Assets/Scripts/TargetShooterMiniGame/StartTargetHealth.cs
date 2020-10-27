@@ -24,13 +24,13 @@ namespace TargetShooterMiniGame
         }
         
         //Debug code
-//        private void Update()
-//        {
-//            if (Input.GetKeyDown(KeyCode.Space))
-//            {
-//                Damage(10);
-//            }
-//        }
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Damage(10);
+            }
+        }
 
         public void Damage(int amount)
         {
@@ -56,7 +56,7 @@ namespace TargetShooterMiniGame
             gameObject.GetComponent<BoxCollider>().enabled = false;
             _timerStartSound.Play();
             startUi.SetActive(false);
-            arrowColourUi.SetActive(true);
+//            arrowColourUi.SetActive(true);
             
             yield return new WaitForSeconds(3f);
             

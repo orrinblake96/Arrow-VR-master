@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: -1147580289122254398}
   - component: {fileID: 5732707149681898964}
   m_Layer: 10
-  m_Name: MaiMenuArrow
+  m_Name: MainMenuArrow
   m_TagString: Arrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -312,15 +312,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4efde785f55475d4faf016df659306fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Speed: 2000
+  m_Speed: 2500
   m_Tip: {fileID: 8386148805111352677}
   TipCollider: {fileID: 0}
   layerToIgnore:
     serializedVersion: 2
     m_Bits: 823
-  enableTrailRenderer: 0
+  enableTrailRenderer: 1
   paintBomb: {fileID: 0}
   arrowShotSound: {fileID: 5732707149681898964}
+  _arrowTipColorChecker: {fileID: 0}
+  _arrowTipTargetsColorChecker: {fileID: 3667688619114238017}
   arrowFired: 0
 --- !u!54 &3544760493190169588
 Rigidbody:
@@ -378,7 +380,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 0.5
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1

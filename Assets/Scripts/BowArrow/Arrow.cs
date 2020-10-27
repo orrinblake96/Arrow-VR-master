@@ -1,6 +1,7 @@
 ﻿using Crate;
 using FMODUnity;
 using PillarOfLight;
+using TargetShooterMiniGame;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,6 +20,7 @@ namespace BowArrow
         [Header("Arrow Effects")]
         [SerializeField] private StudioEventEmitter arrowShotSound;
         [SerializeField] private ArrowTipColorChecker _arrowTipColorChecker;
+        [SerializeField] private ArrowColourCheckerTargetMiniGame _arrowTipTargetsColorChecker;
         
         [HideInInspector] public bool arrowFired = false;
     
@@ -114,7 +116,8 @@ namespace BowArrow
             if (enableTrailRenderer)
             {
                 _trailRenderer.enabled = true;
-                _trailRenderer.material = _arrowTipColorChecker.CurrentMaterialColor;
+                if(_arrowTipColorChecker != null) _trailRenderer.material = _arrowTipColorChecker.CurrentMaterialColor;
+                if(_arrowTipTargetsColorChecker != null) _trailRenderer.material = _arrowTipTargetsColorChecker.CurrentMaterialColor;
             }
             
             //after 10 seconds, remove arrow (scene management, overloading scenes)
