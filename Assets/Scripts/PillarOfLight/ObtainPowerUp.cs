@@ -1,6 +1,6 @@
-﻿using System;
-using Crate;
+﻿using Crate;
 using Enemy;
+using Greyman;
 using UnityEngine;
 
 namespace PillarOfLight
@@ -13,11 +13,14 @@ namespace PillarOfLight
         private PowerUpManager _powerUpManager;
         private SpawnRandomPowerUp _spawnRandomPowerUp;
         private WaveSpawner _waveSpawner;
+        private  OffScreenIndicator _offScreenIndicator;
         private void Start()
         {
             _powerUpManager = GameObject.Find("PowerUpsManagers").GetComponent<PowerUpManager>();
             _spawnRandomPowerUp = GameObject.Find("PowerUpSpawnPoints").GetComponent<SpawnRandomPowerUp>();
             _waveSpawner = GameObject.Find("GM").GetComponent<WaveSpawner>();
+            _offScreenIndicator = GameObject.Find("Logic").GetComponent<OffScreenIndicator>();
+            _offScreenIndicator.AddIndicator(gameObject.transform, 3);
         }
 
         public void Damage(int amount)
@@ -44,6 +47,7 @@ namespace PillarOfLight
                 PlayerPrefs.Save();
             }
             
+            _offScreenIndicator.RemoveIndicator(gameObject.transform);
             Destroy(gameObject);
         }
     }

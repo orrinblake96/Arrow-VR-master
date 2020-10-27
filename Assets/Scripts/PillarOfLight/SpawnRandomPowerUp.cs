@@ -43,10 +43,12 @@ namespace PillarOfLight
                 PlayerPrefs.SetInt("FirstPowerUpSpawned", 1);
                 return;
             }
-            
+
             // Check number of power-ups currently spawned (2 max)
             if (_powerUpsSpawnedCount >= 2) return;
             
+            /*
+             
             // Check Round and Health to determine spawn chance
             if ((int)_waveSpawner.RoundCount <= 1)
                 _spawnabilityNumber = 0.3f;
@@ -62,9 +64,12 @@ namespace PillarOfLight
                 _spawnabilityNumber = 0.8f;
             if ((int)_waveSpawner.RoundCount >= 7)
                 _spawnabilityNumber = 0.9f;
+                
+            */
             
             // if random value is bigger then return and don't spawn a power-up
-            if (Random.value > _spawnabilityNumber) return;
+            if (Random.value > 0.5f) return;
+            
             
             // Increase counter to track number of power-ups in play
             _powerUpsSpawnedCount++;
