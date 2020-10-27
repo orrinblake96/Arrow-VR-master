@@ -4,16 +4,15 @@
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/BombPowerUpIconMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/BombPowerUpIconMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/SlowTimePowerUpIconMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PillarOfLight/SlowTimePowerUpIconMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/PowerUpBoxParticles/BombArrowIconParticles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/PowerUpBoxParticles/BombArrowIconParticles.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/PowerUpBoxParticles/SlowTimeIconParticles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/PowerUpBoxParticles/SlowTimeIconParticles.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TutorialLevel.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TutorialLevel.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ObtainPowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ObtainPowerUp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpawnRandomPowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpawnRandomPowerUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AccuracyMiniGame/AccuracyArrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AccuracyMiniGame/AccuracyArrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/General/Arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/General/Arrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/General/MainMenuArrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/General/MainMenuArrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainMenu/MaiMenuArrow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainMenu/MaiMenuArrow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/ArrowColourCheckerTargetMiniGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/ArrowColourCheckerTargetMiniGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +136,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/InstructionLinePointers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/ArrowColourCheckerTargetMiniGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetDestructionTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CheckForTargets.cs" />
@@ -163,7 +161,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" />
@@ -174,9 +171,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CountDownTimerGameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ObtainPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpawnRandomPowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/ArrowColourCheckerTargetMiniGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" />
       </list>
     </option>
   </component>
@@ -296,7 +295,7 @@
       <workItem from="1603287664437" duration="12610000" />
       <workItem from="1603446282116" duration="3792000" />
       <workItem from="1603537888483" duration="1146000" />
-      <workItem from="1603796554637" duration="1526000" />
+      <workItem from="1603796554637" duration="2673000" />
     </task>
     <servers />
   </component>

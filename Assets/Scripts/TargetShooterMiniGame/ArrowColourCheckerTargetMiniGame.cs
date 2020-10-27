@@ -90,7 +90,8 @@ namespace TargetShooterMiniGame
             {
                 other.GetComponent<TargetHealth>().Damage();
             }
-            
         }
+
+        public Material CurrentMaterialColor => _currentMaterialColor;
     }
 }
