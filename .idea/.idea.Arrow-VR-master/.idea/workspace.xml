@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TargetMiniGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AccuracyMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AccuracyMiniGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,8 +150,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/WaveScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/HighScore/ScoreboardEntryUI.cs" />
@@ -169,6 +166,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/SpawnRandomPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/TargetMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyTargetLogic.cs" />
       </list>
     </option>
   </component>
@@ -288,7 +287,7 @@
       <workItem from="1603287664437" duration="12610000" />
       <workItem from="1603446282116" duration="3792000" />
       <workItem from="1603537888483" duration="1146000" />
-      <workItem from="1603796554637" duration="4801000" />
+      <workItem from="1603796554637" duration="5601000" />
     </task>
     <servers />
   </component>
