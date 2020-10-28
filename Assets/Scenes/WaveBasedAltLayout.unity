@@ -34,7 +34,7 @@ RenderSettings:
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
+  m_ReflectionBounces: 3
   m_ReflectionIntensity: 0.2
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 367645684}
@@ -76,7 +76,7 @@ LightmapSettings:
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 10
     m_PVRSampleCount: 64
-    m_PVRBounces: 0
+    m_PVRBounces: 3
     m_PVREnvironmentSampleCount: 64
     m_PVREnvironmentReferencePointCount: 2048
     m_PVRFilteringMode: 2
