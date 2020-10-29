@@ -65,10 +65,12 @@ namespace PillarOfLight
             if ((int)_waveSpawner.RoundCount >= 7)
                 _spawnabilityNumber = 0.9f;
                 
-            */
+            
             
             // if random value is bigger then return and don't spawn a power-up
             if (Random.value > 0.3f) return;
+            
+            */
             
             
             // Increase counter to track number of power-ups in play
