@@ -40184,6 +40184,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1003864487}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &841862804
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841862803}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c6287beb85da442fb9ff00669ee1092, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &851355894
 GameObject:
   m_ObjectHideFlags: 0
@@ -41875,6 +41894,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3343384849707041821, guid: 800b7997ff35044c9b7221e86eb26006,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343384849707041821, guid: 800b7997ff35044c9b7221e86eb26006,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343384849707041821, guid: 800b7997ff35044c9b7221e86eb26006,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6291114905133740786, guid: 800b7997ff35044c9b7221e86eb26006,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -43011,12 +43045,17 @@ PrefabInstance:
     - target: {fileID: 1598020004166301964, guid: e867068336fc6427ba947a71737cd26a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1598020004166301964, guid: e867068336fc6427ba947a71737cd26a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598020004166301964, guid: e867068336fc6427ba947a71737cd26a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1638501331583307495, guid: e867068336fc6427ba947a71737cd26a,
         type: 3}
@@ -43116,6 +43155,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1095989946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095989942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92cc289e62c87483fbbc8326ecf84f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1101996500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1811341339133692, guid: 0b2c5cea499364446aa93aadf508bd4b,
@@ -64684,12 +64735,17 @@ PrefabInstance:
     - target: {fileID: 6957815059402991772, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1169045
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6957815059402991772, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.317
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6957815059402991772, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8590036465299251847, guid: 46bb0309d95a34a058a3cc9bc9f00c8b,
         type: 3}
@@ -64754,6 +64810,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1628788482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628788478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92cc289e62c87483fbbc8326ecf84f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1639686286
 GameObject:
   m_ObjectHideFlags: 0

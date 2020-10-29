@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using AllLevels.HighScore;
+using FMODUnity;
 using TargetShooterMiniGame;
 using UnityEngine;
 
@@ -33,6 +34,7 @@ namespace AccuracyMiniGame
         private Scoreboard _highscoreBoard;
         private Animator _scoreAnimator;
         private static readonly int GameOver = Animator.StringToHash("GameOver");
+        private StudioEventEmitter _gameOverSound;
 
         private void Start()
         {
@@ -41,6 +43,8 @@ namespace AccuracyMiniGame
             
             _targetScore = GameObject.Find("ScorenumberTMP").GetComponent<TargetScore>();
             _scoreAnimator = GameObject.Find("PlayerScoreCanvasUI").GetComponent<Animator>();
+
+            _gameOverSound = GetComponent<StudioEventEmitter>();
         }
 
         public void DisplayNextTarget(GameObject target)
@@ -100,6 +104,7 @@ namespace AccuracyMiniGame
 
         private void EndGame()
         {
+            _gameOverSound.Play();
             PlayScoreAnimation();
             ObjectsToHide();
             ObjectsToShow();
