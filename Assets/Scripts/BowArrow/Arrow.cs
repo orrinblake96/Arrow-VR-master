@@ -29,6 +29,8 @@ namespace BowArrow
         private bool _mIsStopped = true;
         private Vector3 _mLastPosition = Vector3.zero;
 
+        private bool EndlessScene => SceneManager.GetActiveScene().name == "WaveBasedAltLayout";
+
         private void Awake()
         {
             _mRigidbody = GetComponent<Rigidbody>();
@@ -80,7 +82,7 @@ namespace BowArrow
             //check if damageable
             CheckForDamage(hitObject);
 
-            if (SceneManager.GetActiveScene().name == "WaveBasedAltLayout" && paintBomb.BombArrowReady()) paintBomb.Explode();
+            if (EndlessScene && paintBomb.BombArrowReady()) paintBomb.Explode();
         
             //Destroy Arrow
             Destroy(gameObject, 2f);

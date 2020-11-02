@@ -1,7 +1,4 @@
 ﻿using System;
-using Audio;
-using System.Collections;
-using FMOD.Studio;
 using FMODUnity;
 using PillarOfLight;
 using UnityEngine;
@@ -14,7 +11,6 @@ namespace WaveBasedLevel
 
           private bool _slowingTime = false;
           private bool _resumeTime = false;
-//          private SpecialAbilitiesBar _specialAbilitiesBar; // Remove
           private StudioEventEmitter _slowMasterMix;
           private float _powerValue;
           private PowerUpManager _powerUpManager;
@@ -24,7 +20,6 @@ namespace WaveBasedLevel
 
           private void Start()
           {
-//               _specialAbilitiesBar = GameObject.Find("AbilitiesSlider").GetComponent<SpecialAbilitiesBar>(); // Remove
                _powerUpManager = GameObject.Find("PowerUpsManagers").GetComponent<PowerUpManager>();
                _slowMasterMix = GetComponent<StudioEventEmitter>();
           }
@@ -54,11 +49,6 @@ namespace WaveBasedLevel
 
           private void SlowTime()
           {
-               // safe power value to be used later
-               // reset so bar is empty
-//               _powerValue = _specialAbilitiesBar.CurrentPower(); // Remove
-//               _specialAbilitiesBar.ResetPower(); // Remove
-               
                _slowingTime = true;
                FMODUnity.RuntimeManager.PlayOneShot(slowTimeAudio, transform.position);
                _slowMasterMix.Play();
@@ -83,22 +73,11 @@ namespace WaveBasedLevel
           private async Task ResumeTimeRoutine()
           {
                
-               // Wait for time (power value: 0.5 - 10)
+               // Wait for set time
                // Use RealTime as normal was causing increased wait times
                await Task.Delay(TimeSpan.FromSeconds(7));
                
                _resumeTime = true;
           }
-          
-
-//          private IEnumerator ResumeTimeRoutine()
-//          {
-//               
-//               // Wait for time (power value: 0.5 - 10)
-//               // Use RealTime as normal was causing increased wait times
-//               yield return new WaitForSecondsRealtime(7);
-//               
-//               _resumeTime = true;
-//          }
      }
 }

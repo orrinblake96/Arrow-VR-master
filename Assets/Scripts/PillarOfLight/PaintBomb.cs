@@ -24,7 +24,6 @@ namespace PillarOfLight
         private void Start()
         {
             _powerUpManager = GameObject.Find("PowerUpsManagers").GetComponent<PowerUpManager>();
-            
             _explosionEffectGameObject = GameObject.Find("BigExplosion");
             _explosionEffect = _explosionEffectGameObject.GetComponent<ParticleSystem>();
         }
