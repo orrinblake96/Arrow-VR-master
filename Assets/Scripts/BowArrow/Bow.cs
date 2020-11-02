@@ -1,5 +1,6 @@
-﻿using System.Collections;
+﻿using System;
 using UnityEngine;
+using System.Threading.Tasks;
 
 namespace BowArrow
 {
@@ -28,9 +29,9 @@ namespace BowArrow
             m_Animator = GetComponent<Animator>();
         }
 
-        private void Start()
+        private async void Start()
         {
-            StartCoroutine(CreateArrow(0.0f));
+            await CreateArrow(0.0f);
         }
 
         private void Update()
@@ -58,10 +59,10 @@ namespace BowArrow
             return Vector3.Dot(differnce, direction) / magnitude;
         }
 
-        private IEnumerator CreateArrow(float waitTime)
+        private async Task CreateArrow(float waitTime)
         {
             // Wait
-            yield return new WaitForSeconds(waitTime);
+            await Task.Delay(TimeSpan.FromSeconds(waitTime));
      
             //Create & child
             GameObject arrowObject = Instantiate(m_ArrowPrefab, m_Socket);
@@ -73,6 +74,22 @@ namespace BowArrow
             //set
             m_CurrentArrow = arrowObject.GetComponent<Arrow>();
         }
+        
+//        private IEnumerator CreateArrow(float waitTime)
+//        {
+//            // Wait
+//            yield return new WaitForSeconds(waitTime);
+//     
+//            //Create & child
+//            GameObject arrowObject = Instantiate(m_ArrowPrefab, m_Socket);
+//
+//            //orient
+//            arrowObject.transform.localPosition = new Vector3(0, 0, 0.4235f);
+//            arrowObject.transform.localEulerAngles = Vector3.zero;
+//
+//            //set
+//            m_CurrentArrow = arrowObject.GetComponent<Arrow>();
+//        }
 
         public void Pull (Transform hand)
         {
@@ -83,7 +100,7 @@ namespace BowArrow
             m_PullingHand = hand;
         }
  
-        public void Release ()
+        public async void Release ()
         {
             if (m_PullValue > 0.3f) FireArrow();
 
@@ -93,7 +110,7 @@ namespace BowArrow
 
             _slowedTimeWait = Time.timeScale < 1f ? 0f : .25f;
 
-            if (!m_CurrentArrow) StartCoroutine(CreateArrow(_slowedTimeWait));
+            if (!m_CurrentArrow) await CreateArrow(_slowedTimeWait);
         }
 
         private void FireArrow()
@@ -101,6 +118,5 @@ namespace BowArrow
             m_CurrentArrow.Fire(m_PullValue);
             m_CurrentArrow = null;
         }
- 
     }
 }

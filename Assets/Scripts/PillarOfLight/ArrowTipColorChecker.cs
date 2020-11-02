@@ -33,10 +33,7 @@ namespace PillarOfLight
     
         private void Start()
         {
-            _currentMaterial = colorInfoNum.currentMaterialPosition;
-            _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
-            _tipColor.material = _currentMaterialColor;
-            shaftColor.material = _currentMaterialColor;
+            SetColourToCurrentMaterial();
         }
     
         private void Update()
@@ -86,6 +83,14 @@ namespace PillarOfLight
             }
             
             other.transform.parent.GetComponent<DestroyingEnemies>().Damage(10);
+        }
+
+        public void SetColourToCurrentMaterial()
+        {
+            _currentMaterial = colorInfoNum.currentMaterialPosition;
+            _currentMaterialColor = cubeColors[ colorInfoNum.currentMaterialPosition];
+            _tipColor.material = _currentMaterialColor;
+            shaftColor.material = _currentMaterialColor;
         }
 
         public Material CurrentMaterialColor => _currentMaterialColor;

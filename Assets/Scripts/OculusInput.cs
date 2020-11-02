@@ -1,4 +1,5 @@
 ﻿using BowArrow;
+using PillarOfLight;
 using UnityEngine;
 
 public class OculusInput : MonoBehaviour
@@ -13,36 +14,8 @@ public class OculusInput : MonoBehaviour
     [HideInInspector]
     public int dominantHandIndex = 0;
 
-    private bool _paused = false;
-
-//    private void Start()
-//    {
-//        if (PlayerPrefs.HasKey("dominantHandIndex"))
-//        {
-//            GetDominantBowHand();
-//            return;
-//        }
-//        
-//        PlayerPrefs.SetInt("dominantHandIndex", 0);
-//        PlayerPrefs.Save();
-//    }
-
     private void Update()
     {
-//        if (OVRInput.GetDown(OVRInput.Button.Start))
-//        {
-//            if (!_paused)
-//            {
-//                _paused = true;
-//                Time.timeScale = 0f;
-//            }
-//            else
-//            {
-//                _paused = false;
-//                Time.timeScale = 1f;
-//            }
-//        }
-        
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, m_Controller[dominantHandIndex])) m_Bow[dominantHandIndex].Pull(m_OppositeController[dominantHandIndex].transform);
 
         if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, m_Controller[dominantHandIndex]))
@@ -81,6 +54,8 @@ public class OculusInput : MonoBehaviour
             PlayerPrefs.SetInt("dominantHandIndex", 0);
             PlayerPrefs.Save();
         }
+        
+        GameObject.Find("Tip").GetComponent<ArrowTipColorChecker>().SetColourToCurrentMaterial();
     }
     
     public void GetDominantBowHand()
