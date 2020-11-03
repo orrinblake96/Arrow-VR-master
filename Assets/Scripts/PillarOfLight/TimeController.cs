@@ -1,10 +1,9 @@
 ﻿using System;
-using FMODUnity;
-using PillarOfLight;
-using UnityEngine;
 using System.Threading.Tasks;
+using FMODUnity;
+using UnityEngine;
 
-namespace WaveBasedLevel
+namespace PillarOfLight
 {
      public class TimeController : MonoBehaviour
      {
@@ -50,7 +49,7 @@ namespace WaveBasedLevel
           private void SlowTime()
           {
                _slowingTime = true;
-               FMODUnity.RuntimeManager.PlayOneShot(slowTimeAudio, transform.position);
+               RuntimeManager.PlayOneShot(slowTimeAudio, transform.position);
                _slowMasterMix.Play();
                Time.timeScale = slowTimeFactor;
                _slowMasterMix.SetParameter("Slow-Time", slowTimeFactor);
@@ -64,12 +63,10 @@ namespace WaveBasedLevel
                if (_slowingTime)
                {
                     _slowingTime = false;
-//                    StartCoroutine(ResumeTimeRoutine());
                     await ResumeTimeRoutine();
                }
           }
           
-          // Testing Async/Await functionality
           private async Task ResumeTimeRoutine()
           {
                
