@@ -74,22 +74,6 @@ namespace BowArrow
             //set
             m_CurrentArrow = arrowObject.GetComponent<Arrow>();
         }
-        
-//        private IEnumerator CreateArrow(float waitTime)
-//        {
-//            // Wait
-//            yield return new WaitForSeconds(waitTime);
-//     
-//            //Create & child
-//            GameObject arrowObject = Instantiate(m_ArrowPrefab, m_Socket);
-//
-//            //orient
-//            arrowObject.transform.localPosition = new Vector3(0, 0, 0.4235f);
-//            arrowObject.transform.localEulerAngles = Vector3.zero;
-//
-//            //set
-//            m_CurrentArrow = arrowObject.GetComponent<Arrow>();
-//        }
 
         public void Pull (Transform hand)
         {
@@ -100,6 +84,10 @@ namespace BowArrow
             m_PullingHand = hand;
         }
  
+        /// <summary>
+        /// Handles the pre-fire of the arrow. If the arrow is below the pull-value then it wont fire.
+        /// This then resets the pulling-hand to Null, pull-value to 0, bow-sting animation and creates a new arrow.
+        /// </summary>
         public async void Release ()
         {
             if (m_PullValue > 0.3f) FireArrow();
@@ -115,6 +103,7 @@ namespace BowArrow
 
         private void FireArrow()
         {
+            OVRInput.SetControllerVibration(0, 0, oculusInput.m_Controller[oculusInput.dominantHandIndex]);
             m_CurrentArrow.Fire(m_PullValue);
             m_CurrentArrow = null;
         }

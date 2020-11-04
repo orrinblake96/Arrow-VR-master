@@ -15,11 +15,6 @@ public class OculusInput : MonoBehaviour
     [HideInInspector]
     public int dominantHandIndex = 0;
 
-    private void Start()
-    {
-        OVRManager.fixedFoveatedRenderingLevel = OVRManager.FixedFoveatedRenderingLevel.Medium;
-    }
-
     private void Update()
     {
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, m_Controller[dominantHandIndex])) m_Bow[dominantHandIndex].Pull(m_OppositeController[dominantHandIndex].transform);
