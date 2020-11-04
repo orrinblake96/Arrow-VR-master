@@ -1,4 +1,5 @@
-﻿using BowArrow;
+﻿using System;
+using BowArrow;
 using PillarOfLight;
 using UnityEngine;
 
@@ -13,6 +14,11 @@ public class OculusInput : MonoBehaviour
 
     [HideInInspector]
     public int dominantHandIndex = 0;
+
+    private void Start()
+    {
+        OVRManager.fixedFoveatedRenderingLevel = OVRManager.FixedFoveatedRenderingLevel.Medium;
+    }
 
     private void Update()
     {
