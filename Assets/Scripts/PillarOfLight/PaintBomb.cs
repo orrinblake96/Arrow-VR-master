@@ -11,6 +11,8 @@ namespace PillarOfLight
         
         public float blastRadius = 10f;
 
+        [SerializeField] private LayerMask layersToInclude;
+
         [Header("Bomb Effects")] 
         [SerializeField] private StudioEventEmitter bombEffectSound;
         
@@ -52,11 +54,11 @@ namespace PillarOfLight
             _explosionEffect.Play();
             bombEffectSound.Play();
             
-            Physics.OverlapSphereNonAlloc(transform.position, 5f, _paintBombOverlapResults);
-
+            Physics.OverlapSphereNonAlloc(transform.position, 5f, _paintBombOverlapResults, layersToInclude);
+            
             foreach (Collider nearObject in _paintBombOverlapResults)
             {
-                if (nearObject == null || (nearObject.transform.name != "Monster" && nearObject.transform.name != "LargeMonster")) continue;
+                if (nearObject == null) continue;
                 if (nearObject.transform.name == "LargeMonster")
                 {
                     nearObject.transform.parent.GetComponent<DestroyLargeEnemy>().Damage(50);

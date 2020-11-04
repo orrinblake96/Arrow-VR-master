@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="" />
+    <list default="true" id="e9087dad-26c5-4ca3-ae59-3a4c7dcb93b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arrow-VR-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WaveBasedAltLayout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +110,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CountDownTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainMenuArea.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AllLevels/ScaleSmashSigns.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/PillarOfLight/ExplosionEffects/BigExplosion.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96C9BAFF-A941-4FE5-B4EB-911E74F8F90E/39/2fe46860/Coroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
@@ -144,11 +149,9 @@
         <option value="$PROJECT_DIR$/Assets/DisableGameobjects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/WaveScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/HighScore/ScoreboardEntryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/CountDownTimerGameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ObtainPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/ArrowColourCheckerTargetMiniGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Crate/Crate.cs" />
@@ -159,13 +162,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/ScaleSmashSigns.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TargetShooterMiniGame/StartTargetHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AccuracyMiniGame/AccuracyGameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Arrow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AllLevels/HighScore/Scoreboard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BowArrow/Bow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/ArrowTipColorChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PillarHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/PaintBomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/TimeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PillarOfLight/DestroyingEnemies.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OculusInput.cs" />
       </list>
     </option>
   </component>
@@ -287,7 +292,9 @@
       <workItem from="1603537888483" duration="1146000" />
       <workItem from="1603796554637" duration="5890000" />
       <workItem from="1603973026661" duration="1531000" />
-      <workItem from="1604324151422" duration="4037000" />
+      <workItem from="1604324151422" duration="4221000" />
+      <workItem from="1604405324049" duration="2885000" />
+      <workItem from="1604489324698" duration="779000" />
     </task>
     <servers />
   </component>

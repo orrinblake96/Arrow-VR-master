@@ -9843,6 +9843,7 @@ MonoBehaviour:
   paintBomb: {fileID: -5147415055577841190}
   arrowShotSound: {fileID: 1368525578898888657}
   _arrowTipColorChecker: {fileID: 2152512817766891245}
+  _arrowTipTargetsColorChecker: {fileID: 0}
   arrowFired: 0
 --- !u!54 &3544760493190169588
 Rigidbody:
@@ -10037,6 +10038,9 @@ MonoBehaviour:
   arrowTip: {fileID: 6223868130374480975}
   smokeEffect: {fileID: 4081170323018131195}
   blastRadius: 10
+  layersToInclude:
+    serializedVersion: 2
+    m_Bits: 2048
   bombEffectSound: {fileID: 4340210807599106960}
 --- !u!114 &1368525578898888657
 MonoBehaviour:
