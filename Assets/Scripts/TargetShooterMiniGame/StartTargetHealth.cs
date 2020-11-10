@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Crate;
 using FMODUnity;
 using UnityEngine;
@@ -12,15 +13,20 @@ namespace TargetShooterMiniGame
         public GameObject arrowColourUi;
         public GameObject destroyableTargets;
         public CountDownTimer timer;
+
+        [SerializeField] private GameObject[] destroyOtherTargets;
+
+        [SerializeField] private int difficultyLevel;
         
         private StudioEventEmitter _timerStartSound;
         private Material _targetMaterial;
 
+        public event System.EventHandler OnDifficultyChosen;
+        
         private void Start()
         {
             _timerStartSound = GetComponent<StudioEventEmitter>();
             _targetMaterial = GetComponent<MeshRenderer>().materials[0];
-            Debug.Log("Material: " + _targetMaterial.name);
         }
         
         //Debug code
@@ -56,14 +62,27 @@ namespace TargetShooterMiniGame
             gameObject.GetComponent<BoxCollider>().enabled = false;
             _timerStartSound.Play();
             startUi.SetActive(false);
-//            arrowColourUi.SetActive(true);
+            foreach (GameObject target in destroyOtherTargets)
+            {
+                target.SetActive(false);
+            }
             
             yield return new WaitForSeconds(3f);
             
             destroyableTargets.SetActive(true);
             timer.enabled = true;
+            UpdateTargetMovements();
             
             Destroy(gameObject.transform.parent.gameObject);
+        }
+        
+        /// <summary>
+        /// Calls the Difficulty chosen event. This publisher shouts to all listening subscribers such as the
+        /// TargetMovement game objects.
+        /// </summary>
+        private void UpdateTargetMovements()
+        {
+            OnDifficultyChosen?.Invoke(this, EventArgs.Empty);
         }
     }
 }

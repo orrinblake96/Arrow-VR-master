@@ -976,6 +976,9 @@
             <e p="CountDownTimer.cs" t="Include" />
             <e p="CountDownTimerGameOver.cs" t="Include" />
             <e p="DestroyParticles.cs" t="Include" />
+            <e p="DifficultyLevels" t="Include">
+              <e p="TargetsDifficulty.cs" t="Include" />
+            </e>
             <e p="GameOver.cs" t="Include" />
             <e p="SpawnTargets.cs" t="Include" />
             <e p="StartGame.cs" t="Include" />
