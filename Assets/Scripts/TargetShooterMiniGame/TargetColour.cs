@@ -8,7 +8,7 @@ namespace TargetShooterMiniGame
         [SerializeField] private Material[] possibleColours;
         
         private Material _material;
-        private void Start()
+        private void Awake()
         {
             GetComponent<MeshRenderer>().material = possibleColours[Random.Range(0, possibleColours.Length)];
         }
