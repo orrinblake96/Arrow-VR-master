@@ -26,6 +26,7 @@ namespace Enemy
         private WaveSpawner _waveSpawnedInformation;
         private DestroyingEnemies _destroyingEnemies;
         private DestroyLargeEnemy _destroyLargeEnemy;
+        private EndlessDifficultyStats _endlessDifficultyStats;
 
         private PillarHealth _pillarHealth;
         private bool _readyToAttack;
@@ -62,8 +63,9 @@ namespace Enemy
             _attackAnimation = GetComponent<Animator>();
         
             // Set destination to target and calculate speed of gent to increase as they beat more rounds
+            _endlessDifficultyStats = GameObject.Find("DifficultyManager").GetComponent<EndlessDifficultyStats>();
             _agent.SetDestination(_target.position);
-            _agent.speed += (_waveSpawnedInformation.currentRoundNumber * .2f);
+            _agent.speed += (_waveSpawnedInformation.currentRoundNumber * .2f) + _endlessDifficultyStats.DifficultySpeedBoost;
         }
 
         private void Update()
