@@ -26,15 +26,15 @@ namespace Enemy
         private GameObject _pillarOfLight;
         private SpawnRandomPowerUp _spawnRandomPowerUp;
         private float _spawnability;
+        private EndlessDifficultyStats _endlessDifficultyStats;
 
         private void Start()
         {
             // begin countdown for spawning
             _waveCountdown = timeBetweenWaves;
-            
             _pillarOfLight = GameObject.Find("PillarOfLightTarget");
-
             _spawnRandomPowerUp = GameObject.Find("PowerUpSpawnPoints").GetComponent<SpawnRandomPowerUp>();
+            _endlessDifficultyStats = GameObject.Find("DifficultyManager").GetComponent<EndlessDifficultyStats>();
         }
 
         private void Update()
@@ -121,7 +121,7 @@ namespace Enemy
             
             // Spawn enemies at defined spawn-rate intervals
             // Increase spawn rate with each round won by the player
-            for (int i = 0; i < (wave.spawnCount + _nextWaveSpawnCountIncrease); i++)
+            for (int i = 0; i < (wave.spawnCount + _nextWaveSpawnCountIncrease + _endlessDifficultyStats.DifficultyEnemySpawnsIncrease); i++)
             {
                 SpawnEnemy(wave.enemyTransforms[Random.Range(0, wave.enemyTransforms.Length)]);
                 yield return new WaitForSeconds(1f/(wave.spawnRate + currentRoundNumber));
