@@ -47,17 +47,19 @@ namespace PillarOfLight
           }
 
           private void SlowTime()
-          {
+          {     
+               // Set slowed time so it can't be slowed again
+               // Then trigger FMOD event to lower audio pitch
                _slowingTime = true;
                RuntimeManager.PlayOneShot(slowTimeAudio, transform.position);
                _slowMasterMix.Play();
+               // Set timescale to .25 its speed then resume
                Time.timeScale = slowTimeFactor;
                _slowMasterMix.SetParameter("Slow-Time", slowTimeFactor);
-
                ResumeTime();
           }
 
-          // Testing Async/Await functionality
+          // Async/Await to wait for time to resume
           private async void ResumeTime()
           {
                if (_slowingTime)

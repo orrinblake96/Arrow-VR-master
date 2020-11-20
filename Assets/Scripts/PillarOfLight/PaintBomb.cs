@@ -48,7 +48,6 @@ namespace PillarOfLight
         public void Explode()
         {
             var position = arrowTip.transform.position;
-            
             // Position & play bomb effects
             _explosionEffectGameObject.transform.position = position;
             _explosionEffect.Play();

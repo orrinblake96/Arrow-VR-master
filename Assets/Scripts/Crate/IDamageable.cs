@@ -1,7 +1,7 @@
 ﻿namespace Crate
-{
-   public interface IDamageable
-   {
-      void Damage(int amount);
-   }
-}
+ {
+    public interface IDamageable
+    {
+       void Damage(int amount);
+    }
+ }
