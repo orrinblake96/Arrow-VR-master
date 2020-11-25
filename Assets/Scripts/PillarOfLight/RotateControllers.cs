@@ -17,7 +17,6 @@ namespace PillarOfLight
 
         private void Update()
         {
-//            if (Input.GetKeyDown(KeyCode.L) && !_rotatingNow) StartCoroutine(RotatingControllers());
 
             if (!_rotatingNow) return;
             
@@ -26,7 +25,7 @@ namespace PillarOfLight
 
         private IEnumerator RotatingControllers()
         {
-            yield return new WaitForSeconds(4f);
+            yield return new WaitForSeconds(3f);
             _rotatingNow = true;
             yield return new WaitForSeconds(5f);
             _rotatingNow = false;
