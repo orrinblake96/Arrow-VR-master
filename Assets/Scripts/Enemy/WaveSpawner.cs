@@ -25,7 +25,6 @@ namespace Enemy
         private SpawnState _state = SpawnState.Counting;
         private GameObject _pillarOfLight;
         private SpawnRandomPowerUp _spawnRandomPowerUp;
-        private float _spawnability;
         private EndlessDifficultyStats _endlessDifficultyStats;
 
         private void Start()
@@ -104,7 +103,6 @@ namespace Enemy
                 
                 if (GameObject.FindGameObjectWithTag("Enemy") == null)
                 {
-//                    _waveCount++;
                     _spawnRandomPowerUp.SpawnPowerUp();
                     FMODUnity.RuntimeManager.PlayOneShot(soundPath, transform.position);
                     _pillarOfLight.GetComponent<PillarHealth>().ResetPillarHits(0);
@@ -137,11 +135,7 @@ namespace Enemy
 
         private void SpawnLargeEnemy()
         {
-            if(RoundCount >= 0 && RoundCount <= 2) _spawnability = 0.8f;
-            if(RoundCount >= 3 && RoundCount <= 5) _spawnability = 0.5f;
-            if(RoundCount >= 6) _spawnability = 0.3f;
-
-            if (Random.value > _spawnability)
+            if (Random.value < _endlessDifficultyStats.LargeEnemySpawnChance)
             {
                 for (float i = 0; i<=RoundCount; i++)
                 {

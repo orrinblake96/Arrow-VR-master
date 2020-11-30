@@ -1,5 +1,4 @@
-﻿using System;
-using Crate;
+﻿using Crate;
 using UnityEngine;
 
 namespace PillarOfLight
@@ -23,34 +22,38 @@ namespace PillarOfLight
 
         public void Damage(int amount)
         {
-            _endlessDifficultyStats.DifficultySpeedBoost = DifficultySelected();
+            DifficultySelected();
             HandleObjects();
             
             Instantiate(explosionParticles, transform.position + Vector3.up, Quaternion.Euler(-90f, 0f, 0f));
             Destroy(gameObject);
         }
 
-        private float DifficultySelected()
+        private void DifficultySelected()
         {
             string difficulty = gameObject.name;
 
             if (difficulty.Contains("Easy"))
             {
+                _endlessDifficultyStats.DifficultySpeedBoost = 0f;
                 _endlessDifficultyStats.DifficultyEnemySpawnsIncrease = 0;
-                return 0.2f;
+                _endlessDifficultyStats.SpawnChance = 0f;
+                _endlessDifficultyStats.LargeEnemySpawnChance = 0.3f;
             }
             if (difficulty.Contains("Medium"))
             {
+                _endlessDifficultyStats.DifficultySpeedBoost = 0.5f;
                 _endlessDifficultyStats.DifficultyEnemySpawnsIncrease = 2;
-                return 1.0f;
+                _endlessDifficultyStats.SpawnChance = 0.3f;
+                _endlessDifficultyStats.LargeEnemySpawnChance = 0.5f;
             }
             if (difficulty.Contains("Hard"))
             {
+                _endlessDifficultyStats.DifficultySpeedBoost = 1.0f;
                 _endlessDifficultyStats.DifficultyEnemySpawnsIncrease = 4;
-                return 1.5f;
+                _endlessDifficultyStats.SpawnChance = 0.5f;
+                _endlessDifficultyStats.LargeEnemySpawnChance = 0.7f;
             }
-
-            return 0f;
         }
 
         private void HandleObjects()

@@ -15,20 +15,6 @@ namespace PillarOfLight
         {
             _powerValue = gameObject.GetComponent<Slider>();
         }
-        
-//        private void Update()
-//        {
-//            if (Input.GetKeyDown(KeyCode.Space))
-//            {
-//                IncrementPower(.1f);
-//            }
-//            
-//            if (Input.GetKeyDown(KeyCode.R))
-//            {
-//                ResetPower();
-//            }
-//            
-//        }
 
         public void IncrementPower(float powerGained)
         {

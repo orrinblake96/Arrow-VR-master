@@ -19,16 +19,17 @@ namespace MainMenu
             _eventEmitter = GetComponent<StudioEventEmitter>();
         }
 
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.K))
-            {
-                Damage(10);
-            }
-        }
+//        private void Update()
+//        {
+//            if (Input.GetKeyDown(KeyCode.K))
+//            {
+//                Damage(10);
+//            }
+//        }
 
         public void Damage(int amount)
         {
+            // Play animal blood effect and sound
             animalHitParticleEffect.Play();
             _eventEmitter.Play();
             animalTargetToHide.SetActive(false);

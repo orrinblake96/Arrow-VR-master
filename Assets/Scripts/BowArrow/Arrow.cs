@@ -93,22 +93,14 @@ namespace BowArrow
         {
             // set fired to true so colour wont change
             arrowFired = true;
-            
-            //Play arrow sound
             arrowShotSound.Play();
         
             _mLastPosition = transform.position;
             
-            //arrow now in air
+            //arrow now in air , detached from bow
             _mIsStopped = false;
-
-            //detach arrow from bow (parent)
             transform.parent = null;
-            
-            //reset kinematic affect
             _mRigidbody.isKinematic = false;
-            
-            //add gravity (flying behaviour)
             _mRigidbody.useGravity = true;
             
             //add a force relative to the pull value from Bow script

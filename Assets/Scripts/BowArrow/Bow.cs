@@ -50,28 +50,30 @@ namespace BowArrow
 
         private float CalculatePull(Transform pullHand)
         {
+            // Get pull direction by returning vector length
             Vector3 direction = m_End.position - m_Start.position;
             float magnitude = direction.magnitude;
-     
+            
+            // Get pull length and return
             direction.Normalize();
-            Vector3 differnce = pullHand.position - m_Start.position;
+            Vector3 difference = pullHand.position - m_Start.position;
 
-            return Vector3.Dot(differnce, direction) / magnitude;
+            return Vector3.Dot(difference, direction) / magnitude;
         }
 
         private async Task CreateArrow(float waitTime)
         {
-            // Wait
+            // Wait set time for new arrow to spawn
             await Task.Delay(TimeSpan.FromSeconds(waitTime));
      
-            //Create & child
+            //Create arrow at socket location
             GameObject arrowObject = Instantiate(m_ArrowPrefab, m_Socket);
 
-            //orient
+            //orient arrow to sit perfectly in the notch
             arrowObject.transform.localPosition = new Vector3(0, 0, 0.4235f);
             arrowObject.transform.localEulerAngles = Vector3.zero;
 
-            //set
+            //set current arrow to newly instantiated arrow
             m_CurrentArrow = arrowObject.GetComponent<Arrow>();
         }
 
