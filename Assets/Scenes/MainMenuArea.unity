@@ -11159,6 +11159,9 @@ MonoBehaviour:
   startingHealth: 100
   pillarOfLightMaterial: {fileID: 2100000, guid: ac86fbcae65234fd4bf2acad7a3e11dd,
     type: 2}
+  layersToInclude:
+    serializedVersion: 2
+    m_Bits: 0
   pillarExplosionEffect: {fileID: 0}
   pillarExplosionSound: {fileID: 0}
   objectsToShow: []
